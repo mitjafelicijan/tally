@@ -36,12 +36,24 @@ func main() {
 		return items[i].PublishedAt.After(items[j].PublishedAt)
 	})
 
+	// Ensure public directory exists
+	if err := os.MkdirAll("public", 0755); err != nil {
+		log.Fatal("Error creating public directory:", err)
+	}
+
 	// Save latest results to JSON database
 	dateString := time.Now().Format("2006-01-02")
-	jsonData, _ := json.MarshalIndent(items, "", "  ")
+	jsonData, err := json.MarshalIndent(items, "", "  ")
+	if err != nil {
+		log.Fatal("Error marshaling JSON:", err)
+	}
 
-	os.WriteFile("public/latest.json", jsonData, 0644)
-	os.WriteFile("public/"+dateString+".json", jsonData, 0644)
+	if err := os.WriteFile("public/latest.json", jsonData, 0644); err != nil {
+		log.Printf("Warning: error writing latest.json: %v", err)
+	}
+	if err := os.WriteFile("public/"+dateString+".json", jsonData, 0644); err != nil {
+		log.Printf("Warning: error writing %s.json: %v", dateString, err)
+	}
 
 	log.Printf("Saved %d items. Synchronizing site...", len(items))
 

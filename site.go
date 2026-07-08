@@ -57,11 +57,12 @@ func generateCalendarData(viewDate time.Time, highlightDay int, jsonFiles map[st
 }
 
 func synchronizeSite(items []FeedItem, sourceMap map[string]SourceInfo) {
-	os.MkdirAll("public", 0755)
-
 	// Collect global list of JSON archives
 	jsonFiles := make(map[string]bool)
-	entries, _ := os.ReadDir("public")
+	entries, err := os.ReadDir("public")
+	if err != nil {
+		log.Printf("Warning: error reading public directory: %v", err)
+	}
 	for _, entry := range entries {
 		if !entry.IsDir() && strings.HasSuffix(entry.Name(), ".json") && entry.Name() != "latest.json" {
 			jsonFiles[entry.Name()] = true
@@ -121,38 +122,57 @@ func synchronizeSite(items []FeedItem, sourceMap map[string]SourceInfo) {
 
 	// Regenerate all historical pages
 	for jsonFile := range jsonFiles {
-		content, _ := os.ReadFile("public/" + jsonFile)
+		content, err := os.ReadFile("public/" + jsonFile)
+		if err != nil {
+			log.Printf("Warning: error reading %s: %v", jsonFile, err)
+			continue
+		}
 		var dayItems []FeedItem
-		json.Unmarshal(content, &dayItems)
+		if err := json.Unmarshal(content, &dayItems); err != nil {
+			log.Printf("Warning: error unmarshaling %s: %v", jsonFile, err)
+			continue
+		}
 
 		datePart := jsonFile[:10]
 		archiveDate, _ := time.Parse("2006-01-02", datePart)
 
 		htmlFile := strings.TrimSuffix(jsonFile, ".json") + ".html"
-		outputFile, _ := os.Create("public/" + htmlFile)
+		outputFile, err := os.Create("public/" + htmlFile)
+		if err != nil {
+			log.Printf("Warning: error creating %s: %v", htmlFile, err)
+			continue
+		}
 		formattedDate := archiveDate.Format("January 02, 2006")
-		parsedTemplate.Execute(outputFile, PageData{
+		if err := parsedTemplate.Execute(outputFile, PageData{
 			WindowTitle: "/bin/news - " + formattedDate,
 			ViewTitle:   formattedDate,
 			Items:       dayItems,
 			Calendar:    generateCalendarData(archiveDate, archiveDate.Day(), jsonFiles),
 			Sources:     sources,
 			Archives:    archiveYears,
-		})
+		}); err != nil {
+			log.Printf("Warning: error executing template for %s: %v", htmlFile, err)
+		}
 		outputFile.Close()
 	}
 
 	// Generate index.html (latest)
-	indexFile, _ := os.Create("public/index.html")
+	indexFile, err := os.Create("public/index.html")
+	if err != nil {
+		log.Printf("Warning: error creating index.html: %v", err)
+		return
+	}
 	now := time.Now()
-	parsedTemplate.Execute(indexFile, PageData{
+	if err := parsedTemplate.Execute(indexFile, PageData{
 		WindowTitle: "/bin/news",
 		ViewTitle:   "Latest Stories",
 		Items:       items,
 		Calendar:    generateCalendarData(now, now.Day(), jsonFiles),
 		Sources:     sources,
 		Archives:    archiveYears,
-	})
+	}); err != nil {
+		log.Printf("Warning: error executing template for index.html: %v", err)
+	}
 	indexFile.Close()
 
 	log.Printf("Site synchronization complete: %d archives regenerated", len(jsonFiles))
