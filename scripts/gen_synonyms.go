@@ -25,8 +25,8 @@ type Synset struct {
 }
 
 func main() {
-	dir := "english-wordnet-2025-json"
-	files, err := ioutil.ReadDir(dir)
+	dataDirectory := "english-wordnet-2025-json"
+	files, err := ioutil.ReadDir(dataDirectory)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -34,12 +34,12 @@ func main() {
 	lemmas := make(map[string]string)
 	synonyms := make(map[string]string)
 
-	// 1. Process entries for lemmas and forms
+	// Process entries for lemmas and forms
 	for _, file := range files {
 		if !strings.HasPrefix(file.Name(), "entries-") {
 			continue
 		}
-		path := filepath.Join(dir, file.Name())
+		path := filepath.Join(dataDirectory, file.Name())
 		data, err := ioutil.ReadFile(path)
 		if err != nil {
 			continue
@@ -48,17 +48,17 @@ func main() {
 		var entries map[string]Entry
 		json.Unmarshal(data, &entries)
 
-		for lemma, entry := range entries {
-			l := strings.ToLower(strings.ReplaceAll(lemma, "_", " "))
-			lemmas[l] = l
+		for lemmaKey, entry := range entries {
+			lemma := strings.ToLower(strings.ReplaceAll(lemmaKey, "_", " "))
+			lemmas[lemma] = lemma
 			
 			// Collect forms
-			processForms := func(s *Sense) {
-				if s != nil {
-					for _, f := range s.Form {
-						form := strings.ToLower(strings.ReplaceAll(f, "_", " "))
+			processForms := func(sense *Sense) {
+				if sense != nil {
+					for _, formRaw := range sense.Form {
+						form := strings.ToLower(strings.ReplaceAll(formRaw, "_", " "))
 						if _, exists := lemmas[form]; !exists {
-							lemmas[form] = l
+							lemmas[form] = lemma
 						}
 					}
 				}
@@ -70,12 +70,12 @@ func main() {
 		}
 	}
 
-	// 2. Process synsets for canonical synonyms
+	// Process synsets for canonical synonyms
 	for _, file := range files {
 		if file.IsDir() || strings.HasPrefix(file.Name(), "entries-") || file.Name() == "frames.json" {
 			continue
 		}
-		path := filepath.Join(dir, file.Name())
+		path := filepath.Join(dataDirectory, file.Name())
 		data, err := ioutil.ReadFile(path)
 		if err != nil {
 			continue
@@ -90,32 +90,32 @@ func main() {
 			if len(synset.Members) > 1 {
 				sort.Strings(synset.Members)
 				canonical := strings.ToLower(strings.ReplaceAll(synset.Members[0], "_", " "))
-				for _, member := range synset.Members {
-					m := strings.ToLower(strings.ReplaceAll(member, "_", " "))
-					if _, exists := synonyms[m]; !exists {
-						synonyms[m] = canonical
+				for _, memberRaw := range synset.Members {
+					member := strings.ToLower(strings.ReplaceAll(memberRaw, "_", " "))
+					if _, exists := synonyms[member]; !exists {
+						synonyms[member] = canonical
 					}
 				}
 			}
 		}
 	}
 
-	// 3. Final mapping: word -> lemma -> canonical
+	// Final mapping: word -> lemma -> canonical
 	finalMap := make(map[string]string)
 	
 	// Start with all lemmas we found
 	for word, lemma := range lemmas {
 		target := lemma
-		if can, exists := synonyms[lemma]; exists {
-			target = can
+		if canonical, exists := synonyms[lemma]; exists {
+			target = canonical
 		}
 		finalMap[word] = target
 	}
 	
 	// Add synonyms that might not have been in entries (unlikely but safe)
-	for word, can := range synonyms {
+	for word, canonical := range synonyms {
 		if _, exists := finalMap[word]; !exists {
-			finalMap[word] = can
+			finalMap[word] = canonical
 		}
 	}
 
