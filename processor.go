@@ -35,8 +35,13 @@ func fetchFeeds(feedURLs []string) ([]FeedItem, map[string]SourceInfo) {
 				return
 			}
 
+			sourceName := extractDomain(feed.Link)
+			if sourceName == "" {
+				sourceName = extractDomain(url)
+			}
+
 			mutex.Lock()
-			sourceMap[feed.Title] = SourceInfo{Name: feed.Title, URL: feed.Link}
+			sourceMap[sourceName] = SourceInfo{Name: sourceName, URL: feed.Link}
 			mutex.Unlock()
 
 			log.Printf("Parsed %s (%d items)", url, len(feed.Items))
@@ -84,7 +89,7 @@ func fetchFeeds(feedURLs []string) ([]FeedItem, map[string]SourceInfo) {
 					GUID:        item.GUID,
 					Date:        publishedAt.Format("Jan 02, 2006 15:04"),
 					PublishedAt: publishedAt,
-					Source:      feed.Title,
+					Source:      sourceName,
 					SourceURL:   feed.Link,
 				}
 

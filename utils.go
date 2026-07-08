@@ -2,6 +2,7 @@ package main
 
 import (
 	"html"
+	"net/url"
 	"regexp"
 	"strings"
 	"time"
@@ -93,4 +94,16 @@ func parseFlexibleDate(published, updated string, feedExtensions ext.Extensions)
 	}
 
 	return time.Time{}
+}
+
+func extractDomain(urlStr string) string {
+	if !strings.HasPrefix(urlStr, "http") {
+		urlStr = "http://" + urlStr
+	}
+	u, err := url.Parse(urlStr)
+	if err != nil {
+		return urlStr
+	}
+	host := u.Hostname()
+	return strings.TrimPrefix(host, "www.")
 }
