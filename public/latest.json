@@ -21,17 +21,6 @@
     "source_url": "https://slashdot.org/"
   },
   {
-    "title": "Windows Drops Under 60% in Global Desktop OS Share",
-    "link": "https://tech.slashdot.org/story/26/07/08/1728229/windows-drops-under-60-in-global-desktop-os-share?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "StatCounter's June 2026 data shows Windows made up 56.55% of global desktop OS usage, dropping Microsoft's share below 60% for the first time in years. Linux, meanwhile, reached 4.39%, \"one of its strongest recent showings in the company's desktop OS statistics,\" reports Linuxiac. From the report: Apple's desktop platforms also remain a major part of the picture. StatCounter lists OS X at 11.89% and macOS at 4.48% for June 2026, meaning Apple's combined desktop presence remains comfortably ahead of Linux in the global chart. Chrome OS follows with 1.21%.\n \nOf course, StatCounter's numbers should be read for what they are: web usage statistics, not a direct count of installed operating systems. The company calculates its Global Stats from page views across websites using its tracking code, analyzing details such as browser, operating system, and screen resolution. In other words, the figures reflect measured web activity rather than the number of machines actually installed worldwide.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 08, 2026 19:00",
-    "published_at": "2026-07-08T19:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "Slashdot",
-    "source_url": "https://slashdot.org/"
-  },
-  {
     "title": "Redox OS Gets GTK3 Backend For Orbital Desktop, Fractional Scaling \u0026 USB Gamepads",
     "link": "https://www.phoronix.com/news/Redox-OS-June-2026",
     "description": "The open-source, Rust-based Redox OS platform had a very eventful June with many new features implemented and more software ported over to run on this from-scratch operating system...",
@@ -430,6 +419,16 @@
     "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
     "source": "Slashdot",
     "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Windows Drops Under 60% in Global Desktop OS Share for the First Time in Years",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366087",
+    "description": "StatCounter’s June 2026 report shows Linux at one of its strongest recent positions, while Windows falls to 56.55%.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366087",
+    "date": "Jul 07, 2026 18:34",
+    "published_at": "2026-07-07T18:34:10Z",
+    "source": "LXer Linux News",
+    "source_url": "https://lxer.com/"
   },
   {
     "title": "Major Banks In Talks To Exploit Debit Card Loophole",
