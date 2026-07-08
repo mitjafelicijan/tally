@@ -27,7 +27,7 @@ jobs:
           go-version: '1.26.4'
 
       - name: Run aggregator
-        run: go run main.go
+        run: go run .
 
       - name: Commit and push changes
         run: |
