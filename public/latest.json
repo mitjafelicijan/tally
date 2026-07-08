@@ -1,5 +1,15 @@
 [
   {
+    "title": "LILYGO showcases new IoT devices with ESP32-C5 and Nordic nRF52840 MCUs",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366103",
+    "description": "LILYGO has listed two compact development boards for wireless IoT applications: the T-Display C5, a small ESP32-C5-based board with a color LCD and dual-band Wi-Fi 6, and the T-Echo Card, a rugged LoRa-enabled device with GNSS, Bluetooth, NFC, solar charging, and an IP66-rated enclosure. The LILYGO T-Display C5 is built around the ESP32-C5, providing 2.4GHz […]",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366103",
+    "date": "Jul 08, 2026 21:38",
+    "published_at": "2026-07-08T21:38:51Z",
+    "source": "LXer Linux News",
+    "source_url": "https://lxer.com/"
+  },
+  {
     "title": "Meta's Glasses Will Turn Off the Camera If You Tamper With the Privacy Light",
     "link": "https://yro.slashdot.org/story/26/07/08/1750234/metas-glasses-will-turn-off-the-camera-if-you-tamper-with-the-privacy-light?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
     "description": "Meta is rolling out an update that will disable the camera on its smart glasses if the device detects that someone has tampered with or destroyed the privacy LED. \"The update is meant to address modders who have taken actions such as physically drilling into the LED light,\" reports The Verge.\n \n\"Meta has previously tried to discourage tampering with the LED light. For example, starting with its second generation glasses, blocking the light with tape or other objects will trigger a prompt asking users to uncover the recording light. However, many modders have found various workarounds for that particular measure.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
@@ -27,17 +37,6 @@
     "guid": "",
     "date": "Jul 08, 2026 20:00",
     "published_at": "2026-07-08T20:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "Slashdot",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Windows Drops Under 60% in Global Desktop OS Share",
-    "link": "https://tech.slashdot.org/story/26/07/08/1728229/windows-drops-under-60-in-global-desktop-os-share?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "StatCounter's June 2026 data shows Windows made up 56.55% of global desktop OS usage, dropping Microsoft's share below 60% for the first time in years. Linux, meanwhile, reached 4.39%, \"one of its strongest recent showings in the company's desktop OS statistics,\" reports Linuxiac. From the report: Apple's desktop platforms also remain a major part of the picture. StatCounter lists OS X at 11.89% and macOS at 4.48% for June 2026, meaning Apple's combined desktop presence remains comfortably ahead of Linux in the global chart. Chrome OS follows with 1.21%.\n \nOf course, StatCounter's numbers should be read for what they are: web usage statistics, not a direct count of installed operating systems. The company calculates its Global Stats from page views across websites using its tracking code, analyzing details such as browser, operating system, and screen resolution. In other words, the figures reflect measured web activity rather than the number of machines actually installed worldwide.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 08, 2026 19:00",
-    "published_at": "2026-07-08T19:00:00Z",
     "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
     "source": "Slashdot",
     "source_url": "https://slashdot.org/"
@@ -443,6 +442,16 @@
     "source_url": "https://slashdot.org/"
   },
   {
+    "title": "Windows Drops Under 60% in Global Desktop OS Share for the First Time in Years",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366087",
+    "description": "StatCounter’s June 2026 report shows Linux at one of its strongest recent positions, while Windows falls to 56.55%.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366087",
+    "date": "Jul 07, 2026 18:34",
+    "published_at": "2026-07-07T18:34:10Z",
+    "source": "LXer Linux News",
+    "source_url": "https://lxer.com/"
+  },
+  {
     "title": "NVIDIA Upstreams Initial Rigel CPU Core Support Into GCC Compiler",
     "link": "https://www.phoronix.com/news/NVIDIA-Rigel-Upstream-GCC",
     "description": "That didn't take long... Mere minutes after NVIDIA confirmed some basic Rosa CPU details and its \"Rigel\" CPU core, merged to the upstream GNU Compiler Collection (GCC) codebase is initial enablement on the NVIDIA Rigel core...",
@@ -576,6 +585,28 @@
     "published_at": "2026-07-07T12:06:31Z",
     "source": "Phoronix",
     "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": " Dev ports Linux to Atari's notorious Jaguar console from 1993 — the first 64-bit console features 2MB of RAM, 13.3 MHz CPU, and Tom and Jerry co-processors; the Jag was notoriously difficult to program and flopped ",
+    "link": "https://www.tomshardware.com/software/linux/dev-ports-linux-to-ataris-notorious-jaguar-console-from-1993-the-first-64-bit-console-features-2mb-of-ram-13-3-mhz-cpu-and-tom-and-jerry-co-processors-the-jag-was-notoriously-difficult-to-program-and-flopped",
+    "description": " A developer has ported Linux to the Atari Jaguar console. To succeed at the task, they had to overcome severe memory limits, the lack of an MMU, and face off against a handful of unusual hardware quirks. ",
+    "guid": "9a55Zqx8Le9gNypQtwZQ6M",
+    "date": "Jul 07, 2026 11:53",
+    "published_at": "2026-07-07T11:53:39Z",
+    "image": "https://cdn.mos.cms.futurecdn.net/zeu6pJbvfG7KKf3TpxXUQ8-1280-80.jpg",
+    "source": " Latest from Tom's Hardware in Linux ",
+    "source_url": "https://www.tomshardware.com/software/operating-systems/linux"
+  },
+  {
+    "title": " Unix copyright code infringement lawsuit is back from the dead — IBM still under fire from Xinuos over 2003-era bytes ",
+    "link": "https://www.tomshardware.com/software/linux/unix-copyright-code-infringement-lawsuit-is-back-from-the-dead-ibm-still-under-fire-from-xinuos-about-2003-era-bytes",
+    "description": " Unix copyright code infringement back from the dead — IBM is still under fire from Xinuos about 2003-era bytes, with a hearing as recent as June 22. ",
+    "guid": "VcM6pZLkksyts3YhVnhbhf",
+    "date": "Jul 07, 2026 10:45",
+    "published_at": "2026-07-07T10:45:00Z",
+    "image": "https://cdn.mos.cms.futurecdn.net/U8WKeeZdxNUNhWEnavBWiK-1280-80.jpg",
+    "source": " Latest from Tom's Hardware in Linux ",
+    "source_url": "https://www.tomshardware.com/software/operating-systems/linux"
   },
   {
     "title": "AF_ALG \"Nightmare\" Being Further Limited In Linux 7.3 With New Sysctl Knob",
@@ -712,15 +743,5 @@
     "published_at": "2026-07-07T00:34:05Z",
     "source": "Phoronix",
     "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Ryzen AI Developer Platform: AMD's Own Linux Distribution Built Atop Debian",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366069",
-    "description": "With the AMD Ryzen AI Halo developer platform there is the option of ordering this Ryzen AI Max+ mini PC with either Microsoft Windows 11 or \"Linux OS\". When receiving a AMD Ryzen AI Halo review sample last month, I fully expected it to just be an Ubuntu LTS install with ROCm preloaded. I was quite surprised when powering it up to find that it's an OS called the AMD Ryzen AI Developer Platform 1 \"Rex\" and is based on Debian Linux.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366069",
-    "date": "Jul 06, 2026 23:29",
-    "published_at": "2026-07-06T23:29:54Z",
-    "source": "LXer Linux News",
-    "source_url": "https://lxer.com/"
   }
 ]
