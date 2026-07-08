@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAoKCgAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAARERAAAAAAERIiEQAAAAAiERIRAAAAACEREhEAAAABIRERERAAAAEREiESIAAAARIhEiACAAARERIgAAAgABESIAAiIAEAEiAAAiABEAAgAAIAARAAAAIAIgEQAAAAACACIAAAAAAAARAAAAAAD/HwAA+A8AAOAHAADAAwAAwAMAAMABAACAAQAAgAEAAIAAAAAAAAAAAAAAAAAAAAAAAwAAgA8AAMA/AADg/wAA" rel="icon" type="image/x-icon">
+    <title>/bin/news</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.5;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: -1px;
+        }
+        header a {
+            color: #000;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            gap: 40px;
+        }
+        aside {
+            width: 280px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 20px;
+            align-self: flex-start;
+        }
+        .main-content {
+            flex-grow: 1;
+        }
+        .view-title {
+            margin-top: 0;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+        }
+        .grid {
+            column-count: 2;
+            column-gap: 40px;
+        }
+        article {
+            padding: 0;
+            display: inline-block;
+            width: 100%;
+            break-inside: avoid;
+            margin-bottom: 50px;
+        }
+        h2 { font-size: 1.25rem; margin-top: 0; margin-bottom: 10px; }
+        h2 a { text-decoration: underline; }
+        .meta { font-size: 0.85rem; margin-bottom: 15px; }
+        .meta a { }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            display: block;
+        }
+        p { margin-bottom: 0; }
+
+         
+        .calendar {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        .calendar th, .calendar td {
+            text-align: center;
+            padding: 5px;
+            border: 1px solid #000;
+        }
+        .calendar .today {
+            font-weight: bold;
+            background: #eee;
+        }
+        .calendar a {
+            font-weight: bold;
+        }
+
+        .archive-section {
+            margin-top: 30px;
+        }
+        .archive-year {
+            font-weight: bold;
+            margin-top: 15px;
+            display: block;
+        }
+        .archive-months {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        .sources {
+            list-style: disc;
+            padding-left: 20px;
+            margin: 20px 0 0 0;
+            font-size: 0.9rem;
+            word-break: break-all;
+        }
+        .sources li {
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 1000px) {
+            .grid { column-count: 1; }
+        }
+        @media (max-width: 768px) {
+            .container { flex-direction: column; }
+            aside { width: 100%; position: static; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">/bin/news</a></h1>
+    </header>
+    
+    <div class="container">
+        <aside>
+            <h3>July 2026</h3>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        
+                        <td class="">
+                            
+                                &nbsp;
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                &nbsp;
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                &nbsp;
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                1
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                2
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                3
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                4
+                            
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td class="">
+                            
+                                5
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                6
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                7
+                            
+                        </td>
+                        
+                        <td class="today">
+                            
+                                8
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                9
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                10
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                11
+                            
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td class="">
+                            
+                                12
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                13
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                14
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                15
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                16
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                17
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                18
+                            
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td class="">
+                            
+                                19
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                20
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                21
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                22
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                23
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                24
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                25
+                            
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td class="">
+                            
+                                26
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                27
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                28
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                29
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                30
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                31
+                            
+                        </td>
+                        
+                        <td class="">
+                            
+                                &nbsp;
+                            
+                        </td>
+                        
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+            <div class="archive-section">
+                <h3>Archives</h3>
+                
+            </div>
+
+            <h3>News from</h3>
+            <ul class="sources">
+                
+                <li><a href="https://www.gamingonlinux.com/" target="_blank">https://www.gamingonlinux.com/</a></li>
+                
+                <li><a href="https://itsfoss.com/" target="_blank">https://itsfoss.com/</a></li>
+                
+                <li><a href="https://lwn.net" target="_blank">https://lwn.net</a></li>
+                
+                <li><a href="https://lxer.com/" target="_blank">https://lxer.com/</a></li>
+                
+                <li><a href="https://www.phoronix.com/" target="_blank">https://www.phoronix.com/</a></li>
+                
+                <li><a href="https://slashdot.org/" target="_blank">https://slashdot.org/</a></li>
+                
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <h2 class="view-title">Latest Stories</h2>
+            <div class="grid">
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366097" target="_blank">Linux Mint’s Cinnamon 6.8 Desktop Environment Will Fully Support Wayland</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 20:07 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>Linux Mint project Clement Lefebvre revealed today in the monthly newsletter some of the new features and improvements coming to the next major version of the Cinnamon desktop environment, such as full Wayland support.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://hardware.slashdot.org/story/26/07/08/1744225/apple-says-it-will-spend-30-billion-to-design-us-made-broadcom-chips?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Apple Says It Will Spend $30 Billion To Design US-Made Broadcom Chips</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 20:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>Apple says it will spend $30 billion to design US-made Broadcom wireless connectivity chips, part of its broader push to diversify its supply chain and support domestic chip production. CNN reports: The agreement with Broadcom will lead to the production of 15 million chips in United States and allow Broadcom to invest $1.5 billion to expand and modernize its manufacturing facilities in Fort Collins, Colorado. It is part of Apple&#39;s commitment in August to invest $600 billion as part of its &#34;American Manufacturing Program&#34; which it said is dedicated to bringing even more of the company&#39;s supply chain and advanced manufacturing back to the US.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://tech.slashdot.org/story/26/07/08/1728229/windows-drops-under-60-in-global-desktop-os-share?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Windows Drops Under 60% in Global Desktop OS Share</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 19:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>StatCounter&#39;s June 2026 data shows Windows made up 56.55% of global desktop OS usage, dropping Microsoft&#39;s share below 60% for the first time in years. Linux, meanwhile, reached 4.39%, &#34;one of its strongest recent showings in the company&#39;s desktop OS statistics,&#34; reports Linuxiac. From the report: Apple&#39;s desktop platforms also remain a major part of the picture. StatCounter lists OS X at 11.89% and macOS at 4.48% for June 2026, meaning Apple&#39;s combined desktop presence remains comfortably ahead of Linux in the global chart. Chrome OS follows with 1.21%.
+ 
+Of course, StatCounter&#39;s numbers should be read for what they are: web usage statistics, not a direct count of installed operating systems. The company calculates its Global Stats from page views across websites using its tracking code, analyzing details such as browser, operating system, and screen resolution. In other words, the figures reflect measured web activity rather than the number of machines actually installed worldwide.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/Redox-OS-June-2026" target="_blank">Redox OS Gets GTK3 Backend For Orbital Desktop, Fractional Scaling &amp; USB Gamepads</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 18:30 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>The open-source, Rust-based Redox OS platform had a very eventful June with many new features implemented and more software ported over to run on this from-scratch operating system...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://tech.slashdot.org/story/26/07/08/1643256/knockoff-browser-extension-hides-sketchy-brands-on-amazon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">&#39;Knockoff&#39; Browser Extension Hides Sketchy Brands On Amazon</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 18:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>alternative_right shares a report from 404 Media: A software developer made a Chrome and Firefox extension called Knockoff that automatically hides, grays out, or filters products from sketchy brands on Amazon, which highlights just how many shady brands are on the platform and how commonly they show up on searches for basic items. In just a few minutes of using the extension, Knockoff dimmed product listings for screwdrivers made by &#34;SUNHZMCKP,&#34; spoons made by &#34;SACATR,&#34; and a lamp made by &#34;ROTTOGOON.&#34;
+ 
+In a tweet announcing the extension, developer Josh Pigford wrote &#34;Sorry to brands like WNPETHOME, EHEYCIGA, YXYL, LU&amp;MN, JOYIN, TOMY, GODONLIF, YOOJEE, LINGTENG, LANEIGE, VISCOO, BIODANCE, COOFANDY, BALENNZ, TOSY, and LUENX.&#34; The extension can also hide all sponsored product listings. The extension quickly went viral as a much-needed filter for people who still use Amazon and, for those who don&#39;t use Amazon because of its horrendous labor practices and other concerns, it is evidence of what an incredible wasteland the platform has become.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366105" target="_blank">Collabora Office 26.04 Takes On Open Source’s Office Disrupter Wannabes</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 17:04 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>We get down and dirty with Collabora Office 26.04, the new desktop twin to Collabora Online, to see how it stacks up against LibreOffice, OnlyOffice, Euro?Office and, yes, Microsoft Office.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://apple.slashdot.org/story/26/07/08/1638234/apple-loses-eu-fight-over-app-store-gatekeeper-label?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Apple Loses EU Fight Over App Store Gatekeeper Label</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 17:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>Europe&#39;s General Court dismissed Apple&#39;s challenge to the EU&#39;s designation of its App Stores and iOS as &#34;gatekeepers&#34; under the Digital Markets Act. The ruling means Apple remains subject to DMA obligations requiring it to allow alternative app stores, support interoperability with rival services, and avoid favoring its own services over competitors. MacRumors reports: Apple took its case to Luxembourg&#39;s General Court in 2024 after the European Commission designated its five App Stores -- on the iPhone, iPad, Mac, Apple TV, and Apple Watch -- as a single core platform service under the Digital Markets Act (DMA), a label that brings with it a set of strict obligations. Designated &#34;gatekeepers&#34; are prohibited from favoring their own services over those of rivals, and are prevented from combining personal data across different services. They also have to give users the option to use alternative app stores.
+ 
+Apple also challenged the EU&#39;s designation of iOS as a gateway platform, a status that requires the operating system allows rival services to interoperate with it. The company also disputed the classification of iMessage as a number-independent interpersonal communications service, or NIICS, which would subject the app to EU telecoms rules. But the General Court said Apple&#39;s actions regarding the iMessage service are inadmissible.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/LibreOffice-26.8-Beta-1" target="_blank">LibreOffice 26.8 Beta Released For Improving This Free Software Office Suite</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 16:27 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>The Document Foundation today announced the first beta release of the LibreOffice 26.8 open-source office suite set for its stable debut in August...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/OpenMandriva-Disrupted" target="_blank">OpenMandriva GitHub Disrupted &amp; Nefarious Package Push In Sabotage Attempt</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 16:05 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>The OpenMandriva project put out a statement today concerning an attempted distribution sabotage effort. Part of the OpenMandriva GitHub repository was deleted and there was an empty package push made to OpenMandriva&#39;s Cooker repository in trying to obsolete all GNOME and COSMIC packages...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://games.slashdot.org/story/26/07/08/0713204/valve-releases-proton-11-with-huge-linux-gaming-improvements?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Valve Releases Proton 11 With Huge Linux Gaming Improvements</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 16:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>BrianFagioli writes: Valve has released Proton 11.0-1, a major update to its Windows compatibility layer for Linux that makes more games playable while fixing a long list of bugs affecting existing titles. The release restores compatibility for many EA games after a recent EA App update, moves classics like Resident Evil (1996), Resident Evil 2 (1998), Dino Crisis, and SHOGUN: Total War from Proton Experimental into the stable release, and adds support for games including Gothic 1 Classic, X-Plane 12, Breath of Fire IV, and Deadly Premonition. Valve also fixed crashes in HELLDIVERS 2, restored No Man&#39;s Sky VR support, improved Steam Overlay compatibility with EA games, addressed KDE and GNOME desktop issues, and rebased Proton on Wine 11.0 with updated graphics components. The full list of changes can be found here.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://science.slashdot.org/story/26/07/08/078258/mysterious-spheres-found-in-australia-are-likely-space-debris?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Mysterious Spheres Found In Australia Are Likely Space Debris</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 15:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>An anonymous reader quotes a report from the New York Times: An Australian beach community was confused -- and later delighted -- by the discovery of six metallic-looking spheres that washed ashore last week. The mystery, and the ensuing attention, prompted a bunch of alien jokes from local residents and businesses. But Australia&#39;s space agency put the speculation to rest on Monday, saying that the spheres appeared to be rocket debris that had recently re-entered the atmosphere from orbit.
+ 
+The objects were found on Forrest Beach in the northeastern state of Queensland over the weekend, the state&#39;s fire department said. Residents described them as being about twice the size of a basketball. &#34;The recovered objects appear to be pressure vessels from a space launch vehicle,&#34; the Australian Space Agency said in a statement, adding that they were &#34;consistent with debris from a foreign rocket body.&#34; The agency said that it had identified the likely source of the objects, without providing further details, and was working with international authorities to confirm the vehicle from which the debris originated.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/review/single-dual-memory-linux" target="_blank">Single vs. Dual Channel Memory Performance With The Intel Core Ultra 7 270K Plus</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 14:48 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>Given today&#39;s pricing environment around system memory, a Phoronix Premium supporter recently requested some benchmarks to quantify the performance difference from single to dual channel memory. In considering a new computer build, he is contemplating whether to go for a single stick of DDR5 memory until memory prices hopefully subside in the future. For those in a similar boat, here are some benchmarks of single versus dual channel memory on an Intel Core Ultra 7 270K Plus &#34;Arrow Lake&#34; desktop.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://feed.itsfoss.com/link/24361/17374968/orico-das-8848u-review" target="_blank">ORICO 88 Series 4-Bay USB4 NVMe SSD Enclosure Review: Fast Storage That Works Natively on Linux</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 13:58 | 
+                        Source: <a href="https://itsfoss.com/" target="_blank">It&#39;s FOSS</a>
+                    </div>
+                    
+                    <img src="https://itsfoss.com/content/images/2026/07/orico-das-side-3-1.webp">
+                    
+                    <p>A compact 4-bay NVMe enclosure with USB4 connectivity, tested on Linux with benchmarks.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/vampirium-1997-is-a-mysterious-looking-choice-filled-minimalist-immersive-sim/" target="_blank">Vampirium: 1997 is a mysterious looking choice-filled minimalist immersive sim</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 13:52 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/951799530id29353gol.webp">
+                    
+                    <p>Vampirium: 1997 looks like nothing else. A minimalist story-rich immersive sim that&#39;s coming from Bithell Games.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/Intel-Ends-Quantum-Intrinsics" target="_blank">Intel Sunsets Quantum Intrinsics &amp; Other Open-Source Projects This Week</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 13:37 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>Intel has formally archived some more of their now-unmaintained open-source projects this week...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/mortal-shell-ii-set-for-release-on-august-20/" target="_blank">Mortal Shell II set for release on August 20</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 13:33 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/1518942523id29352gol.webp">
+                    
+                    <p>If you love challenging combat - Mortal Shell II may be one for you to pick up when it arrives on August 20th.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lwn.net/Articles/1077427/" target="_blank">[$] Progress in modernizing kernel cryptography</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 13:14 | 
+                        Source: <a href="https://lwn.net" target="_blank">LWN.net</a>
+                    </div>
+                    
+                    <p>At the 2026 Linux Security Summit North America, Eric Biggers spoke about
+some of the problems with the kernel&#39;s cryptography framework, as well
+as the recent progress in adding library APIs to allow developers to
+use cryptographic functions without using the traditional crypto
+API. He walked through a couple of examples to demonstrate the
+frailty of the original API and showed how the new library API made
+life easier for developers and kernel maintainers.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/AMD-ZenDNN-6.0" target="_blank">AMD ZenDNN 6.0 Brings Many Improvements For Accelerating Inference On Ryzen/EPYC CPUs</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 13:07 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>AMD ZenDNN 6.0 released today as a significant update to this open-source deep neural network library for helping to accelerate inferencing on AMD Zen processors from Ryzen to EPYC...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lwn.net/Articles/1081798/" target="_blank">Security updates for Wednesday</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 12:50 | 
+                        Source: <a href="https://lwn.net" target="_blank">LWN.net</a>
+                    </div>
+                    
+                    <p>Security updates have been issued by AlmaLinux (container-tools:rhel8, kernel-rt, libreoffice, nodejs:22, nodejs:24, opentelemetry-collector, perl-HTTP-Daemon, and python-markdown), Debian (dpkg, imagemagick, and postfix), Fedora (betterleaks, docker-compose, firefox, helm, perl-Compress-Raw-Bzip2, perl-IO-Compress, perl-JavaScript-Minifier-XS, python-cramjam, python-fastar, python-pillow-jxl-plugin, python-rignore, and tor), Oracle (grafana, grafana-pcp, and ruby:4.0), Slackware (tftp), SUSE (gi-docgen, glibc, helm, helm3, json-c-devel, kubevirt-1.6, librpmbuild10, python313-dulwich, python313-lxml_html_clean, python313-openapi-spec-validator, and sdbootutil), and Ubuntu (ruby-addressable).</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/LinuxMint-Cinnamon-Wayland-Good" target="_blank">Wayland No Longer Considered Experimental For Linux Mint&#39;s Next Cinnamon Release</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 12:23 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>The Linux Mint distribution has published their June development summary that most notably includes work on Cinnamon&#39;s Wayland support where it&#39;s now ready to graduate...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://feed.itsfoss.com/link/24361/17374891/tuxedo-os-is-ditching-ubuntu" target="_blank">TUXEDO OS is Ditching Ubuntu for a Debian Base That Never Goes Stable</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 12:02 | 
+                        Source: <a href="https://itsfoss.com/" target="_blank">It&#39;s FOSS</a>
+                    </div>
+                    
+                    <img src="https://itsfoss.com/content/images/2026/07/tuxedo-os-debian-testing-rebase-banner.png">
+                    
+                    <p>Their dependency on Ubuntu &#39;snapped&#39; so they are &#34;testing&#34; Debian now.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366091" target="_blank">Proton 11 Officially Released with Support for More Games Running on Linux</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 11:20 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>Valve released Proton 11 today as the latest stable version of this open-source compatibility tool for Steam Play, based on Wine and additional components for playing Windows games on Linux systems.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://science.slashdot.org/story/26/07/07/2327219/superconducting-thruster-harnesses-earths-magnetic-field-in-first-orbital-test?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Superconducting Thruster Harnesses Earth&#39;s Magnetic Field In First Orbital Test</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 11:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>New Zealand startup Zenno Astronautics has completed the first orbital test of its &#34;Supertorquer,&#34; a shoebox-sized superconducting magnet system that uses solar power and Earth&#39;s magnetic field to help control a satellite without fuel. The company says the technology could eventually support fuel-free satellite maneuvers, docking, deep-space trajectory changes, and even magnetic radiation shielding for astronauts. Space Magazine reports: The tests began shortly after Mira&#39;s launch in November last year aboard the SpaceX Transporter 12 mission and saw the shoebox-size device perform with flying colors, Zenno Astronautics CEO and founder Max Arshavsky, told Space.com. &#34;It&#39;s a technology that allows a spacecraft to not tumble violently in space and point in the right direction,&#34; Arshavsky said. &#34;The unit has multiple super-conducting magnets that are positioned in different axes. When we power up the magnets, they generate a magnetic field, which interacts with Earth&#39;s magnetic field, and because we can control the magnetic field on the satellite, we can control the way in which it turns with respect to Earth.&#34;
+ 
+Superconducting magnets are made of coils of superconducting wire that have zero electrical resistance and can therefore conduct much larger currents than normal wires. That larger current translates into a greater magnetic force. There is, however, a catch: Superconducting materials need to be cooled to extremely low temperatures to gain their wonder properties. [...] The unit housing the superconducting magnets is wrapped in layers of insulation and fitted with a heat pump that removes all the excess heat from the system. Every time the satellite needs a push, the superconducting coils power up, drawing energy from a battery charged by the satellite&#39;s solar panels.
+ 
+&#34;It&#39;s converting solar energy straight into useful work,&#34; Arshavsky said. &#34;Energy is the one thing that is abundant in space, and you can use it to energize the magnet to create a magnetic acceleration device. It gives you acceleration without fuel.&#34; In the future, Zenno Astronautics plans to launch larger systems that could enable spacecraft to dock in space or conduct close proximity operations using just the power of their solar-powered superconducting magnets. Arshavsky envisions powerful magnets that could, in the future, propel spacecraft on missions to the moon and Mars using only solar power.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/Toggle-Syscall-User-Dispatch" target="_blank">Linux 7.3 To Make It Easier To Disable Syscall User Dispatch</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 10:40 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>Introduced to the Linux kernel nearly six years ago was the Syscall User Dispatch feature to help with Linux gaming. Specifically, Syscall User Dispatch was developed to help Windows games run on Linux more efficiently. While it was upstreamed in Linux 5.11 for more efficiently intercepting system calls from Windows software under Wine, now in the name of security there are patches working their way to the mainline kernel to more easily disable it...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/nte-neverness-to-everness-released-on-steam-works-on-steamos-linux-with-a-workaround/" target="_blank">NTE: Neverness to Everness released on Steam - works on SteamOS / Linux with a workaround</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 09:03 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/1514367643id29350gol.webp">
+                    
+                    <p>NTE: Neverness to Everness is the latest bigger Anime gacha game to arrive on Steam from Perfect World Games / Hotta Studio and it can work on SteamOS / Linux.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/humble-choice-has-some-essentials-for-july-2026-like-sea-of-stars-and-drop-duchy/" target="_blank">Humble Choice has some essentials for July 2026 like Sea of Stars and Drop Duchy</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 08:06 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/997933168id29349gol.webp">
+                    
+                    <p>Humble Choice for July 2026 is out now and there&#39;s some really wonderful games included - this is one not to be missed.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/xorg-server-21-1-24-and-xwayland-24-1-13-released-to-fix-more-security-issues/" target="_blank">xorg-server 21.1.24 and xwayland 24.1.13 released to fix more security issues</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 07:58 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/tagline_gallery/xorg.jpg">
+                    
+                    <p>More security issues were recently discovered with xorg-server 21.1.24 and xwayland 24.1.13 released to fix up the problems.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/proton-11-0-1-officially-released-to-expand-windows-games-on-steamos-linux/" target="_blank">Proton 11.0-1 officially released to expand Windows games on SteamOS / Linux</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 07:48 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/tagline_gallery/proton%20logo%20official.jpg">
+                    
+                    <p>Valve just released Proton 11.0-1, a huge upgrade to their compatibility layer to run Windows games on SteamOS / Linux systems.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://science.slashdot.org/story/26/07/07/2245233/japan-releases-snowman-like-asteroid-image-after-flyby?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Japan Releases Snowman-Like Asteroid Image After Flyby</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 07:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>Japan&#39;s Hayabusa2 probe captured rare close-up images of near-Earth asteroid Torifune, revealing a snowman-like shape made of two joined lobes. Phys.org reports: The fridge-sized Hayabusa2 skimmed asteroid Torifune on Sunday in a mission that demonstrated the ability to deflect a potentially dangerous space rock away from Earth. A new image released by the Japan Aerospace Exploration Agency (JAXA) on Monday could aid such efforts, as researchers say near-Earth asteroids vary in their size, shape and surface characteristics.
+ 
+&#34;The moment I actually saw this image and the scientific data -- it really gave me goosebumps,&#34; JAXA scientist Yuya Mimasu told reporters, adding the asteroid &#34;personally looked like a snowman.&#34; The black-and-white image, captured by a telescopic camera, showed what appeared to be two round objects joined together. &#34;You can actually see the rocks... I really hadn&#39;t expected to be able to take a photo like this, so I&#39;m absolutely over the moon,&#34; he said.
+ 
+[...] Moving at a speed of more than 18,000 kilometers (11,185 miles) per hour, the probe was due to fly within 800 meters (2,625 feet) of the asteroid, but JAXA said it would analyze the distance later. If confirmed, the mission would be one of the closest flybys of a near-Earth asteroid ever. JAXA also said Monday it succeeded in acquiring data from three other devices that can measure the distance from the asteroid and examine the existence of water.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366080" target="_blank">KDE Plasma 6.6.6 Released with Numerous Bug Fixes and Various Improvements</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 06:46 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>The KDE Project released KDE Plasma 6.6.6 today as the sixth and last maintenance update to the KDE Plasma 6.6 desktop environment series with many bug fixes and improvements.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366088" target="_blank">Frame Gives FFmpeg a Modern GUI for Everyday Media Conversion</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 03:43 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>Frame is an open-source media conversion utility that wraps FFmpeg in a native Rust GUI for video, audio, image, subtitle, and metadata workflows.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://tech.slashdot.org/story/26/07/07/2239255/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Meta Now Lets Anyone Use Your Instagram Photos In AI Images</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 03:30 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>An anonymous reader quotes a report from Wired: Meta launched its inaugural AI image model from the Meta Superintelligence Labs on Tuesday, its effort to compete with the likes of OpenAI&#39;s GPT Images 2.0 and Google&#39;s Nano Banana 2 in the AI image generation race. The new model, called Muse Image, rolled out with deep integrations woven into the Instagram app. As part of this update, public Instagram profiles are now automatically opted into being fodder for generative AI remixes. All someone has to do is tag your account&#39;s profile in a prompt -- if it&#39;s public -- and they can use Meta AI to generate an image using your likeness.
+ 
+Meta positions this feature as a cheeky way to personalize generations with images of real people. &#34;Whether you want to design a custom event invitation, mock up a collaborative creative concept, or generate a personalized graphic, tagging a username lets Meta AI use public photos to build a visual that&#39;s ready to post,&#34; reads one of Meta&#39;s announcement blogs about the new AI tool. [...] Instagram&#39;s help center site includes more details about how this feature will impact users, saying that &#34;people may be able to create content with your Instagram content using AI features at Meta&#34; if you leave your account public and on the default settings. (A previously archived version of this page from 2025 does not include similar, AI-focused language.) Instagram users who want to stop others from using their public posts for AI images (without switching your account to private) must manually disable the options under the app&#39;s &#34;Sharing and reuse&#34; settings. However, turning off the setting only blocks future AI generations; any AI images already created from their content will remain.
+ 
+Meta also says users will not be notified when others create AI-generated content using their posts.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/XWayland-24.1.13-Released" target="_blank">XWayland 24.1.13 Released To Fix Two More Security Issues In The X.Org Codebase</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 01:44 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>Two more security issues were made public today concerning the X.Org Server codebase and in turn XWayland also being affected...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366082" target="_blank">KDE Plasma 6.6.6 Released as Final Bugfix Update in the 6.6 Series</a></h2>
+                    <div class="meta">
+                        Jul 08, 2026 00:40 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>KDE Plasma 6.6.6 arrives as the final maintenance update for the oldstable branch, bringing one last round of KWin, Workspace, Discover, and portal fixes.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://games.slashdot.org/story/26/07/07/1938210/doom-developer-id-software-is-reportedly-losing-half-its-staff?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Doom Developer id Software Is Reportedly Losing Half Its Staff</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 23:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>Doom developer id Software is reportedly laying off about half its staff as part of Microsoft&#39;s broader Xbox cuts. The reported layoffs potentially affects around 90 employees. Engadget reports: While neither Microsoft nor id Software have formally acknowledged the layoffs, one former member of the studio&#39;s staff, Michael Maynard, has echoed the 50 percent figure on LinkedIn. According to at least one of Game Developer&#39;s sources, that could translate to around 90 job cuts, though it&#39;s so far unclear what departments at id Software have been hit hardest.
+ 
+[...] Bloomberg reported yesterday that as part of the &#34;reset&#34; at Xbox, ZeniMax Media, the parent company of id Software, will be focusing on its biggest franchises -- like The Elder Scrolls, Fallout, Wolfenstein and Doom -- going forward. It&#39;s possible that motivated the cuts to id Software, but the developer at least outwardly appears to be already heavily focused on Doom. The studio launched Doom: The Dark Ages in 2025 and an expansion to the game on July 7, 2026. Whatever the reason, the cuts at Xbox aren&#39;t over: While Microsoft eliminated 1,600 roles alongside the announcement that Xbox is restructuring, it still plans to lay off another 1,600 employees over the coming months.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://tech.slashdot.org/story/26/07/07/1933209/microsoft-flips-windows-backup-on-by-default-outside-the-eu?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Microsoft Flips Windows Backup On By Default Outside the EU</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 22:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>Microsoft will turn on Windows settings backup and restore by default for eligible Windows 11 business devices outside the EU, starting with Windows 11 26H2. The Register reports: 
+Now dubbed &#34;Windows settings backup and restore,&#34; the service backs up a device&#39;s settings and a list of installed Microsoft Store apps, which can then be restored to a new device. Microsoft gave a use case for the technology: &#34;Imagine a lost laptop, a hardware refresh, or an unexpected reset. These are some of the moments when your users need backup most. And that&#39;s rarely when anyone wants to discover that backup was never turned on.&#34;
+ 
+However, some organizations might not want it on. Perhaps those with strict privacy or data sovereignty requirements, or those regulated by the EU Digital Markets Act (DMA), for whom the default-on behavior won&#39;t apply. Windows 11 25H2 and earlier are also excluded, as is any device with a backup policy that explicitly disables the setting. Everything else running Windows 11 26H1 will get switched on after a feature update, and the same applies to 26H2, currently with Windows Insiders in the Experimental channel.
+ 
+Administrators might reasonably be wary of this being opt-out rather than opt-in. Backups are useful, but Microsoft is clear that this is not a comprehensive backup solution, calling it only &#34;one step in a broader Windows resiliency effort.&#34; The implications still need consideration. An opt-out setting that quietly ships settings data off-device is exactly the sort of thing that adds to administrators&#39; workloads rather than lightening them.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/Proton-11.0-1" target="_blank">Proton 11.0-1 Released To Advance Valve&#39;s Steam Play For The Best Linux Experience Yet</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 21:10 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>Proton 11.0-1 was just released as stable as the newest major version of this downstream of Wine that powers Valve&#39;s Steam Play to provide for a great Windows gaming experience across conventional Linux systems plus the popular Steam Deck and brand new Steam Machine...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://hardware.slashdot.org/story/26/07/07/1927217/samsung-passes-nvidia-to-become-most-profitable-company-in-the-world?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Samsung Passes Nvidia To Become Most Profitable Company In the World</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 21:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>Samsung&#39;s chip division is projected to earn more in 2026 than it made across its previous 40 years in semiconductors, driven by soaring AI-fueled demand for memory and storage. The company&#39;s latest quarterly operating profit reportedly topped Nvidia&#39;s, making Samsung the world&#39;s most profitable tech company for the period. Tom&#39;s Hardware reports: Brokerage consensus puts Samsung&#39;s full-year 2026 operating profit near 300 trillion won ($196 billion), and its second-quarter figure at about 84.6 trillion won ($55.1 billion). Samsung easily beat the consensus with $58.5 billion when it posted preliminary results on July 7, overtaking Nvidia&#39;s most recent quarterly operating profit of $53.54 billion and becoming the most profitable technology company in the world for the period, on the back of AI-driven memory demand.
+ 
+Samsung&#39;s DS division booked 53.7 trillion won ($35.1 billion) of the company&#39;s 57.2 trillion won in total operating profit during the first quarter of 2026, roughly 94% of the total, which is why the division&#39;s projection sits so close to Samsung&#39;s full-year consensus. &#34;This year&#39;s profit will exceed the cumulative profit generated over the past 40 years since we entered the semiconductor business,&#34; Kim Yong-Kwan told staff, scoping the claim to the chip business rather than the wider conglomerate. Further reading: Samsung Chip Workers To Get $340,000 Average Bonus In AI Boom
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/AMDGPU-Clearing-Out-BUGs" target="_blank">AMD Linux Graphics Driver Working To Clear Out All Of Its BUG()s</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 20:53 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>AMDGPU kernel driver maintainer Alex Deucher of AMD sent out a set of 30 patches today working on clearing out all of the BUG() usage within this Linux kernel graphics driver...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://yro.slashdot.org/story/26/07/07/1918257/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">FCC To End Biden-Era Rule That Forces ISPs To List All Their Fees</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 20:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>The FCC plans to roll back broadband label rules that require ISPs to itemize all passthrough fees. Under the proposal, providers could instead list a single &#34;up to&#34; amount for location-based charges. It would also allow ISPs to link to pricing labels rather than display them prominently, while eliminating machine-readable pricing files. Ars Technica reports: ISPs routinely advertise prices much lower than those actually charged to consumers on their monthly bills. One method of raising monthly bill prices above advertised rates is to tack on fees that, ISPs claim, are used to offset charges imposed by local governments. ISPs would be well within their rights to advertise accurate monthly prices and charge those exact prices on monthly bills. But because ISPs rarely do that, the FCC has required them to make specific price disclosures to consumers for the past decade. The Biden-era FCC updated the broadband-label rules to require that ISPs &#34;itemize on the label (PDF) all discretionary monthly fees that the provider passes through to the consumer.&#34; The change drew protest from Comcast and other ISPs that complained bitterly about the complexity of listing all the hidden fees they had chosen to charge.
+ 
+Under Chairman Brendan Carr, the Trump FCC has steadily whittled away at requirements imposed under Democrats. An order (PDF) released in draft form last week would eliminate the requirement to itemize passthrough fees and let ISPs list them in a single &#34;up to&#34; amount. The &#34;up to&#34; amount can include both government fees and fees charged by non-government entities such as owners of utility poles. &#34;Rather than continuing to require providers to itemize &#39;passthrough fees&#39; that can vary by location, we allow providers to display such fees in the aggregate, either as a maximum or &#39;up to&#39; amount for the total fees applicable in any location where the service plan is offered, or as the exact total of such fees assessed in a particular location,&#34; the FCC draft order said.
+ 
+The order to be voted on later this month includes a few other changes that will please ISPs and their lobby groups. ISPs will be allowed to provide links to price labels instead of displaying the full labels prominently on ordering pages and account portals, and will be allowed to stop making the price-label information available in machine-readable spreadsheets. The FCC is also relaxing the requirement that price information be available over the phone. The FCC said the change will &#34;allow phone sales representatives to present label information conversationally, as a summary of key label fields, rather than require verbatim recitation.&#34;
+ 
+The changes have been in the works since October 2025, when the FCC issued a Notice of Proposed Rulemaking to let the public submit comments on the proposals. The outcome of that process is the draft order, which will be voted on at the FCC&#39;s July 22 meeting and take effect 30 days after it is published in the Federal Register. There are many types of passthrough fees that ISPs will be able to stop listing individually and roll into the &#34;up to&#34; amount. The FCC defined the fees as follows, saying they include just about anything that isn&#39;t a tax [...]. Another planned change will eliminate a requirement that providers archive all labels for at least two years after a service plan is no longer available. The Utility Reform Network, an advocacy group, told the FCC that the archived labels provide crucial data about how prices and services change over time, and that machine-readable labels are important for affordability research and information accessibility.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://hardware.slashdot.org/story/26/07/07/1740259/chinas-deepseek-developing-its-own-ai-chip?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">China&#39;s DeepSeek Developing Its Own AI Chip</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 19:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>An anonymous reader quotes a report from Reuters: Chinese startup DeepSeek is developing its own AI chip, according to three people familiar with the matter, a push that could reduce its reliance on Nvidia and Huawei chips, which it has depended on to train and run its globally popular models. The chip is designed for inference -- the stage of AI computing in which a trained model generates responses for users -- rather than for training new models, the sources said. If successful, DeepSeek&#39;s expansion into semiconductor development would mark a major strategic shift for a company widely hailed in China as the country&#39;s AI champion, potentially adding to challenges faced by Chinese tech giant Huawei.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://news.slashdot.org/story/26/07/07/1726247/major-banks-in-talks-to-exploit-debit-card-loophole?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" target="_blank">Major Banks In Talks To Exploit Debit Card Loophole</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 18:00 | 
+                        Source: <a href="https://slashdot.org/" target="_blank">Slashdot</a>
+                    </div>
+                    
+                    <img src="https://a.fsdn.com/sd/twitter_icon_large.png">
+                    
+                    <p>JPMorgan, Bank of America, Wells Fargo, PNC, and other major banks have reportedly explored acquiring Fiserv&#39;s debit-card networks, STAR and Accel, in a move that could help them bypass federal caps on debit-card transaction fees. A law limits the fees big banks can charge merchants, but only if the transactions are routed through an outside network. There are no caps on these interchange fees over a bank-owned network, however. The Wall Street Journal reports: When Capital One Financial bought Discover Financial in a $50.6 billion deal, it got a network that cut out the need for a middleman in card transactions and allowed it to deal more directly with merchants. Now, big banks are looking on with envy because owning a network can mean exemption from a federal law that caps debit-card fees. Those fees collectively amount to billions of dollars each year across the industry, but banks have long complained the government-defined cap limits their ability to offer customers debit-card rewards and other services. Some have been exploring a small deal that could upend the rules, though they are worried about political backlash if they try.
+ 
+Big banks including JPMorgan Chase, Bank of America, Wells Fargo and PNC Financial Services Group have in recent months held preliminary and tentative discussions about a deal to acquire a network owned by the financial-technology company Fiserv, according to people familiar with the matter. There is no certainty a deal will happen. Several of the banks that looked at the Fiserv network have already decided it would be unlikely for them to move forward, some of the people said. Some have privately expressed concern that such a deal could prompt backlash from lawmakers, regulators and merchants, the people added.
+
+
+
+
+
+Read more of this story at Slashdot.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/NVIDIA-Rigel-Upstream-GCC" target="_blank">NVIDIA Upstreams Initial Rigel CPU Core Support Into GCC Compiler</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 15:45 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>That didn&#39;t take long... Mere minutes after NVIDIA confirmed some basic Rosa CPU details and its &#34;Rigel&#34; CPU core, merged to the upstream GNU Compiler Collection (GCC) codebase is initial enablement on the NVIDIA Rigel core...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/open-world-zombie-survival-sandbox-unturned-source-code-released/" target="_blank">Open-world zombie survival sandbox Unturned source code released</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 15:41 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/1393575172id29346gol.webp">
+                    
+                    <p>The popular open world zombie sandbox survival game Unturned just had the source code officially released.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/review/razer-blade-18-linux" target="_blank">Razer Certifying Their First Laptop For Linux: Razer Blade 18 RZ09-0582</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 15:38 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>Razer is a brand synonymous with gaming and finally in 2026 they are in the process of certifying their first laptop for Ubuntu Linux. This laptop going through Ubuntu Linux certification is the Razer Blade 18 RZ09-0582 and it offers incredible performance with the Core Ultra 9 290HX Plus processor and GeForce RTX 5090 graphics but with that also comes a very high price tag.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/NVIDIA-Rosa-CPU-Rigel-Core" target="_blank">NVIDIA Confirms Some Rosa CPU Details With Its Rigel Core</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 15:27 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>In a blog post today talking up the single threaded CPU performance of their Vera CPU with Olympus cores, NVIDIA confirmed a few basic details of their next-gen Rosa CPU featuring their &#34;Rigel&#34; core...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/postal-spin-off-flesh-wire-reveals-new-psychological-horror-gameplay/" target="_blank">POSTAL spin-off &#39;Flesh &amp; Wire&#39; reveals new psychological horror gameplay</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 15:01 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/1278842052id29345gol.webp">
+                    
+                    <p>Diving in deep to the roots of the POSTAL franchise, Running With Scissors plan to release Flesh &amp; Wire sometime in 2027 and we have a new trailer.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/NVIDIA-610.43.03-Linux-Driver" target="_blank">NVIDIA 610.43.03 Linux Driver Released With Unspecified Fixes</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 14:58 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>NVIDIA today published their latest stable driver update for Linux customers in their newest R610 release branch...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/alchemic-beasts-has-a-fun-sounding-spin-on-creature-collecting-based-on-creature-companionship/" target="_blank">Alchemic Beasts has a fun sounding spin on creature collecting based on creature companionship</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 14:28 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/2050107844id29344gol.webp">
+                    
+                    <p>Most creature collecting games have you simply battle to earn XP and level up, with Alchemic Beasts focusing more on companionship and relationships.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lwn.net/Articles/1081690/" target="_blank">Woodruff: You shouldn&#39;t trust trusted publishing</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 14:27 | 
+                        Source: <a href="https://lwn.net" target="_blank">LWN.net</a>
+                    </div>
+                    
+                    <p>William Woodruff, better known online as &#34;yossarian&#34;, has published
+a blog post to make the case that users should not place their trust
+in trusted
+publishing:
+
+
+Trusted Publishing is a mechanism for establishing trust between an
+external machine identity (like a CI/CD workflow) and one or more
+projects on a package index/registry. The &#34;trust&#34; in &#34;Trusted
+Publishing&#34; refers to that trust relationship, and not to anything
+else.
+
+It is not, and cannot be, a signal for package trust or
+quality. You cannot use it to determine whether a package is safe or
+&#34;good,&#34; and PyPI consciously stymies attempts to misuse it for that
+purpose by not rendering it as a &#34;green checkmark&#34; or anything else of
+the sort.
+
+Or as another framing: Trusted Publishing is just a form of
+authentication. It doesn&#39;t tell you anything other than that an upload
+was authenticated, which all uploads to PyPI are.
+
+
+LWN covered trusted
+publishing in June.
+
+</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/crown-siege-an-incremental-tower-defense-game-has-a-fun-demo-worth-a-go/" target="_blank">Crown Siege, an incremental tower defense game has a fun demo worth a go</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 14:12 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/1657807520id29343gol.webp">
+                    
+                    <p>Mixing together incremental systems with lots of upgrades while you defend a tower from goblins, Crown Siege is a fun little demo to give a try.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lwn.net/Articles/1081009/" target="_blank">[$] Faster RCUs and lockless memory allocation</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 13:39 | 
+                        Source: <a href="https://lwn.net" target="_blank">LWN.net</a>
+                    </div>
+                    
+                    <p>
+Puranjay Mohan shared some of the
+
+work he&#39;s been doing recently on improving the
+performance of read-copy-update (RCU) at the 2026
+
+Linux
+Storage, Filesystem, Memory-Management, and BPF Summit; his talk would have
+been nice context to have earlier in the day when Harry Yoo and Alexei
+Starovoitov led a session about the
+
+new kmalloc_nolock() function that
+allows for lockless allocation from any kernel context, and which interacts with
+the RCU subsystem to allow that. This article therefore covers the two sessions
+together and in the reverse order, to provide that missing context.
+</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lwn.net/Articles/1081644/" target="_blank">Security updates for Tuesday</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 13:07 | 
+                        Source: <a href="https://lwn.net" target="_blank">LWN.net</a>
+                    </div>
+                    
+                    <p>Security updates have been issued by AlmaLinux (nodejs22 and nodejs24), Fedora (clamav, hplip, kernel, kernel-headers, librabbitmq, mingw-expat, mir, perl-Imager, podman-tui, prometheus-podman-exporter, python-rpds-py, rust-ashpd, rust-busd, rust-gtk4-macros, rust-inferno, rust-quick-xml, rust-reqsign-aws-v4, rust-wayland-scanner, and sandogasa), Oracle (container-tools:rhel8, kernel, mariadb:10.11, mariadb:11.8, nginx, perl:5.32, php, php:7.4, rrdtool, ruby:2.5, ruby:3.3, ruby:4.0, and uek-kernel), Red Hat (kernel, opentelemetry-collector, and python-urllib3), Slackware (c-ares and openssh), SUSE (bind, chromedriver, cryptsetup, s390-tools, dnsmasq, jackson-annotations, jackson-core, jackson-databind, lcms2, pacemaker, perl-Cpanel-JSON-XS, perl-Crypt-SaltedHash, postfix, and python-mistune), and Ubuntu (gnutls28, gzip, openssh, php7.0, python-parsl, python3.10, python3.12, python3.14, request-tracker5, socat, sogo, and tar).</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://feed.itsfoss.com/link/24361/17374380/windows-11-cam-bug" target="_blank">LOL! Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 12:54 | 
+                        Source: <a href="https://itsfoss.com/" target="_blank">It&#39;s FOSS</a>
+                    </div>
+                    
+                    <img src="https://itsfoss.com/content/images/2026/07/windows-11-storage-bug-banner.png">
+                    
+                    <p>A Microsoft customer support agent even suggested buying a new hard disk instead of acknowledging the problem.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/TUXEDO-Computers-Goes-Debian" target="_blank">TUXEDO Computers Switching TUXEDO OS From Ubuntu To Debian Testing</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 12:06 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>Bavarian Linux PC vendor TUXEDO Computers announced they are switching from Ubuntu to Debian as the base for their TUXEDO OS platform...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/AF-ALG-Restrict-Sysctl-Linux" target="_blank">AF_ALG &#34;Nightmare&#34; Being Further Limited In Linux 7.3 With New Sysctl Knob</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 10:24 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>The Linux kernel&#39;s AF_ALG interface was deprecated in Linux 7.2. This interface for letting user-space programs interact directly with the Linux kernel crypto API has proven to be a &#34;massive attack surface&#34; due to a variety of security concerns. With its deprecation in Linux 7.2, some AF_ALG features are already removed and for Linux 7.3 this interface is being further restrained...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/Nick-Desaulniers-LLVM-Linux" target="_blank">&#34;I&#39;ll Make The Linux Kernel Mailing List Burn&#34;: Prominent LLVM Linux Developer Returns</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 10:15 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>One of the original developers behind the work to allow the Linux kernel to be compiled using LLVM/Clang as an alternative to the GCC compiler is now back in the saddle working on LLVM Linux support. LLVM/Clang support for building the Linux kernel has been important for improving code portability and addressing GCC&#39;isms, making use of LLVM compiler features not yet found with the GNU toolchain, evaluating the performance between GCC and Clang, and all the more important these days with the Linux kernel Rust integration...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/IBM-EHEA-Being-Retired" target="_blank">EHEA 10Gb Ethernet Driver Being Retired By IBM As A Relic Of Outdated POWER Hardware</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 09:55 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>In 2026 it&#39;s not too surprising when seeing old PCMCIA and ISA drivers being removed from the mainline Linux kernel source tree and old very low-speed network interfaces, with arguably the most surprising fast being how long they lasted in the mainline kernel. Meanwhile for the upcoming Linux 7.3 kernel, one of the first 10Gb Ethernet drivers is already set for retirement from the mainline Linux kernel...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/aster-league-2179-is-a-kart-racing-spin-off-from-the-future-racer-ballisticng/" target="_blank">Aster League: 2179 is a kart-racing spin-off from the future racer BallisticNG</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 08:32 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/708318430id29342gol.webp">
+                    
+                    <p>Future racer BallisticNG is getting a kart-racing spin-off named Aster League: 2179, with you driving anti-gravity bikes.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/playstation-2-emulator-for-arm-devices-armsx2-gets-an-initial-linux-release/" target="_blank">PlayStation 2 emulator for Arm devices ARMSX2 gets an initial Linux release</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 08:15 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/tagline_gallery/armsx2_gol2_4336170f.webp">
+                    
+                    <p>Bringing classic PlayStation 2 games to Arm, the ARMSX2 project has made an initial Linux release for testing across various systems.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.gamingonlinux.com/2026/07/giant-creature-city-builder-the-wandering-village-is-getting-a-watery-dlc/" target="_blank">Giant creature city builder The Wandering Village is getting a watery DLC</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 08:03 | 
+                        Source: <a href="https://www.gamingonlinux.com/" target="_blank">GamingOnLinux Latest Articles</a>
+                    </div>
+                    
+                    <img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/624607594id29340gol.webp">
+                    
+                    <p>The Wandering Village: The Last Leviathan is an upcoming water-themed DLC for the unique city builder that brings a whole lot of new content.Read the full article on GamingOnLinux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://feed.itsfoss.com/link/24361/17374265/pocketmage-campaign" target="_blank">This E-Paper PDA Wants You to Ditch Your Smartphone for a Keyboard and Two Tiny Screens</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 06:51 | 
+                        Source: <a href="https://itsfoss.com/" target="_blank">It&#39;s FOSS</a>
+                    </div>
+                    
+                    <img src="https://itsfoss.com/content/images/2026/07/pocketmage.webp">
+                    
+                    <p>It runs a custom open source OS on an ESP32-S3, has a physical keyboard and dual displays, and starts at $185 on Crowd Supply.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://feed.itsfoss.com/link/24361/17374266/inkertface-diy-steam-machine-faceplate" target="_blank">You Can Now Craft E-Ink Faceplates for the Steam Machine</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 05:52 | 
+                        Source: <a href="https://itsfoss.com/" target="_blank">It&#39;s FOSS</a>
+                    </div>
+                    
+                    <img src="https://itsfoss.com/content/images/2026/07/inkterface-banner.png">
+                    
+                    <p>Valve has quietly open-sourced the design files for the Inkterface project, which uses an ESP32 board.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://feed.itsfoss.com/link/24361/17374231/ubuntu-ntpd-rs-push" target="_blank">Canonical Puts €40,000 a Year Behind Trifecta Tech to Rustify Ubuntu</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 05:04 | 
+                        Source: <a href="https://itsfoss.com/" target="_blank">It&#39;s FOSS</a>
+                    </div>
+                    
+                    <img src="https://itsfoss.com/content/images/2026/07/canonical-trifecta-tech-foundation-banner.png">
+                    
+                    <p>ntpd-rs is set to replace Ubuntu&#39;s time-syncing tools, the same way sudo-rs replaced classic sudo last year.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366060" target="_blank">OpenSSH 10.4 Patches Multiple Security Issues in SSH, SCP, and SFTP</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 04:04 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>OpenSSH 10.4 is now available with fixes for sftp, scp, and sshd, plus experimental support for ML-DSA 44 and Ed25519 composite signatures.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366065" target="_blank">Axiomtek MANO330 SBC features Intel N97/N150, HDMI, VGA, and LVDS</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 02:32 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>Axiomtek’s MANO330 is a coming-soon Thin Mini-ITX single-board computer designed around Intel Processor N97 and N150 options, with DDR5 memory, multiple display interfaces, dual LAN, and M.2 expansion for compact embedded systems. According to the product listing, the MANO330 supports DDR5-4800 SO-DIMM memory with up to 32GB capacity. Expansion options include an M.2 Key B […]</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366064" target="_blank">FreeRDP 3.28 Released with Security Fixes, Revived iOS Client</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 01:01 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>FreeRDP 3.28 brings multiple security fixes, a revived iOS client, Android build updates, Windows client improvements, and better testing.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/Microsoft-AV1-Encode-DX12-HMFT" target="_blank">Microsoft Lands Initial AV1 Encoding Using DirectX 12 &#43; HMFT Within Mesa 26.2</a></h2>
+                    <div class="meta">
+                        Jul 07, 2026 00:34 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>The newest, unexpected addition to the Mesa codebase by Microsoft engineers is contributed accelerated AV1 video encoding on the GPU using a combination of DirectX 12 and the Hardware Media Foundation Transform (HMFT) support that is part of the Windows Media Foundation layer...</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://lxer.com/module/newswire/ext_link.php?rid=366069" target="_blank">Ryzen AI Developer Platform: AMD&#39;s Own Linux Distribution Built Atop Debian</a></h2>
+                    <div class="meta">
+                        Jul 06, 2026 23:29 | 
+                        Source: <a href="https://lxer.com/" target="_blank">LXer Linux News</a>
+                    </div>
+                    
+                    <p>With the AMD Ryzen AI Halo developer platform there is the option of ordering this Ryzen AI Max&#43; mini PC with either Microsoft Windows 11 or &#34;Linux OS&#34;. When receiving a AMD Ryzen AI Halo review sample last month, I fully expected it to just be an Ubuntu LTS install with ROCm preloaded. I was quite surprised when powering it up to find that it&#39;s an OS called the AMD Ryzen AI Developer Platform 1 &#34;Rex&#34; and is based on Debian Linux.</p>
+                </article>
+                
+                <article>
+                    <h2><a href="https://www.phoronix.com/news/Intel-ANV-Gen125-H265-Encode" target="_blank">Vulkan Video H.264/H.265 Encode Now Working For Intel Alchemist GPUs On Linux</a></h2>
+                    <div class="meta">
+                        Jul 06, 2026 21:04 | 
+                        Source: <a href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                    </div>
+                    
+                    <p>Earlier this year Vulkan Video encode was disabled on newer generations of Intel graphics hardware due to insufficient testing with the Intel ANV open-source driver. That impacted Gen12.5 graphics and newer - basically Alchemist and anything newer. Now at least Gen12.5 graphics with the likes of the Arc A-Series is seeing H.264 and H.265 encoding re-enabled...</p>
+                </article>
+                
+            </div>
+        </main>
+    </div>
+</body>
+</html>
