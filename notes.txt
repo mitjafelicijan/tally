@@ -1,0 +1,12 @@
+RSS Feeds
+	Short descriptions
+		https://lxer.com/module/newswire/headlines.rss
+	Long descriptions
+		https://rss.slashdot.org/Slashdot/slashdotMain
+		https://lwn.net/headlines/rss
+		https://www.gamingonlinux.com/article_rss.php
+	Messy descriptions
+		https://feed.itsfoss.com/
+
+
+https://github.com/globalwordnet/english-wordnet
