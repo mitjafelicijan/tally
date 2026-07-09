@@ -58,7 +58,6 @@
             width: 100%;
             break-inside: avoid;
             margin-bottom: 50px;
-			text-transform: capitalize;
         }
         h2 { font-size: 1.25rem; margin-top: 0; margin-bottom: 10px; }
         h2 a { text-decoration: underline; }
@@ -71,6 +70,10 @@
             display: block;
         }
         p { margin-bottom: 0; }
+
+		article p::first-letter {
+            text-transform: uppercase;
+        }
 
         /* Calendar Styles */
         .calendar {
