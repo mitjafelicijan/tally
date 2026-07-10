@@ -12,7 +12,7 @@ var synonyms map[string]string
 
 func main() {
 	// Load feed configuration and WordNet synonyms
-	configData, err := os.ReadFile("feeds.json")
+	configData, err := os.ReadFile(FeedsConfigFile)
 	if err != nil {
 		log.Fatal("Error reading feeds.json:", err)
 	}
@@ -22,7 +22,7 @@ func main() {
 		log.Fatal("Error unmarshaling feeds.json:", err)
 	}
 
-	synonymData, err := os.ReadFile("synonyms.json")
+	synonymData, err := os.ReadFile(SynonymsFile)
 	if err == nil {
 		if err := json.Unmarshal(synonymData, &synonyms); err != nil {
 			log.Printf("Warning: error unmarshaling synonyms.json: %v", err)
@@ -37,7 +37,7 @@ func main() {
 	})
 
 	// Ensure public directory exists
-	if err := os.MkdirAll("public", 0755); err != nil {
+	if err := os.MkdirAll(PublicDir, DirPerm); err != nil {
 		log.Fatal("Error creating public directory:", err)
 	}
 
@@ -48,10 +48,10 @@ func main() {
 		log.Fatal("Error marshaling JSON:", err)
 	}
 
-	if err := os.WriteFile("public/latest.json", jsonData, 0644); err != nil {
+	if err := os.WriteFile(PublicDir+"/"+LatestJSONFile, jsonData, FilePerm); err != nil {
 		log.Printf("Warning: error writing latest.json: %v", err)
 	}
-	if err := os.WriteFile("public/"+dateString+".json", jsonData, 0644); err != nil {
+	if err := os.WriteFile(PublicDir+"/"+dateString+".json", jsonData, FilePerm); err != nil {
 		log.Printf("Warning: error writing %s.json: %v", dateString, err)
 	}
 

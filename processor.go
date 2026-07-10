@@ -20,7 +20,7 @@ func fetchFeeds(feedURLs []string) ([]FeedItem, map[string]SourceInfo) {
 	feedParser := gofeed.NewParser()
 
 	currentTime := time.Now()
-	cutoffTime := currentTime.Add(-48 * time.Hour)
+	cutoffTime := currentTime.Add(-StoryCutoffDuration)
 
 	log.Printf("Fetching %d feeds...", len(feedURLs))
 
@@ -71,7 +71,7 @@ func fetchFeeds(feedURLs []string) ([]FeedItem, map[string]SourceInfo) {
 				mutex.Lock()
 				isDuplicate := false
 				for _, existing := range acceptedKeywords {
-					if calculateJaccard(keywords, existing) > 0.5 {
+					if calculateJaccard(keywords, existing) > SimilarityThreshold {
 						isDuplicate = true
 						break
 					}

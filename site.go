@@ -59,12 +59,12 @@ func generateCalendarData(viewDate time.Time, highlightDay int, jsonFiles map[st
 func synchronizeSite(items []FeedItem, sourceMap map[string]SourceInfo) {
 	// Collect global list of JSON archives
 	jsonFiles := make(map[string]bool)
-	entries, err := os.ReadDir("public")
+	entries, err := os.ReadDir(PublicDir)
 	if err != nil {
 		log.Printf("Warning: error reading public directory: %v", err)
 	}
 	for _, entry := range entries {
-		if !entry.IsDir() && strings.HasSuffix(entry.Name(), ".json") && entry.Name() != "latest.json" {
+		if !entry.IsDir() && strings.HasSuffix(entry.Name(), ".json") && entry.Name() != LatestJSONFile {
 			jsonFiles[entry.Name()] = true
 		}
 	}
@@ -115,14 +115,14 @@ func synchronizeSite(items []FeedItem, sourceMap map[string]SourceInfo) {
 		return sources[i].Name < sources[j].Name
 	})
 
-	parsedTemplate, err := template.ParseFiles("template.html")
+	parsedTemplate, err := template.ParseFiles(TemplateFile)
 	if err != nil {
 		log.Fatal("Error loading template:", err)
 	}
 
 	// Regenerate all historical pages
 	for jsonFile := range jsonFiles {
-		content, err := os.ReadFile("public/" + jsonFile)
+		content, err := os.ReadFile(PublicDir + "/" + jsonFile)
 		if err != nil {
 			log.Printf("Warning: error reading %s: %v", jsonFile, err)
 			continue
@@ -137,7 +137,7 @@ func synchronizeSite(items []FeedItem, sourceMap map[string]SourceInfo) {
 		archiveDate, _ := time.Parse("2006-01-02", datePart)
 
 		htmlFile := strings.TrimSuffix(jsonFile, ".json") + ".html"
-		outputFile, err := os.Create("public/" + htmlFile)
+		outputFile, err := os.Create(PublicDir + "/" + htmlFile)
 		if err != nil {
 			log.Printf("Warning: error creating %s: %v", htmlFile, err)
 			continue
@@ -157,7 +157,7 @@ func synchronizeSite(items []FeedItem, sourceMap map[string]SourceInfo) {
 	}
 
 	// Generate index.html (latest)
-	indexFile, err := os.Create("public/index.html")
+	indexFile, err := os.Create(PublicDir + "/index.html")
 	if err != nil {
 		log.Printf("Warning: error creating index.html: %v", err)
 		return
