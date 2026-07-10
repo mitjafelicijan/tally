@@ -1,5 +1,98 @@
 [
   {
+    "title": "OpenAI to Retire ChatGPT Atlas Browser Less Than a Year After Launch",
+    "link": "https://slashdot.org/story/26/07/10/0852224/openai-to-retire-chatgpt-atlas-browser-less-than-a-year-after-launch?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "OpenAI is retiring its ChatGPT Atlas browser less than a year after launch. Going forward, its browsing features will be shifted into a redesigned ChatGPT desktop app that also combines Codex, a built-in browser, and \"ChatGPT Work\" for acting across apps and files. PCMag reports: OpenAI disclosed Atlas's retirement in a Thursday post introducing a more powerful ChatGPT desktop app, following reports that the company planned on turning it into a \"superapp.\" [...] In a tweet, OpenAI product staff member James Sun added, \"The current targeted date for deprecation is 8/9, and we'll share more information in the upcoming days both in-app and via email.\"\n \nThe sunsetting means the Windows version of ChatGPT Atlas has been canceled, though the ChatGPT desktop app is still available on both Mac and Windows. The company is already touting the built-in browser, noting: \"You can ask ChatGPT to research a market, compare sources, pull information from websites, or open and refine files from Google Workspace and Microsoft 365 inside the app. It can use the browser to bring in fresh context, take steps across web pages, and keep the work moving while you review and guide the result.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 10, 2026 17:00",
+    "published_at": "2026-07-10T17:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "SAP Makes It Easier For Customers To Shop For Legacy Product Support, Ending EU Antitrust Probe",
+    "link": "https://tech.slashdot.org/story/26/07/10/0846241/sap-makes-it-easier-for-customers-to-shop-for-legacy-product-support-ending-eu-antitrust-probe?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "An anonymous reader quotes a report from The Register: The European Commission has ended an investigation into possible anticompetitive practices after SAP agreed to abolish reinstatement fees and reduce back-maintenance fees. The move could reduce barriers for customers considering third-party support for products nearing the end of their vendor support terms, including thousands of large businesses that rely on SAP ERP Central Component (ECC) to run their business operations. SAP's mainstream support for ECC ends in December 2027, while customers can opt for extended maintenance until December 2030 by paying an additional two percentage points on their maintenance fees. The most recent figures from Gartner showed that in Q4 2024 only 39 percent of worldwide ECC customers -- from a total of 35,000 -- had bought or subscribed to licenses to start their transition to SAP S/4HANA, the replacement ERP product.\n \nIn September last year, the European Commission launched a formal investigation into SAP's behavior in the aftermarket for maintenance and support services in Europe. It said it was responding to concerns that SAP restricted competition in this crucial aftermarket by making it harder for rivals to compete, leaving European customers with fewer choices and higher costs. In October, SAP published its response. \"SAP's commitments aim at improving the financial attractiveness for customers who wish to reinstate SAP maintenance and support services. Thus, future costs associated with reinstatement will not financially prevent customers from choosing to terminate SAP maintenance and support for a given period of time,\" the document said (PDF).\n \nSAP has now agreed to abolish reinstatement fees and reduce back maintenance fees charged to customers who return to SAP's support after a period of absence, the Commission confirmed. It also agreed to clarify conditions that allow customers to choose different maintenance and support service providers and different levels of support from SAP. The agreement is relevant to customers considering third-party support to extend their use of ECC beyond vendor maintenance. For example, last year, European retailer Kingfisher -- owner of well-known UK brands B\u0026Q and Screwfix -- told a Gartner conference it had chosen Rimini Street to support ECC 6.0 because it saw insufficient value in migrating to SAP S/4HANA. [...] The commitments offered by SAP will remain in force globally for ten years.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 10, 2026 16:00",
+    "published_at": "2026-07-10T16:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Ubuntu 25.10 Reached End of Life, It’s Time to Upgrade to Ubuntu 26.04 LTS",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366135",
+    "description": "This is your friendly reminder that Ubuntu 25.10 “Questing Quokka” reached the end of its supported life today, July 9th, 2026, and it is no longer supported by Canonical with software and security updates.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366135",
+    "date": "Jul 10, 2026 15:59",
+    "published_at": "2026-07-10T15:59:51Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "KDE Plasma 6.7 X11 vs. Wayland Session Gaming Performance For NVIDIA On CachyOS",
+    "link": "https://www.phoronix.com/review/plasma-67-wayland-cachyos",
+    "description": "With KDE Plasma 6.7 now having seen a few point releases to further polish this last version with X11 support ahead of Plasma 6.8 going Wayland-only, here are some NVIDIA Linux gaming benchmarks between the X11 and Wayland sessions on Plasma 6.7.2 using the popular Arch Linux based CachyOS.",
+    "guid": "https://www.phoronix.com/review/plasma-67-wayland-cachyos",
+    "date": "Jul 10, 2026 15:45",
+    "published_at": "2026-07-10T15:45:15Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "[$] An update on the scraper situation",
+    "link": "https://lwn.net/Articles/1080822/",
+    "description": "Our article \"Fighting the AI scraper bot\nscourge\", published in early 2025, discussed the problem of widespread\nscraping of web sites in search of training data for large language models\nand related projects.  This activity overwhelms sites with traffic.  Over a\nyear after that article is published, the problem is still growing.  The\nhammering of sites by shadowy actors has reached new heights, and the open\nweb is becoming increasingly difficult to maintain.  Where is this traffic\ncoming from, and what can be done about it?",
+    "guid": "https://lwn.net/Articles/1080822/",
+    "date": "Jul 10, 2026 15:20",
+    "published_at": "2026-07-10T15:20:51Z",
+    "source": "lwn.net",
+    "source_url": "https://lwn.net"
+  },
+  {
+    "title": "OpenAI's CEO of AGI Deployment, Fidji Simo, Is Stepping Down",
+    "link": "https://slashdot.org/story/26/07/10/052227/openais-ceo-of-agi-deployment-fidji-simo-is-stepping-down?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "OpenAI's CEO of AGI deployment, Fidji Simo, is stepping down from her full-time role and becoming a part-time adviser after taking extended medical leave for a chronic neuroimmune condition. \"Three months ago, I had to go on medical leave after a severe exacerbation of a chronic illness I've lived with for seven years,\" Simo wrote in a post Thursday on X. \"During that time, it became clear that the road to recovery would be much longer and more complex than I had anticipated -- and that I needed to focus on it fully.\" Wired reports: Simo joined OpenAI's board of directors in March 2024. The following year, CEO Sam Altman hired her to take on the product and business organizations so he could focus on research and the company's data center buildout. Previously, Simo was the CEO of Instacart and head of the Facebook app at Meta.\n \nShortly before starting at OpenAI, Simo experienced a significant health relapse. She was diagnosed with postural tachycardia syndrome, or POTS, in 2019. \"For my entire time here, I've postponed medical tests and new therapies to stay completely focused on the job and not miss a single day of work,\" she told OpenAI staff in a memo back in April, announcing her temporary departure. \"It's now clear that I've pushed a little too far and I really need to try new interventions to stabilize my health.\"\n \nNews of Simo's medical leave came amid a larger executive shakeup that saw Brad Lightcap, OpenAI's former COO, transition to a role overseeing special projects. OpenAI president and cofounder Greg Brockman took over OpenAI's product strategy. In the months since Simo stepped back from OpenAI, the company further reorganized its product teams, positioning Thibault Sottiaux as head of the company's core products, including ChatGPT.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 10, 2026 15:00",
+    "published_at": "2026-07-10T15:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "[$] QBE 1.3: metaprogramming, performance, and cross-platform support",
+    "link": "https://lwn.net/Articles/1080519/",
+    "description": "\n\nQBE, a compact compiler backend developed by Quentin Carbonneaux, is a\nlightweight alternative to larger compiler backends such as LLVM and GCC.\nDesigned to be small enough for a single developer to understand, QBE uses a\n\nstatic single-assignment (SSA) intermediate representation (IR), supports the C ABI,\nand serves as the backend for projects such as Hare and\nthe cproc C11 compiler. Frontends\nemit the textual form of QBE's IR directly; QBE then takes care of register allocation,\noptimization, and native-code generation, producing assembly for the target\narchitecture.\n",
+    "guid": "https://lwn.net/Articles/1080519/",
+    "date": "Jul 10, 2026 13:50",
+    "published_at": "2026-07-10T13:50:40Z",
+    "source": "lwn.net",
+    "source_url": "https://lwn.net"
+  },
+  {
+    "title": "Security updates for Friday",
+    "link": "https://lwn.net/Articles/1082272/",
+    "description": "Security updates have been issued by AlmaLinux (aardvark-dns, cups, edk2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, kernel, libsolv, libtasn1, libxml2, nginx:1.24, nginx:1.26, oci-seccomp-bpf-hook, python-urllib3, and tomcat), Debian (rlottie), Fedora (c-ares, k9s, kind, libXfont2, nmap, pam, perl-DBI, php, python-pendulum, tmux, and xorg-x11-server-Xwayland), Mageia (7zip and ack), Slackware (tigervnc), SUSE (alloy, cargo-c, chromium, clamav, cosign, dirmngr, firefox, flannel, fluidsynth, gnutls, go1.25, go1.26, gol, GraphicsMagick, helm, kernel-devel, libaom, libexif, openQA, os-autoinst, python-Django, python-idna, python-sqlparse, rust-keylime, rustup, sccache, SUSE Manager Client Tools, SUSE_Multi-Linux_Manager Client Tools, transmission, and warewulf4), and Ubuntu (curl, expat, golang-go.crypto, libheif, libidn, libraw, libsoup2.4, linux, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp-4.15, linux-gcp-fips, linux-kvm, linux-oracle, linux-aws, linux-aws-fips, linux-azure-fips, linux-fips, linux-raspi, linux-xilinx-zynqmp, and python2.7, python3.5).",
+    "guid": "https://lwn.net/Articles/1082272/",
+    "date": "Jul 10, 2026 13:41",
+    "published_at": "2026-07-10T13:41:03Z",
+    "source": "lwn.net",
+    "source_url": "https://lwn.net"
+  },
+  {
+    "title": "Linux 7.3 Enabling Second Graphics Pipe For Modern AMD APUs",
+    "link": "https://www.phoronix.com/news/Linux-7.3-Second-Pipe-GFX11-APU",
+    "description": "AMD on Thursday sent out another round of AMDGPU kernel graphics driver and AMDKFD kernel compute driver updates to DRM-Next of new feature material ahead of the Linux 7.3 merge window...",
+    "guid": "https://www.phoronix.com/news/Linux-7.3-Second-Pipe-GFX11-APU",
+    "date": "Jul 10, 2026 13:32",
+    "published_at": "2026-07-10T13:32:00Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
     "title": "Microsoft to Retire OWA Light Client In Exchange Server",
     "link": "https://tech.slashdot.org/story/26/07/10/0838224/microsoft-to-retire-owa-light-client-in-exchange-server?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
     "description": "Microsoft plans to disable and remove OWA Light, the lightweight Outlook Web Access client for Exchange Server, in an upcoming update expected in August 2026. The company says retiring the two-decade-old legacy interface will reduce attack surface and engineering complexity, pushing users to the modern Outlook on the web experience instead. BleepingComputer reports: \"OWA Light was an important compatibility experience when the web needed it. Today, the full Outlook on the web experience is the right place for us to focus,\" the Exchange Team said on Wednesday. \"Retiring OWA Light will help reduce legacy surface area, simplify ongoing engineering work, and allow us to continue improving the experience customers use every day.\"\n \nMicrosoft introduced OWA Light roughly two decades ago as an alternative to OWA Premium, offering a simplified web interface for systems that didn't have Internet Explorer 6 or later installed or ran older web browsers. At the time, the company said that OWA Light offered a cleaner look, faster logon times on low-bandwidth Internet connections, and worked in locked-down browser modes (such as kiosks).\n \nMicrosoft deprecated OWA Light as of August 19, 2024, and announced this week that the OWA Light experience will likely be removed from Exchange Server (on-premises) next month. \"In an upcoming Exchange Server update (estimated in August 2026), we plan to disable and remove the OWA Light experience. After that change is introduced, users will no longer be able to choose or be redirected to OWA Light and should use the modern Outlook on the web experience instead.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
@@ -13,7 +106,7 @@
   {
     "title": "The great RTS game Tempest Rising has a big The Veti's Wrath DLC announced",
     "link": "https://www.gamingonlinux.com/2026/07/the-great-rts-game-tempest-rising-has-a-big-the-vetis-wrath-dlc-announced/",
-    "description": "A full single-player expansion is command to the great RTS game Tempest Rising. Titled The Veti's Wrath, you'll get some explosive new missions to play.Read the full article on GamingOnLinux.",
+    "description": "A full single-player expansion is coming to the great RTS game Tempest Rising. Titled The Veti's Wrath, you'll get some explosive new missions to play.Read the full article on GamingOnLinux.",
     "guid": "https://www.gamingonlinux.com/2026/07/the-great-rts-game-tempest-rising-has-a-big-the-vetis-wrath-dlc-announced/",
     "date": "Jul 10, 2026 10:32",
     "published_at": "2026-07-10T10:32:09Z",
@@ -440,17 +533,6 @@
     "source_url": "https://lxer.com/"
   },
   {
-    "title": "Meta To Build $9 Billion Alberta Data Center, Its First In Canada",
-    "link": "https://news.slashdot.org/story/26/07/09/0436235/meta-to-build-9-billion-alberta-data-center-its-first-in-canada?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "Meta will build its first Canadian data center in Alberta, investing $9 billion in a 1-gigawatt facility that can scale to 1.8 gigawatts to support its AI infrastructure needs. The project will rely on new generation and grid infrastructure funded by Meta, including a long-term agreement tied to a new natural gas power facility. The company says it will offset electricity use with clean and renewable energy investments. Reuters reports: Meta has doubled down on AI, pledging hundreds of billions of dollars to build large AI data centers in the U.S. The Alberta announcement represents the company's 33rd data center globally. Executives made the announcement in Calgary alongside Premier Danielle Smith and other Alberta government officials, who have spent several years courting Silicon Valley tech giants with the aim of spurring a large-scale investment in the oil-and-gas province. Alberta's technology minister, Nate Glubish, told reporters there are currently several other gigawatt-scale data center proposals in various stages of development in the province. \"This is the first of its kind, the first of its size, the first of its scale, but it won't be the last,\" Glubish said.\n \nMeta, like other tech giants, is facing rapidly expanding power needs due to the growth of AI, and Alberta is rich in natural gas which sells at a significant discount to the U.S. benchmark. The province's cold climate also makes cooling the massive super-computers and related data center infrastructure more cost-efficient. The 20 existing small- to mid-scale data centers in Alberta already pull from the province's energy grid, which is 60% powered by natural gas. The provincial government is giving new proponents the option to build their own power sources to avoid limits on power capacity. Meta said Wednesday it will fully fund new generation and grid infrastructure for its Alberta data center, which will consume about as much electricity as 800,000 homes. Gary Demasi, Meta's vice president for data center development, said the company will offset that electricity use by investing in clean and renewable energy. He also said the data center will use a closed-loop liquid cooling system, meaning its total water use will be less than that of a typical golf course.\n \n[...] The company has partnered with Alberta-based Pembina Pipeline , which announced last week it will go ahead with its Greenlight Electricity Centre, a new natural gas-fired power-generation facility in Sturgeon County which will be in service in late 2030 and with which Meta has a long-term tolling agreement. Until that project is operational and for the next decade, Alberta-based power producer Capital Power will provide 250 megawatts of electricity for the site using its existing natural gas-fired fleet. The project will require approximately 150 million cubic feet per day of natural gas, according to Pembina, helping to create demand for Western Canadian natural gas producers.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 09, 2026 11:00",
-    "published_at": "2026-07-09T11:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
     "title": "Avoiding Vendor Lock-in By Using KDE Plasma As Personal Knowledge Base",
     "link": "https://feed.itsfoss.com/link/24361/17375459/kde-plasma-as-personal-knowledge-base",
     "description": "Exploring a rudimentary style of notes management with Markdown and KDE Dolphin. Sometimes, simplicity is the best solution.",
@@ -522,265 +604,5 @@
     "image": "https://itsfoss.com/content/images/2026/07/german-state-kicking-out-sharepoint-banner.png",
     "source": "itsfoss.com",
     "source_url": "https://itsfoss.com/"
-  },
-  {
-    "title": "Linux Mint Cinnamon is finally Wayland ready",
-    "link": "https://www.gamingonlinux.com/2026/07/linux-mint-cinnamon-is-finally-wayland-ready/",
-    "description": "The next release of the Cinnamon desktop and Linux Mint is finally ready for Wayland - with it no longer considered to be experimental.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/linux-mint-cinnamon-is-finally-wayland-ready/",
-    "date": "Jul 09, 2026 09:08",
-    "published_at": "2026-07-09T09:08:14Z",
-    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1307790055id29358gol.webp",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
-    "title": "Tuxedo Computers are putting Ubuntu Linux in the bin to use Debian for Tuxedo OS",
-    "link": "https://www.gamingonlinux.com/2026/07/tuxedo-computers-are-putting-ubuntu-linux-in-the-bin-to-use-debian-for-tuxedo-os/",
-    "description": "Tuxedo Computers have announced plans to officially drop Ubuntu Linux for their own Tuxedo OS, as they will be moving directly to Debian.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/tuxedo-computers-are-putting-ubuntu-linux-in-the-bin-to-use-debian-for-tuxedo-os/",
-    "date": "Jul 09, 2026 08:28",
-    "published_at": "2026-07-09T08:28:12Z",
-    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/160764539id29357gol.webp",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
-    "title": "GStreamer 1.28.5 Multimedia Framework Adds Support for H.266/VVC Decoding",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366114",
-    "description": "GStreamer 1.28.5 has been released today as the fifth maintenance update to the latest and greatest GStreamer 1.28 series of this powerful, free, open-source, and cross-platform multimedia framework.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366114",
-    "date": "Jul 09, 2026 08:19",
-    "published_at": "2026-07-09T08:19:17Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Ratchet \u0026 Clank: Rift Apart also got a nice AMD FSR upgrade",
-    "link": "https://www.gamingonlinux.com/2026/07/ratchet-clank-rift-apart-also-got-a-nice-amd-fsr-upgrade/",
-    "description": "PlayStation Publishing upgraded the PC release of Ratchet \u0026 Clank: Rift Apart to bring with it new AMD FSR upgrades to hopefully give a smoother experience.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/ratchet-clank-rift-apart-also-got-a-nice-amd-fsr-upgrade/",
-    "date": "Jul 09, 2026 08:16",
-    "published_at": "2026-07-09T08:16:41Z",
-    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1332956351id29356gol.webp",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
-    "title": "Spider-Man Remastered, Miles Morales and Spider-Man 2 all get AMD FSR upgrades",
-    "link": "https://www.gamingonlinux.com/2026/07/spider-man-remastered-miles-morales-and-spider-man-2-all-get-amd-fsr-upgrades/",
-    "description": "Marvel's Spider-Man Remastered, Marvel's Spider-Man: Miles Morales and Marvel's Spider-Man 2 were all given a little update recently to improve AMD FSR.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/spider-man-remastered-miles-morales-and-spider-man-2-all-get-amd-fsr-upgrades/",
-    "date": "Jul 09, 2026 08:06",
-    "published_at": "2026-07-09T08:06:13Z",
-    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1822022442id29355gol.webp",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
-    "title": "New Steam Beta brings improvements for Steam Input, Remote Play, Steam Controller",
-    "link": "https://www.gamingonlinux.com/2026/07/new-steam-beta-brings-improvements-for-steam-input-remote-play-steam-controller/",
-    "description": "Having issues? The new Steam Beta might fix them with improvements to Steam Input, Remote Play and Steam Controller as well.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/new-steam-beta-brings-improvements-for-steam-input-remote-play-steam-controller/",
-    "date": "Jul 09, 2026 07:14",
-    "published_at": "2026-07-09T07:14:17Z",
-    "image": "https://www.gamingonlinux.com/uploads/tagline_gallery/steam_plain_2025.jpg",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
-    "title": "Shoebox-Sized 'Detector Satellites' Could Sniff Out a Nuclear Bomb In Space",
-    "link": "https://science.slashdot.org/story/26/07/09/0427237/shoebox-sized-detector-satellites-could-sniff-out-a-nuclear-bomb-in-space?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "A new study proposes using shoebox-sized detector satellites to sniff out nuclear weapons launched by adversary nations. The idea is aimed at addressing fears that a space-based nuclear detonation could destroy satellites across low Earth orbit and make some orbits unusable for years. Space.com shares the findings from a new paper authored by Areg Danagoulian, an associate professor of nuclear science and engineering at the Massachusetts Institute of Technology: No reliable way currently exists to detect and defuse a nuclear bomb in space. Danagoulian proposes a constellation of small \"9U\" cubesats, each one about the size of a large shoebox and each carrying a special detector capable of sensing radiation emitted by unexploded nuclear bombs. He explores a scenario in which Russia launches a suspected space nuke into an orbit with an altitude of 1,200 miles (2,000 km). That number is not random. In 2022, Russia's Kosmos 2553 satellite, orbiting at that exact altitude, triggered suspicions it might be testing components for a future orbital nuclear weapon.\n \nRussia claims the satellite just observes Earth. At that altitude, the satellite passes through the Van Allen belt, a region of intense cosmic radiation trapped by Earth's magnetic field. Most of the belt stretches between altitudes of around 600 miles (1,000 km) to tens of thousands of miles, but in some areas the radiation can reach much closer to Earth's surface. The interaction between the fissile material inside the nuke and the energetic particles from the radiation belt would create distinct signatures, Danagoulian said, which could help confirm whether a suspicious satellite carries a nuke or not.\n \n\"The thermonuclear weapon would contain a significant amount of uranium,\" Danagoulian said. \"The high-energy protons [in the uranium] would break up when another proton is coming in and shred the nuclei. That would knock out a large number of neutrons. This interaction turns that device into a very intense neutron source that otherwise would not be there.\" he process is known as proton-induced neutron spallation, which essentially means the ejection of fragments from material triggered by impacts of protons. The detector satellite Danagoulian proposes would have to be able to get quite close to the suspect spacecraft -- a few kilometers.\n \nThe inspector spacecraft would carry a sensor combining two types of detectors. At the heart of the device is a neutron scintillator, which detects all incoming neutrons and protons. Around it is a \"cage of diamond\" detector that detects only neutrons -- not protons. Such a set-up helps filter out the particles present in the environment naturally, said Danagoulian. In addition, by using two \"planes of neutron detectors,\" the sensor can determine the direction from which the neutrons arrived. \"If the external diamond detector triggers and gives a signal, you can ignore the particle, because it's most likely a proton and not a neutron,\" said Danagoulian. \"Once you identify those neutrons, by having those two detections, you can back project and find out where the neutron came from.\"\n \nDanagoulian says such a nuke sniffer would have to be launched into an orbit aligned with that of the suspicious satellite and creep up as close as 2.5 miles (4 km) from it. It would then take about a week to gather enough measurements to confirm whether the object is hiding a nuke or not. A constellation of 10 such satellites could reduce the process to mere hours, Danagoulian said. If a nuke were detected, the military could then try to jam the satellite's communications link from the ground, making it impossible for the adversary to remotely detonate the bomb. There is currently no technology available to safely defuse a nuclear weapon in space. [...] Danagoulian also suggests that high-grade radiation hardening could improve satellites' chances of surviving a nuclear winter in space. The paper has been published in the journal Nature.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 09, 2026 07:00",
-    "published_at": "2026-07-09T07:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Wayland No Longer Considered Experimental For Linux Mint's Next Cinnamon Release",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366099",
-    "description": "The Linux Mint distribution has published their June development summary that most notably includes work on Cinnamon's Wayland support where it's now ready to graduate...",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366099",
-    "date": "Jul 09, 2026 06:47",
-    "published_at": "2026-07-09T06:47:48Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Linux Now Runs on the Atari Jaguar, a 1993 Console With Just 2 MB of RAM",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366101",
-    "description": "The Atari Jaguar joins the list of unlikely Linux machines, booting a NOMMU Linux kernel and BusyBox shell from cartridge ROM.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366101",
-    "date": "Jul 09, 2026 05:16",
-    "published_at": "2026-07-09T05:16:18Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "US Food and Drug Administration Rejects Petition To Set PFAS Limits In Food",
-    "link": "https://yro.slashdot.org/story/26/07/09/0359202/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "An anonymous reader quotes a report from The Guardian: The US Food and Drug Administration has rejected a legal petition demanding it set limits on toxic Pfas \"forever chemicals\" in food, marking another setback for public health advocates' push to limit exposures to the dangerous compounds. The agency is refusing to set limits despite a growing body of science and the Environmental Protection Agency (EPA) finding food is the biggest source of Pfas exposure. Testing has found the levels of Pfas in single servings of some contaminated foods to be equivalent to drinking many glasses of contaminated water.\n \nWhile regulators have focused on reining in Pfas in water, the chemicals are widely used throughout the food system, and there was hope that the agency under Robert F Kennedy Jr would take the threat more seriously. Kennedy leads the \"make America healthy again\" (Maha) movement, of which eliminating toxic chemicals from food is a cornerstone. [...] The November 2023 petition called on the FDA to check for up to 30 Pfas compounds in a range of produce, fish, eggs, milk and bread. The agency did not respond within the six-month timeframe required by law, but TEJTF scaled back its petition in 2025 to ask the agency to set advisory thresholds for PFOA and Pfos, two of the most common and dangerous Pfas compounds, in seafood and milk.\n \nRecent FDA testing found 70% of seafood samples contain the chemicals, while independent milk testing found it in 12% of 50 samples, including extremely high levels in Whole Foods and Kirkland Signature brands. The FDA rejected the revised petition, stating it plans to take action on setting standards for Pfas, and there is \"insufficient evidence to support [TEJTF's] request.\" The agency said it plans to set less non-binding \"action levels\" that do not require contaminated food to be removed from shelves. \"Tolerance levels,\" or limits, make it illegal to sell food contaminated beyond a set threshold.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 09, 2026 04:00",
-    "published_at": "2026-07-09T04:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "GL.iNet Comet X Quad-Port Remote KVM with PoE and 4K HDMI",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366068",
-    "description": "GL.iNet’s Comet X is a quad-port remote KVM designed for centralized management of up to four servers or PCs. The device features browser- or app-based remote access, Power over Ethernet, 4K HDMI passthrough, local console access, and onboard storage for system images or recovery files. The Comet X, model GL-RM4PE, is powered by a quad-core […]",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366068",
-    "date": "Jul 09, 2026 03:44",
-    "published_at": "2026-07-09T03:44:49Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "[$] LWN.net Weekly Edition for July 9, 2026",
-    "link": "https://lwn.net/Articles/1080835/",
-    "description": "Inside this week's LWN.net Weekly Edition:\n        \n        \n Front: Cryptography API; Iomap explanation; Negative dentries; Faster RCUs and lockless allocation for BPF; Negative dentries; LLMs in memory-management code\n             Briefs: Guix vulnerabilities; OpenSSH 10.4; trusted publishing; kernel archive; CalyxOS; Quotes; ...\n             Announcements: Newsletters, conferences, security updates, patches, and more.\n            ",
-    "guid": "https://lwn.net/Articles/1080835/",
-    "date": "Jul 09, 2026 01:12",
-    "published_at": "2026-07-09T01:12:33Z",
-    "source": "lwn.net",
-    "source_url": "https://lwn.net"
-  },
-  {
-    "title": "Deepin 25.2 Released with Smarter File Search and Desktop Improvements",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366095",
-    "description": "Deepin 25.2 brings over 20 Treeland fixes, better multi-monitor handling, improved file indexing, and updated security components.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366095",
-    "date": "Jul 09, 2026 00:41",
-    "published_at": "2026-07-09T00:41:50Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
-    "link": "https://lwn.net/Articles/1081884/",
-    "description": "Over on the OpenMandriva\nforum, the Linux distribution has reported\nsabotage of its repositories by a disgruntled contributor with\nadministrative credentials.  According to \"AngryPenguin\", an abusive\nincident in a distribution Matrix chat led to a user being kicked out of\nthe chat; that \"triggered a cascade of events\", which led to people\nresigning from the distribution.  Eventually, one of those people used\ntheir administrative privileges to delete part of the distribution's GitHub\nrepository and to \"publish an empty package in the cooker\nrepository, which obsoleted all gnome and cosmic packages, which could have\ndamaged the systems of people using gnome or cosmic\".\n\n\nWe are currently working to restore the deleted repositories and restore\nthe functionality of the obsolete packages.\n\n[...] We performed a full system audit and, aside from the removed\npackages, we found no other violations. \n",
-    "guid": "https://lwn.net/Articles/1081884/",
-    "date": "Jul 08, 2026 22:31",
-    "published_at": "2026-07-08T22:31:34Z",
-    "source": "lwn.net",
-    "source_url": "https://lwn.net"
-  },
-  {
-    "title": "Redox OS Gets GTK3 Backend For Orbital Desktop, Fractional Scaling \u0026 USB Gamepads",
-    "link": "https://www.phoronix.com/news/Redox-OS-June-2026",
-    "description": "The open-source, Rust-based Redox OS platform had a very eventful June with many new features implemented and more software ported over to run on this from-scratch operating system...",
-    "guid": "https://www.phoronix.com/news/Redox-OS-June-2026",
-    "date": "Jul 08, 2026 18:30",
-    "published_at": "2026-07-08T18:30:02Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "LibreOffice 26.8 Beta Released For Improving This Free Software Office Suite",
-    "link": "https://www.phoronix.com/news/LibreOffice-26.8-Beta-1",
-    "description": "The Document Foundation today announced the first beta release of the LibreOffice 26.8 open-source office suite set for its stable debut in August...",
-    "guid": "https://www.phoronix.com/news/LibreOffice-26.8-Beta-1",
-    "date": "Jul 08, 2026 16:27",
-    "published_at": "2026-07-08T16:27:11Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "OpenMandriva GitHub Disrupted \u0026 Nefarious Package Push In Sabotage Attempt",
-    "link": "https://www.phoronix.com/news/OpenMandriva-Disrupted",
-    "description": "The OpenMandriva project put out a statement today concerning an attempted distribution sabotage effort. Part of the OpenMandriva GitHub repository was deleted and there was an empty package push made to OpenMandriva's Cooker repository in trying to obsolete all GNOME and COSMIC packages...",
-    "guid": "https://www.phoronix.com/news/OpenMandriva-Disrupted",
-    "date": "Jul 08, 2026 16:05",
-    "published_at": "2026-07-08T16:05:22Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Single vs. Dual Channel Memory Performance With The Intel Core Ultra 7 270K Plus",
-    "link": "https://www.phoronix.com/review/single-dual-memory-linux",
-    "description": "Given today's pricing environment around system memory, a Phoronix Premium supporter recently requested some benchmarks to quantify the performance difference from single to dual channel memory. In considering a new computer build, he is contemplating whether to go for a single stick of DDR5 memory until memory prices hopefully subside in the future. For those in a similar boat, here are some benchmarks of single versus dual channel memory on an Intel Core Ultra 7 270K Plus \"Arrow Lake\" desktop.",
-    "guid": "https://www.phoronix.com/review/single-dual-memory-linux",
-    "date": "Jul 08, 2026 14:48",
-    "published_at": "2026-07-08T14:48:06Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "ORICO 88 Series 4-Bay USB4 NVMe SSD Enclosure Review: Fast Storage That Works Natively on Linux",
-    "link": "https://feed.itsfoss.com/link/24361/17374968/orico-das-8848u-review",
-    "description": "A compact 4-bay NVMe enclosure with USB4 connectivity, tested on Linux with benchmarks.",
-    "guid": "6a4d10e48181fe0001a5928f",
-    "date": "Jul 08, 2026 13:58",
-    "published_at": "2026-07-08T13:58:14Z",
-    "image": "https://itsfoss.com/content/images/2026/07/orico-das-side-3-1.webp",
-    "source": "itsfoss.com",
-    "source_url": "https://itsfoss.com/"
-  },
-  {
-    "title": "Vampirium: 1997 is a mysterious looking choice-filled minimalist immersive sim",
-    "link": "https://www.gamingonlinux.com/2026/07/vampirium-1997-is-a-mysterious-looking-choice-filled-minimalist-immersive-sim/",
-    "description": "Vampirium: 1997 looks like nothing else. A minimalist story-rich immersive sim that's coming from Bithell Games.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/vampirium-1997-is-a-mysterious-looking-choice-filled-minimalist-immersive-sim/",
-    "date": "Jul 08, 2026 13:52",
-    "published_at": "2026-07-08T13:52:20Z",
-    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/951799530id29353gol.webp",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
-    "title": "Intel Sunsets Quantum Intrinsics \u0026 Other Open-Source Projects This Week",
-    "link": "https://www.phoronix.com/news/Intel-Ends-Quantum-Intrinsics",
-    "description": "Intel has formally archived some more of their now-unmaintained open-source projects this week...",
-    "guid": "https://www.phoronix.com/news/Intel-Ends-Quantum-Intrinsics",
-    "date": "Jul 08, 2026 13:37",
-    "published_at": "2026-07-08T13:37:39Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Mortal Shell II set for release on August 20",
-    "link": "https://www.gamingonlinux.com/2026/07/mortal-shell-ii-set-for-release-on-august-20/",
-    "description": "If you love challenging combat - Mortal Shell II may be one for you to pick up when it arrives on August 20th.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/mortal-shell-ii-set-for-release-on-august-20/",
-    "date": "Jul 08, 2026 13:33",
-    "published_at": "2026-07-08T13:33:26Z",
-    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1518942523id29352gol.webp",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
-    "title": "[$] Progress in modernizing kernel cryptography",
-    "link": "https://lwn.net/Articles/1077427/",
-    "description": "At the 2026 Linux Security Summit North America, Eric Biggers spoke about\nsome of the problems with the kernel's cryptography framework, as well\nas the recent progress in adding library APIs to allow developers to\nuse cryptographic functions without using the traditional crypto\nAPI. He walked through a couple of examples to demonstrate the\nfrailty of the original API and showed how the new library API made\nlife easier for developers and kernel maintainers.",
-    "guid": "https://lwn.net/Articles/1077427/",
-    "date": "Jul 08, 2026 13:14",
-    "published_at": "2026-07-08T13:14:23Z",
-    "source": "lwn.net",
-    "source_url": "https://lwn.net"
-  },
-  {
-    "title": "AMD ZenDNN 6.0 Brings Many Improvements For Accelerating Inference On Ryzen/EPYC CPUs",
-    "link": "https://www.phoronix.com/news/AMD-ZenDNN-6.0",
-    "description": "AMD ZenDNN 6.0 released today as a significant update to this open-source deep neural network library for helping to accelerate inferencing on AMD Zen processors from Ryzen to EPYC...",
-    "guid": "https://www.phoronix.com/news/AMD-ZenDNN-6.0",
-    "date": "Jul 08, 2026 13:07",
-    "published_at": "2026-07-08T13:07:42Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Security updates for Wednesday",
-    "link": "https://lwn.net/Articles/1081798/",
-    "description": "Security updates have been issued by AlmaLinux (container-tools:rhel8, kernel-rt, libreoffice, nodejs:22, nodejs:24, opentelemetry-collector, perl-HTTP-Daemon, and python-markdown), Debian (dpkg, imagemagick, and postfix), Fedora (betterleaks, docker-compose, firefox, helm, perl-Compress-Raw-Bzip2, perl-IO-Compress, perl-JavaScript-Minifier-XS, python-cramjam, python-fastar, python-pillow-jxl-plugin, python-rignore, and tor), Oracle (grafana, grafana-pcp, and ruby:4.0), Slackware (tftp), SUSE (gi-docgen, glibc, helm, helm3, json-c-devel, kubevirt-1.6, librpmbuild10, python313-dulwich, python313-lxml_html_clean, python313-openapi-spec-validator, and sdbootutil), and Ubuntu (ruby-addressable).",
-    "guid": "https://lwn.net/Articles/1081798/",
-    "date": "Jul 08, 2026 12:50",
-    "published_at": "2026-07-08T12:50:59Z",
-    "source": "lwn.net",
-    "source_url": "https://lwn.net"
   }
 ]
