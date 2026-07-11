@@ -1,5 +1,194 @@
 [
   {
+    "title": "I Mined and Built My Way Through Space Haven",
+    "link": "https://feed.itsfoss.com/link/24361/17376559/space-haven-review",
+    "description": "An indie game studio out of Finland, Linus Torvalds' birth country, built this game, treating Linux as a first-class citizen.",
+    "guid": "6a50b63f8181fe0001a66461",
+    "date": "Jul 11, 2026 11:56",
+    "published_at": "2026-07-11T11:56:36Z",
+    "image": "https://itsfoss.com/content/images/2026/07/space-haven-banner.png",
+    "source": "itsfoss.com",
+    "source_url": "https://itsfoss.com/"
+  },
+  {
+    "title": "Graviton5 CPU Benchmarks: 30% Geo Mean Improvement Over Graviton4",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366128",
+    "description": "After originally announcing Graviton5 last December, recently AWS finally made the M9g and M9gd instances generally available as the first featuring these new in-house ARM server processors for the EC2 cloud. Graviton5 makes use of Arm Neoverse-V3 cores compared to Neoverse-V2 with Graviton4, support up to 192 cores, and feature a higher 3.3GHz clock speed compared to 2.8GHz on the prior-generation Graviton CPUs. Here is an initial look at how the Graviton5 processor performs over Graviton4.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366128",
+    "date": "Jul 11, 2026 11:33",
+    "published_at": "2026-07-11T11:33:15Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "FCC Approves Reflect Orbital's Space Mirror Satellite That Astronomers Hate",
+    "link": "https://science.slashdot.org/story/26/07/10/2230254/fcc-approves-reflect-orbitals-space-mirror-satellite-that-astronomers-hate?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "The FCC has approved (PDF) Reflect Orbital's Earendil-1 test satellite, which will use a 60-by-60-foot mirror to reflect sunlight back to Earth after dark. \"The reflected light from the satellite is supposed to span an area about 3 miles wide on the ground,\" reports PCMag. It comes despite objections from astronomers and environmental groups who are concerned that the satellites will unleash intrusive light pollution. From the report: The approval is only for one satellite, dubbed Earendil-1, which is meant to test Reflect Orbital's technology for shining sunlight back to Earth. The satellite will boast a steerable thin-film reflector measuring about 60 feet by 60 feet, with the goal of powering solar farms at night or illuminating disaster-struck areas after dark to help rescue teams. Reflect Orbital envisions operating over 50,000 satellites by 2035, effectively surrounding the Earth with a fleet of mirrors. The proposal has faced stiff pushback from environmental groups and astronomers who are concerned that the satellites will unleash intrusive light pollution. The opposition has been so strong that the FCC received over 1,800 public comments on the application, many of them objecting to Reflect Orbital's plan for Earendil-1.\n \n[...] [T]he FCC approved the satellite, noting the grant is only \"for a single demonstration satellite\" to test an innovative technology that could advance American leadership in space. \"The Communications Act states that it is the policy of the United States to 'encourage the provision of new technologies and services to the public,' and Reflect Orbital's demonstration satellite is an example of a potentially groundbreaking technology that the Commission has found is in the public interest to support,\" the order says. But on the most controversial aspect of the satellite, the FCC said the concerns around Reflect Orbital's solar reflector are \"unrelated to the Commission's role in authorizing use of radiofrequency spectrum, and even if the Commission had authority to review and condition these operations (which it does not), these harms are unlikely to occur.\n \nIn addition, the commission said that U.S. courts have blocked the FCC from using \"a generalized public interest requirement beyond its statutory authority in regulating communications. Accordingly, the operations of a solar reflector in space would not be reviewed as part of the Bureau's public interest analysis.\" The regulator also noted that conducting an environmental review for the satellite went beyond its authority. Even if the FCC did have the power, the commission emphasized that the grant is for a single satellite, not 50,000. \"The majority of these comments focus on a hypothetical plan to deploy tens of thousands of satellites, and those who argue the single satellite will harm the human environment do not demonstrate with specificity the potential harm will be caused by the single satellite, but rather rely on the same studies as the commenters objecting to a larger constellation,\" the FCC adds.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 11, 2026 11:00",
+    "published_at": "2026-07-11T11:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "LLVM Merges x86 LFI \"Lightweight Fault Isolation\" Target For In-Process Sandboxing",
+    "link": "https://www.phoronix.com/news/LLVM-x86-LFI-Merged",
+    "description": "Stanford researchers have been developing Lightweight Fault Isolation \"LFI\" compiler passes and targets for LLVM as a means of efficient, native code sandboxing. The AArch64 LFI target was previously upstreamed while this week the x86/x86_64 LFI target was also upstreamed for this means of in-process sandboxing...",
+    "guid": "https://www.phoronix.com/news/LLVM-x86-LFI-Merged",
+    "date": "Jul 11, 2026 10:12",
+    "published_at": "2026-07-11T10:12:09Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "Blizzard fix up Diablo IV crashing on SteamOS / Linux",
+    "link": "https://www.gamingonlinux.com/2026/07/blizzard-fix-up-diablo-iv-crashing-on-steamos-linux/",
+    "description": "With the most reason season update to Diablo IV, it caused a number of issues on SteamOS / Linux - which should now actually be officially solved.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/blizzard-fix-up-diablo-iv-crashing-on-steamos-linux/",
+    "date": "Jul 11, 2026 10:04",
+    "published_at": "2026-07-11T10:04:25Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/2131316415id29370gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "KDE Frameworks 6.28 Released with Support for New KRunner Conversion Units",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366146",
+    "description": "The KDE Project released KDE Frameworks 6.28 today as the latest stable update to this open-source collection of more than 80 add-on libraries to Qt and a companion to the KDE Plasma desktop environment and KDE Gear software suite.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366146",
+    "date": "Jul 11, 2026 10:01",
+    "published_at": "2026-07-11T10:01:46Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "KDE Developers Continue Landing More Features For Plasma 6.8",
+    "link": "https://www.phoronix.com/news/Plasma-6.8-Spectacle-Audio",
+    "description": "KDE developers continue to be very busy this summer landing more features for the upcoming Plasma 6.8 desktop...",
+    "guid": "https://www.phoronix.com/news/Plasma-6.8-Spectacle-Audio",
+    "date": "Jul 11, 2026 09:51",
+    "published_at": "2026-07-11T09:51:44Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "DLSS Updater 4.3.0 for Linux has \"grown into a full Proton Upscalers panel\"",
+    "link": "https://www.gamingonlinux.com/2026/07/dlss-updater-4-3-0-for-linux-has-grown-into-a-full-proton-upscalers-panel/",
+    "description": "Open source is awesome, and tools like the DLSS Updater can be incredibly useful and the Linux support just keeps on getting better.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/dlss-updater-4-3-0-for-linux-has-grown-into-a-full-proton-upscalers-panel/",
+    "date": "Jul 11, 2026 09:35",
+    "published_at": "2026-07-11T09:35:26Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/450467523id29369gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Steam Beta adds Steam Machine Verified information to the interface",
+    "link": "https://www.gamingonlinux.com/2026/07/steam-beta-adds-steam-machine-verified-information-to-the-interface/",
+    "description": "Valve released another Steam Beta - this time with a few bug fixes but also now actually showing Steam Machine Verified information in the interface.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/steam-beta-adds-steam-machine-verified-information-to-the-interface/",
+    "date": "Jul 11, 2026 08:57",
+    "published_at": "2026-07-11T08:57:01Z",
+    "image": "https://www.gamingonlinux.com/uploads/tagline_gallery/steamos-steam-machine_gol2.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Valve fix up Marvel Rivals on SteamOS / Linux with Proton Hotfix",
+    "link": "https://www.gamingonlinux.com/2026/07/valve-fix-up-marvel-rivals-on-steamos-linux-with-proton-hotfix/",
+    "description": "Another constantly updated game that broke with newer Proton recently is Marvel Rivals, but now thanks to Valve it should work again with Proton Hotfix.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/valve-fix-up-marvel-rivals-on-steamos-linux-with-proton-hotfix/",
+    "date": "Jul 11, 2026 08:43",
+    "published_at": "2026-07-11T08:43:50Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/2082172908id29367gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Chatto Chat App Is Now Open Source and Available to Self-Host",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366150",
+    "description": "Chatto, a privacy-focused group and team chat platform with voice, video, and screen sharing, is now open source and free to self-host.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366150",
+    "date": "Jul 11, 2026 08:30",
+    "published_at": "2026-07-11T08:30:16Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "Mesa's Rusticl Now Enables Arm Mali Panfrost Driver Support By Default",
+    "link": "https://www.phoronix.com/news/Mesa-Rusticl-Panfrost-Default",
+    "description": "A change upstreamed to Mesa by an Arm engineer now enables the Panfrost Gallium3D driver for Arm Mali graphics to work with the Rusticl driver by default...",
+    "guid": "https://www.phoronix.com/news/Mesa-Rusticl-Panfrost-Default",
+    "date": "Jul 11, 2026 08:00",
+    "published_at": "2026-07-11T08:00:00Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "China Lands Rocket During an Orbital Launch For First Time",
+    "link": "https://science.slashdot.org/story/26/07/10/1840220/china-lands-rocket-during-an-orbital-launch-for-first-time?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "China successfully recovered an orbital rocket booster for the first time, landing the Long March 10B's first stage into a net-equipped sea platform after its maiden launch. \"This mission marks my country's first successful controlled recovery of a launch vehicle and the world's first network-based recovery of a launch vehicle,\" the China Aerospace Science and Technology Corporation (CASC) announced via social media shortly after the launch. (Translation by Google.) \"It signifies a historic breakthrough for my country in the field of reusable rocket technology and will lay a solid foundation for accelerating the improvement of my country's space access capabilities.\" Space.com reports: The Long March 10B is a two-stage rocket that stands about 207 feet (63 meters) tall, according to the state-owned CASC, the main contractor for China's space program. The vehicle's first stage burns kerosene and liquid oxygen (LOX) propellants, whereas the second stage uses LOX and liquid methane. In reusable mode, the Long March 10B can loft about 16 tons of payload to low Earth orbit.\n \nAnd the rocket flew with a payload on its debut liftoff -- a satellite that successfully reached \"its predetermined orbit,\" according to the CASC update. That post did not provide any details about the spacecraft or its orbit. It did give a brief rundown of the first-stage recovery, however. \"Approximately 6 minutes after the first and second stages separated, the first stage returned vertically and was successfully recovered at a sea-based recovery platform using a net system,\" CASC officials wrote, noting that launch occurred from the Hainan Commercial Space Launch Site on Friday at 12:15 a.m. EDT (0415 GMT; 12:15 p.m. Beijing time.) \"The launch and first-stage recovery missions were a complete success.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 11, 2026 07:00",
+    "published_at": "2026-07-11T07:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Wine 11.13 Lands with Better X11 Keyboard Mapping and 22 Fixes",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366151",
+    "description": "Wine 11.13 is now available with better pointer input handling, improved X11 keyboard scancode mapping, ARM64EC optimizations, and 22 bug fixes.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366151",
+    "date": "Jul 11, 2026 05:27",
+    "published_at": "2026-07-11T05:27:17Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets",
+    "link": "https://yro.slashdot.org/story/26/07/10/2223208/apple-sues-openai-accusing-it-of-stealing-company-secrets?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "An anonymous reader quotes a report from The New York Times: Apple on Friday accused OpenAI of stealing secrets about products still in development, setting up a legal face-off between two of the world's biggest tech companies. In a lawsuit filed in U.S. District Court for the Northern District of California, the consumer tech giant said that OpenAI, a leader in artificial intelligence that has a new hardware business, had asked job candidates from Apple to share details about secret projects and to bring device components and prototypes to their interviews. Apple also accused an OpenAI employee of downloading internal documents from a laptop owned by the iPhone maker. OpenAI used the confidential information to approach Apple's manufacturing partners, including asking one partner to demonstrate Apple's technique for finishing metal on its devices, the lawsuit says. Apple sent a letter to OpenAI in February to raise concerns that confidential information could be \"making its way to OpenAI's business improperly,\" according to the suit. OpenAI did not respond, Apple said. \"OpenAI's nascent hardware business now rests on the shakiest of foundations, rotten to its core by its illegal reliance on misappropriated trade secrets,\" Apple wrote in its lawsuit.\n \n[...] In its lawsuit Friday, Apple accused Tang Tan, OpenAI's chief hardware officer and a former Apple executive, of coaching his hires from Apple on how to evade Apple's security processes for departing employees. Apple accused another former employee, Chang Liu, of using a former colleague's Apple-owned laptop to access and download technical documents while working at OpenAI. Mr. Liu told that Apple employee what information about unannounced products she should study before job interviews, Apple said. Mr. Liu also planned to access internal documents through an Apple-owned laptop that he didn't return when he left the company, according to the lawsuit. OpenAI had misled the manufacturing company it approached to learn about the metal finishing technique to believe it had Apple's permission to view it, according to the lawsuit. Apple is seeking an injunction that would prevent OpenAI from possessing, using or sharing Apple's trade secrets, as well as an order requiring OpenAI to return Apple's intellectual property.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 11, 2026 03:30",
+    "published_at": "2026-07-11T03:30:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "ELM11-Feather Is a Feather-Compatible Board That Speaks Lua Natively",
+    "link": "https://feed.itsfoss.com/link/24361/17376435/elm11-feather-announcement",
+    "description": "It's an FPGA-based board that lets you program the application, driver, and hardware layers in Lua, C, and VHDL/SystemVerilog, and it starts at $29.",
+    "guid": "6a4e010c8181fe0001a596df",
+    "date": "Jul 11, 2026 03:11",
+    "published_at": "2026-07-11T03:11:56Z",
+    "image": "https://itsfoss.com/content/images/2026/07/elm-11-feather.webp",
+    "source": "itsfoss.com",
+    "source_url": "https://itsfoss.com/"
+  },
+  {
+    "title": "Pop!_OS Rolls Out Its \"Frosted Glass\" Desktop Style For COSMIC",
+    "link": "https://www.phoronix.com/news/COSMIC-Frosted-Glass-Arrives",
+    "description": "System76 developers have for the past number of weeks been working on developing a \"frosted glass\" appearance for the COSMIC desktop environment featured on their Pop!_OS Linux distribution. For Pop!_OS users this frosted glass feature is now available and will become more widespread for other Linux distributions once the next COSMIC release is formally tagged...",
+    "guid": "https://www.phoronix.com/news/COSMIC-Frosted-Glass-Arrives",
+    "date": "Jul 11, 2026 00:57",
+    "published_at": "2026-07-11T00:57:00Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "Wine 11.13 Better Supports Input Pointers, Improved Keyboard Scancode Mapping For X11",
+    "link": "https://www.phoronix.com/news/Wine-11.13-Released",
+    "description": "Wine 11.13 is out today as the newest bi-weekly development release for this open-source software enabling support for running Windows games and applications on Linux...",
+    "guid": "https://www.phoronix.com/news/Wine-11.13-Released",
+    "date": "Jul 11, 2026 00:49",
+    "published_at": "2026-07-11T00:49:54Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
     "title": "Brown Professor Suspects Majority of His Class Used AI To Cheat",
     "link": "https://news.slashdot.org/story/26/07/10/2215249/brown-professor-suspects-majority-of-his-class-used-ai-to-cheat?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
     "description": "Longtime Slashdot reader schwit1 shares a report from Inside Higher Ed: For the first time since he started teaching Welfare Economics and Social Choice Theory nearly two decades ago, Brown University economics professor Roberto Serrano gave his students a take-home midterm this spring. Quite a few students had expressed anxiety about being in a classroom after a gunman killed two students and injured nine in a December mass shooting at Brown, and so \"it was appropriate,\" he said, to allow students to take their exams at home. But by the end of the semester, Serrano regretted the decision. Dozens of students in the class likely used artificial intelligence to cheat and earn perfect or near-perfect scores on their midterm, he said. Serrano in turn made the final exam in-person, which led more than a dozen students to drop the course and even more to fail it.\n \nAdministrators' response to the widespread cheating event has been \"meek,\" he said, and the incident has raised questions about how universities can -- and should -- respond to AI-enabled cheating at scale. \"I am not declaring [the midterm] void for now. I am going to give the class a chance to prove me wrong,\" he wrote. \"That is, if the distribution of the final exam is roughly similar to the distribution of the midterm, I will count the midterm. Otherwise, which is of course what I expect to happen, I will declare the midterm void and reweigh the final accordingly.\" Serrano heard crickets from his students, but 18 of them subsequently dropped the class. Nine students remained enrolled but did not take the final exam. And Serrano said the results proved him right; three students earned a zero, and the average score on the final was 48.6 percent -- by far a historic low, he said. Previously, the average final exam score had never dropped below 65 percent. Only a few students scored similarly to how they did on the midterm.\n\n\n\n\n\nRead more of this story at Slashdot.",
@@ -323,120 +512,6 @@
     "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366129",
     "date": "Jul 10, 2026 04:18",
     "published_at": "2026-07-10T04:18:35Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Phoronix Premium 2026 Summer Support Special Ends Tonight",
-    "link": "https://www.phoronix.com/news/Premium-Summer-26-Ending",
-    "description": "For those that enjoy the daily flow of original open-source/Linux news on Phoronix along with all of the original Linux hardware reviews and performance benchmarking, but haven't yet subscribed to Phoronix Premium to help keep the site going after 22 years, the summer sale ends tonight...",
-    "guid": "https://www.phoronix.com/news/Premium-Summer-26-Ending",
-    "date": "Jul 10, 2026 04:00",
-    "published_at": "2026-07-10T04:00:00Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Humanoid Robots Controlled By Surgeons Did World-First Operation On Live Pigs",
-    "link": "https://hardware.slashdot.org/story/26/07/10/0128252/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "An anonymous reader quotes a report from Ars Technica: Humanoid robots have surgically removed the gallbladders from living animals in an unprecedented medical experiment -- but not as autonomous machines capable of replacing human doctors. Instead, skilled human surgeons remotely controlled the robots' movements in a new example of human-robot teamups. The teleoperated humanoid robots completed two minimally invasive surgeries by removing gallbladders from live pigs during a preclinical trial that was published in the journal Nature. If this approach eventually proves clinically ready for human patients, surgeons could use such humanoid robots to remotely perform robotic-assisted surgical care in smaller hospitals and clinics that lack the resources to install specialized but expensive surgical robots.\n \nThe experiment used a Unitree G1 humanoid robot made by leading Chinese robotics company Unitree. The cheapest baseline G1 model with effectively non-functional hands has a starting price of $13,500 and shipping costs ranging between $300 and $1,200, whereas adding crucial upgrades such as dexterous robotic hands can easily push the cost beyond $67,000. But such humanoid robots made in China are still significantly cheaper than specialized surgical robots like Intuitive Surgical's da Vinci Surgical System, which can cost anywhere between half a million dollars and several million dollars. The specialized surgical robots can also weigh about 1,800 pounds and take up considerably more space in operating rooms. By comparison, the Unitree humanoid robots, standing at 5 feet tall and weighing just 60 pounds, may be more suitable for smaller clinical settings in remote areas.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 10, 2026 03:30",
-    "published_at": "2026-07-10T03:30:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "AMD Enabling CACP Feature On Linux For Greater OLED Power Savings",
-    "link": "https://www.phoronix.com/news/AMDGPU-DC-Enabling-CACP",
-    "description": "Today's batch of AMDGPU Display Code \"DC\" updates bring a few noteworthy items for benefiting modern hardware under Linux...",
-    "guid": "https://www.phoronix.com/news/AMDGPU-DC-Enabling-CACP",
-    "date": "Jul 10, 2026 00:51",
-    "published_at": "2026-07-10T00:51:44Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Lawmakers Probe Growing Use of Chinese AI Models In US Companies",
-    "link": "https://news.slashdot.org/story/26/07/09/1947218/lawmakers-probe-growing-use-of-chinese-ai-models-in-us-companies?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "U.S. lawmakers are probing the growing use of Chinese AI models by American companies, citing concerns over censorship, security risks, and whether U.S. firms are turning to cheaper foreign models because domestic alternatives are too costly or restricted. The investigation is specifically looking at companies such as Cursor and Airbnb. \"The growing use of Chinese AI models by U.S. companies raises serious concerns,\" a State Department spokesperson told CNBC. Those \"AI models are designed to advance Beijing's narratives, censor dissent, and reflect CCP ideology and values.\" CNBC reports: The House Committee on Homeland Security and the House Select Committee on China said in April they will jointly investigate the growing adoption of Chinese-developed AI models. An initial step in the probe was for the chairmen of those committees to send letters to Cursor and Airbnb, over their \"use of or exposure to these risks\" through AI developed in China. \"The Chinese Communist Party is no longer just nipping at our heels in artificial intelligence; it is racing to close the gap in some of the exact capabilities that will shape the future of cybersecurity,\" Andrew Garbarino, chairman of the U.S. House Committee on Homeland Security, told CNBC. \"Recent reporting that a Chinese open-weight model can match leading U.S. models in certain vulnerability discovery and cybersecurity tasks is highly alarming,\" said Garbarino.\n \nWhile some government departments have banned the usage of Chinese AI models including DeepSeek, adoption of them by U.S. companies is not prohibited. Tech chiefs, including crypto company Coinbase's Brian Armstrong and AI startup Lindy's Flo Crivello, have been publicly touting the use of models from China to reduce costs. Cursor, which will be acquired by Elon Musk's SpaceX for $60 billion, built its Composer 2 model using Chinese AI model Kimi, which was developed by Moonshot AI. Alongside focusing on the rise of Chinese AI models, the ongoing joint House Committees' investigation is also looking into whether the U.S. is doing enough to tackle their rise. \"The Committees are also examining whether the United States has a sufficient open-weight AI strategy to ensure American companies and cyber defenders are not forced to choose between expensive or restricted U.S. models and cheap, capable PRC-developed alternatives,\" a Committee aide, who asked not to be named as they were not authorized to discuss the ongoing probe, told CNBC.\n \n[...] The administration could consider the use of federal procurement bans, which would include restricting government agencies and private companies that serve the U.S. government from using Chinese AI models, Kyle Chan, fellow in the John L. Thornton China Center at think tank Brookings, told CNBC. \"However, it's ultimately impossible to ban China's open-source AI models because their model weights are available freely on the internet,\" Chan added. \"This could enter into first amendment speech issues.\" [...] Another [approach] could be disseminating findings about risks and vulnerabilities associated with Chinese AI models to U.S. companies. \"Regardless, I do expect both the Executive Branch and Congress to communicate their interest not to see U.S. companies adopting these models,\" [said Daniel Remler, senior fellow, technology and national security program at think tank the Center for a New American Security (CNAS), told CNBC].\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 09, 2026 23:00",
-    "published_at": "2026-07-09T23:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Wireshark 4.6.7 Released with Updated Protocol Support, Bug and Security Fixes",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366123",
-    "description": "While Wireshark 4.8 is still in the works, Wireshark 4.6.7 has been released today as yet another minor update in the Wireshark 4.6 series of this popular open-source, free, and cross-platform network protocol analyzer.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366123",
-    "date": "Jul 09, 2026 22:02",
-    "published_at": "2026-07-09T22:02:43Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Google Search Hits All-Time Usage Record",
-    "link": "https://tech.slashdot.org/story/26/07/09/1829252/google-search-hits-all-time-usage-record?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "Google says the World Cup drove Search to its highest usage in history, with queries per second peaking right after Argentina's winning goal against Egypt. CNBC reports: The milestone comes as the company tries to prove its traditional search engine can keep its relevance in the age of AI, where chatbots have become more prevalent. Google still controls 90% of the search market, its stock price has more than doubled in the past year and revenue growth in the first quarter was the fastest for any period since 2022.\n \nGoogle said its top searched query after the game was \"argentina vs egypt.\" Globally, the company also saw people searching for things like \"argentina x colombia\" and \"how many world cup goals does messi have.\" Additional queries included \"what is it called when a player hits another player in game\" and \"is it messi's last world cup.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 09, 2026 22:00",
-    "published_at": "2026-07-09T22:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Meta Patents AI Device That Tracks Your Emotions, Watches You Take Your Meds",
-    "link": "https://yro.slashdot.org/story/26/07/09/1835232/meta-patents-ai-device-that-tracks-your-emotions-watches-you-take-your-meds?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "An anonymous reader quotes a report from 404 Media: Meta has filed a patent for a system that records your voice and surroundings all day, then uses an AI to analyse your mood. The patent's stated, theoretical goal is for Meta, a company that makes billions of dollars targeting ads at its users based on their data, is to sell users a wearable that tailors workouts for them based on whether they're happy or sad. Patentlyze first noticed the patent which was published on July 2 after Meta filed it back in December of 2025. The filing described an \"apparatus\" that surveilled a user and their surroundings constantly to craft a better workout. \"The audible communications may be associated with contextual factors such as time of day, location, user activity, or digital interaction,\" the patent said. \"The audible communications may be transcribed, and an emotional-state machine learning model may interpret verbal and nonverbal cues to determine emotional indicators.\"\n \nAccording to the filing, Meta needs to know when a user laughs or sighs, where they are physically, and what objects they're surrounded by. It would even like to know when you've taken your meds. \"The AI assistant may listen to a user(s) at predefined times to hear various types of communication, such as sighs, laughter, and/or the tone(s) of a voice(s),\" the patent said. \"The AI assistant may use these inputs to quantify the user's emotional state or generate other insights about the user [...] in another example, the AI assistant may take multiple inputs in in addition to audio inputs (e.g., of a user's voice) to provide a summary of emotional trends based on various inputs (e.g., a happier emotional state associated with a particular time of day or at a time when medication is taken, etc.).\" The more data it has, the patent explains, the better it could understand a user's moods. \"The system increases the precision and reliability of emotional inference by aligning multimodal sensor inputs on synchronized timelines, which creates a novel data structure that supports richer emotional analysis,\" it said. \"These combined features deliver a technical improvement in automated audio interpretation, enabling continuous emotional monitoring on everyday devices.\"\n \nThe emotional-analyzing AI would need far more than just a user's words to determine moods over time. A longer description of the hypothetical training data for the AI included \"attributes of thousands of objects\" such as a user's books, personal messages, and newspapers. \"In some examples, audible communications may include speech (e.g., voice data), sighs, laughter, or other nonverbal sounds associated with an expression(s), an emotion(s), or ideas. In some examples, the audible communications may include the tone(s) of a voice of a user while making the communication(s),\" it said. All this data, Meta says, would be in service of tailoring better workouts. Humans, the patent explained, are simply not as good as a machine for this. \"Personal trainers cannot provide the level of precision in guidance, such as correcting a pose and/or body movement,\" it said. \"These challenges create a need for a practical approach that uses a single device to observe movement, recommend routines, and provide corrective guidance.\" \"Like other companies, patents at Meta are often filed to disclose concepts that may or may not be implemented, and a granted patent does not guarantee that Meta has pursued or will pursue the technology described,\" the company said in a statement.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 09, 2026 21:00",
-    "published_at": "2026-07-09T21:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Wayland 1.26 RC1 Released With New Event To Help Ensure Correct Pointer Coordinates",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366125",
-    "description": "In addition to Weston 16 nearing release and its release candidate out today, the Wayland 1.26 release candidate was just issued with a few notable changes on top of the more typical bug fixing...",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366125",
-    "date": "Jul 09, 2026 20:31",
-    "published_at": "2026-07-09T20:31:13Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "15-Year-Old Linux Kernel GhostLock Flaw Lets Local Users Gain Root",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366126",
-    "description": "CVE-2026-43499, dubbed GhostLock by Nebula Security, exposes a long-standing Linux kernel futex bug that can lead to local root access.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366126",
-    "date": "Jul 09, 2026 18:59",
-    "published_at": "2026-07-09T18:59:44Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Graviton5 CPU Benchmarks: 30% Geo Mean Improvement Over Graviton4",
-    "link": "https://www.phoronix.com/review/aws-graviton5",
-    "description": "After originally announcing Graviton5 last December, recently AWS finally made the M9g and M9gd instances generally available as the first featuring these new in-house ARM server processors for the EC2 cloud. Graviton5 makes use of Arm Neoverse-V3 cores compared to Neoverse-V2 with Graviton4, support up to 192 cores, and feature a higher 3.3GHz clock speed compared to 2.8GHz on the prior-generation Graviton CPUs. Here is an initial look at how the Graviton5 processor performs over Graviton4.",
-    "guid": "https://www.phoronix.com/review/aws-graviton5",
-    "date": "Jul 09, 2026 17:53",
-    "published_at": "2026-07-09T17:53:00Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Lightwell: Red Hat’s and IBM’s AI Defense Against AI-Based Attacks",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366122",
-    "description": "The only elephant in the room isn’t in the oval office. For enterprises dependent on IT — meaning every enterprise on the planet these days — there’s an elephant in every server and in every data center.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366122",
-    "date": "Jul 09, 2026 17:28",
-    "published_at": "2026-07-09T17:28:14Z",
     "source": "lxer.com",
     "source_url": "https://lxer.com/"
   }
