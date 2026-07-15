@@ -1,5 +1,215 @@
 [
   {
+    "title": "GOG throws shade at Sony with \"download it and save it forever\" message",
+    "link": "https://www.gamingonlinux.com/2026/07/gog-throws-shade-at-sony-with-download-it-and-save-it-forever-message/",
+    "description": "With Sony's decision to stop selling games on disc for PlayStation consoles, they were of course going to get roasted by many - including GOG.com.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/gog-throws-shade-at-sony-with-download-it-and-save-it-forever-message/",
+    "date": "Jul 15, 2026 12:05",
+    "published_at": "2026-07-15T12:05:50Z",
+    "image": "https://www.gamingonlinux.com/uploads/tagline_gallery/gog_logo.jpg",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Visor Is a New Graphical UEFI Boot Manager for Linux",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366192",
+    "description": "Visor is a new open-source UEFI boot manager for Linux, designed to launch kernels, UKIs, Windows, and other EFI applications.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366192",
+    "date": "Jul 15, 2026 11:12",
+    "published_at": "2026-07-15T11:12:42Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "Astronauts Take First X-Rays In Space",
+    "link": "https://science.slashdot.org/story/26/07/15/0354223/astronauts-take-first-x-rays-in-space?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "Astronauts on SpaceX's Fram2 mission successfully captured diagnostic X-ray images in orbit for the first time. The milestone gives space medicine a second imaging option beyond ultrasound and could help future crews diagnose injuries, inspect equipment, and support longer missions to the moon or beyond. Popular Science reports: Commercial off-the-shelf X-ray machines like the ice cooler-sized MinXray TR90BH now allow users to perform scans on subjects far away from traditional facilities. In 2022, [Mayo Clinic researcher Sheyna Gifford] assisted in preparing a crew to successfully generate digital X-rays while experiencing microgravity during a parabolic flight. Gifford's team then spent years collaborating with SpaceX to plan another feasibility study. This time, they didn't want to operate an X-ray machine aboard an aircraft simulating the conditions in space -- they intended to use the equipment during an orbital mission.\n \nThe process was detailed in a recently published study in the journal Radiology, and focuses on last year's Fram2 mission. Instead of days of medical training, astronauts spent only four hours learning how to use their portable radiography device. They then took preflight X-rays of a hand, forearm, chest, abdomen, and pelvis ahead of their SpaceX Falcon 9 rocket launch on March 31, 2025. Once in orbit, the team calibrated the system before testing their MinXray on the same body parts as well as a smartwatch.\n \nOnce the crew returned, a trio of independent radiologists reviewed the orbital X-ray images based on their positioning, spatial and contrast resolutions, and general scan quality. Although positioning scores were slightly decreased for the central body images, every other scan held up to similar examples created on Earth. Meanwhile, the astronauts reported that using the machine was easy despite minimal prior coaching. Looking ahead, researchers hope to conduct further X-ray tests during orbital missions, while continuing to reduce the overall size of equipment.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 15, 2026 11:00",
+    "published_at": "2026-07-15T11:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Linus Torvalds Reaffirms That Linux Is Not \"Anti-AI\" \u0026 Not A \"Social Warrior\" Project",
+    "link": "https://www.phoronix.com/news/Linux-Is-Not-Anti-AI",
+    "description": "Overnight Linux creator Linus Torvalds wrote another well crafted message that reaffirms the Linux kernel position of not being against AI and lashing back against some kernel developers that are against AI/LLM usage within the kernel project...",
+    "guid": "https://www.phoronix.com/news/Linux-Is-Not-Anti-AI",
+    "date": "Jul 15, 2026 10:35",
+    "published_at": "2026-07-15T10:35:21Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "Vocalinux 0.14 Beta Released For Offline Voice Dictation / Speech-To-Text On Linux",
+    "link": "https://www.phoronix.com/news/Vocalinux-0.14-Beta",
+    "description": "Ubuntu 26.10 is notably working on laying the foundation for a context-aware desktop and their initial deliverable being worked on is Myna as a speech-to-text solution for the Linux desktop. Interestingly there is already a promising voice dictation / speech-to-text solution for the Linux desktop called Vocalinux that continues advancing and is usable right now for those looking at their own speech-to-text desktop solution...",
+    "guid": "https://www.phoronix.com/news/Vocalinux-0.14-Beta",
+    "date": "Jul 15, 2026 10:10",
+    "published_at": "2026-07-15T10:10:34Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": " Developer successfully ports Linux to 1994 Sega 32X — Genesis and MegaDrive expansion runs open-source OS on paltry 23MHz processors and 256KB of RAM ",
+    "link": "https://www.tomshardware.com/software/linux/developer-successfully-ports-linux-to-1994-sega-32x-genesis-and-megadrive-expansion-runs-open-source-os-on-paltry-23mhz-processors-and-256kb-of-ram",
+    "description": " The adventurous developer who recently ported Linux to the Atari Jaguar (1993) has brewed up a version of the open source OS for the Sega 32X (1994). ",
+    "guid": "wrAn6Z4gfWTSMyr46Jnuta",
+    "date": "Jul 15, 2026 10:04",
+    "published_at": "2026-07-15T10:04:30Z",
+    "image": "https://cdn.mos.cms.futurecdn.net/NNRFxXJVxqtHxtSeA5GFu6-1280-80.jpg",
+    "source": "tomshardware.com",
+    "source_url": "https://www.tomshardware.com/software/operating-systems/linux"
+  },
+  {
+    "title": "Cursor AI's Silence on a Critical Flaw Jeopardizes Millions of Users",
+    "link": "https://feed.itsfoss.com/link/24361/17380640/cursor-ignores-critical-flaw",
+    "description": "The flaw lets any repository auto-execute code on Cursor for Windows, and researchers say the company ignored it.",
+    "guid": "6a57291325bda20001509f6d",
+    "date": "Jul 15, 2026 09:59",
+    "published_at": "2026-07-15T09:59:20Z",
+    "image": "https://itsfoss.com/content/images/2026/07/cursor-caution-banner.png",
+    "source": "itsfoss.com",
+    "source_url": "https://itsfoss.com/"
+  },
+  {
+    "title": "FreeBSD Laptop Support Continues Improving With WiFi, GPU \u0026 Audio Driver Work",
+    "link": "https://www.phoronix.com/news/FreeBSD-Laptops-June-2026",
+    "description": "The FreeBSD Foundation's Laptop Support and Usability Project, which has received more than $750k USD in funding to improve the experience of FreeBSD on laptops, is out with its newest monthly progress report. A lot continues to happen for improving the FreeBSD laptop story, which in many aspects also benefits FreeBSD on the desktop too...",
+    "guid": "https://www.phoronix.com/news/FreeBSD-Laptops-June-2026",
+    "date": "Jul 15, 2026 09:56",
+    "published_at": "2026-07-15T09:56:19Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "Mesa's Native Vulkan-To-Metal Driver Now Advertises Vulkan 1.4",
+    "link": "https://www.phoronix.com/news/KosmicKrisp-Vulkan-1.4",
+    "description": "KosmicKrisp as the Vulkan API driver built atop Apple's Metal API in Mesa for macOS and iOS systems is now advertising Vulkan 1.4 compatibility...",
+    "guid": "https://www.phoronix.com/news/KosmicKrisp-Vulkan-1.4",
+    "date": "Jul 15, 2026 09:39",
+    "published_at": "2026-07-15T09:39:11Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "You're the crew of the world's worst airline in Dear Passengers and it looks hilarious",
+    "link": "https://www.gamingonlinux.com/2026/07/youre-the-crew-of-the-worlds-worst-airline-in-dear-passengers-and-it-looks-hilarious/",
+    "description": "Dear Passengers could be the next huge \"friendslop\" hit, one where you and friends become the crew of the world's worst airline.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/youre-the-crew-of-the-worlds-worst-airline-in-dear-passengers-and-it-looks-hilarious/",
+    "date": "Jul 15, 2026 09:08",
+    "published_at": "2026-07-15T09:08:59Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1489651990id29390gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Get some fun co-op games with the Squad Goals Humble Bundle",
+    "link": "https://www.gamingonlinux.com/2026/07/get-some-fun-co-op-games-with-the-squad-goals-humble-bundle/",
+    "description": "Time to cosy up with a friend with some fab co-op games available in the Squad Goals Humble Bundle.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/get-some-fun-co-op-games-with-the-squad-goals-humble-bundle/",
+    "date": "Jul 15, 2026 08:23",
+    "published_at": "2026-07-15T08:23:03Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1325837727id29389gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "COSMIC Desktop 1.3 Shines with Its New Frosted Glass Design",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366219",
+    "description": "COSMIC Desktop 1.3 introduces its long-awaited frosted glass appearance, improved GPU monitoring, AVIF wallpapers, and numerous fixes.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366219",
+    "date": "Jul 15, 2026 08:09",
+    "published_at": "2026-07-15T08:09:43Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "It looks like iFixit won't be getting any more Steam Deck LCD spare parts",
+    "link": "https://www.gamingonlinux.com/2026/07/it-looks-like-ifixit-wont-be-getting-any-more-steam-deck-lcd-spare-parts/",
+    "description": "Valve discontinued the last Steam Deck LCD model late in 2025, and it appears spare parts are going to become rare for it.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/it-looks-like-ifixit-wont-be-getting-any-more-steam-deck-lcd-spare-parts/",
+    "date": "Jul 15, 2026 07:47",
+    "published_at": "2026-07-15T07:47:18Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/718925167id29388gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Valve adds a \"Great on Machine\" section to the Steam Machine library",
+    "link": "https://www.gamingonlinux.com/2026/07/valve-adds-a-great-on-machine-section-to-the-steam-machine-library/",
+    "description": "Valve continue to roll out changes to improve the user experience on the new Steam Machine, which now has a \"Great on Machine\" section in the Steam Library.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/valve-adds-a-great-on-machine-section-to-the-steam-machine-library/",
+    "date": "Jul 15, 2026 07:04",
+    "published_at": "2026-07-15T07:04:12Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1131197193id29387gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "House Votes For Permanent Daylight Saving Time",
+    "link": "https://yro.slashdot.org/story/26/07/15/0346241/house-votes-for-permanent-daylight-saving-time?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "The House voted 308-117 to pass the Sunshine Protection Act, which would make daylight saving time permanent nationwide and end the twice-yearly clock change. The bill faces an uncertain future in the Senate, \"where one G.O.P. leader said it was unclear whether it could move ahead and at least one Republican appears inclined to try to block it,\" reports The New York Times. Some sleep experts oppose permanent daylight saving time, arguing that year-round standard time better aligns with circadian rhythms and winter morning safety. The New York Times reports: President Trump has championed the effort to save an extra hour of daylight before nightfall and make the time zone permanent, describing the ritual of moving clocks forward in the spring and back in the fall a \"ridiculous, twice yearly production.\" \"We are going with the far more popular alternative, Saving Daylight, which gives you a longer, brighter Day,\" Mr. Trump wrote in a social media post in May. \"And who can be against that.\"\n \nA sizable bloc of Florida Republicans in Congress is leading the charge on legislation that would do just that, mandating daylight saving time nationwide for the entire year. Representative Vern Buchanan of the Tampa Bay area is backing the bill, and Representative Anna Paulina Luna, another Tampa Bay-area Republican, cosponsored it. House leaders agreed to allow a vote on the measure this week as a sweetener for Ms. Luna in their efforts to persuade her to lift a legislative blockade she had maintained as she sought to force Senate action on a voting restriction bill Mr. Trump has championed.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 15, 2026 07:00",
+    "published_at": "2026-07-15T07:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Clonezilla Live 3.3.3 Disk Imaging Tool Adds Reverse-Connection Network Cloning",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366210",
+    "description": "Clonezilla Live maintainer Steven Shiau released today Clonezilla Live 3.3.3 as the latest stable version of this partition and disk imaging/cloning live Linux system based on Debian GNU/Linux.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366210",
+    "date": "Jul 15, 2026 06:38",
+    "published_at": "2026-07-15T06:38:13Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "Blender 5.2 LTS Released with Node-Based Physics and Online Asset Libraries",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366211",
+    "description": "Blender 5.2 LTS introduces experimental cloth and hair physics in Geometry Nodes, remotely hosted asset libraries, and major rendering improvements.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366211",
+    "date": "Jul 15, 2026 03:35",
+    "published_at": "2026-07-15T03:35:14Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "Iran Abused Mobile Networks' Vulnerabilities To Locate US Military In Middle East",
+    "link": "https://tech.slashdot.org/story/26/07/14/2121249/iran-abused-mobile-networks-vulnerabilities-to-locate-us-military-in-middle-east?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "An anonymous reader quotes a report from TechCrunch: The Iranian government abused well-known vulnerabilities in the global telecoms infrastructure to locate U.S. military personnel in the build-up to the Iran War, as well as in the early days of the conflict, according to Financial Times. The Iranian government exploited Signaling System 7, or SS7, a set of protocols for 2G and 3G networks that has long been the backbone of how cellular networks connect to each other to route subscribers' calls and texts around the world, the newspaper reported, citing research by the Mobile Surveillance Monitor, as well as anonymous government officials with knowledge of the spy campaign.\n \nIntelligence agencies have long abused SS7 to track cellphones abroad, which is what happened in this campaign. Using this technique, Iran was reportedly able to locate U.S. military forces stationed in military bases as well as hotels in Iraq, Bahrain, and other countries in the Middle East, which allowed the regime to strike them. These attacks resulted in several injuries. Apart from SS7, Iran also abused advertising technology used to serve tailored ads to cellphone users, another well-known surveillance technique that relies on everyday technology.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 15, 2026 03:30",
+    "published_at": "2026-07-15T03:30:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Khronos Lists First Conformant OpenCL 3.1 Implementation: Apple M1/M2 On Asahi Linux With Rusticl",
+    "link": "https://www.phoronix.com/news/OpenCL-3.1-Conformance-Apple",
+    "description": "Back in May OpenCL 3.1 was announced with a focus on AI and HPC workloads. Just over two months later, this incremental update over OpenCL 3.0 now has its first listed conformant OpenCL 3.1 implementation for passing the OpenCL 3.1 conformance test suite cases. It's Apple Silicon M1/M2 graphics running on Asahi Linux with the Mesa Rusticl driver...",
+    "guid": "https://www.phoronix.com/news/OpenCL-3.1-Conformance-Apple",
+    "date": "Jul 15, 2026 01:14",
+    "published_at": "2026-07-15T01:14:32Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "New Adder Pro Targets Linux Creators, Gamers, and Devs with OLED and RTX Graphics",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366214",
+    "description": "System76’s refreshed Adder Pro trims weight, adds Panther Lake silicon and RTX 50?series GPUs, and ships with Pop!_OS or Ubuntu for Linux?first power users.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366214",
+    "date": "Jul 15, 2026 00:32",
+    "published_at": "2026-07-15T00:32:15Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
     "title": "COSMIC 1.3 Desktop Environment Released with Frosted Glass Effect",
     "link": "https://lxer.com/module/newswire/ext_link.php?rid=366217",
     "description": "Linux hardware vendor System76 released COSMIC 1.3 today as the latest stable version of this Rust-based desktop environment for Pop!_OS Linux and other GNU/Linux distributions.",
@@ -418,119 +628,5 @@
     "published_at": "2026-07-14T05:17:45Z",
     "source": "lxer.com",
     "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "FreeBSD Desktop Installer Option Working Through NVIDIA Driver Handling, Licensing",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366184",
-    "description": "Alfonso Siciliano, who has been one of the FreeBSD developers leading the effort on adding a KDE-based desktop option to the FreeBSD installer, provided an update on recent work around adding integrating this desktop option...",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366184",
-    "date": "Jul 14, 2026 03:46",
-    "published_at": "2026-07-14T03:46:15Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Over 200 Economists Say 'We Must Act Now' On AI's Economic Impact",
-    "link": "https://slashdot.org/story/26/07/13/2210232/over-200-economists-say-we-must-act-now-on-ais-economic-impact?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "An anonymous reader quotes a report from the Associated Press: Hundreds of economists say in an open letter that institutions \"must act now\" to address how artificial intelligence could transform the economy and could put many people out of work. The statement released Monday was signed by top economists, along with computer scientists and some executives at tech companies including Anthropic, Google and OpenAI.\n \n\"AI may become radically more powerful over the next 10 years,\" says the letter organized by Stanford University's digital economy lab. \"This could drive an unprecedented transformation of our economy, larger than the Industrial Revolution, but unfolding over a vastly shorter time frame. It could bring risks, including large-scale job displacement, as well as opportunities such as major gains in living standards.\"\n \nThe letter, which has only four sentences, says leaders must \"build the incentives, guardrails, and institutions needed to steer AI in a direction that complements humans and benefits society.\" The Stanford lab says the letter has so far been signed by more than 200 economists and AI researchers, including 16 winners of a Nobel Prize. \"We must be intentional and make collective, democratic choices, rather than letting market forces play out and risking leaving most citizens behind,\" wrote computer scientist and AI pioneer Yoshua Bengio, who was also among the signatories. He said it \"it is highly plausible that AI will drastically transform our economies.\"\n \nOther signatories include Google CEO Eric Schmidt, LinkedIn cofounder Reid Hoffman, and Nobel laureates Joseph Stiglitz, Daron Acemonglu, and Simon Johnson.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 14, 2026 03:30",
-    "published_at": "2026-07-14T03:30:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "GNOME OS Plans a TestFlight-Like App for Experimental Software",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366189",
-    "description": "GNOME OS could gain a TestFlight-like Test Center for installing temporary experimental builds through simple sharing links.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366189",
-    "date": "Jul 14, 2026 02:14",
-    "published_at": "2026-07-14T02:14:46Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "New Linux Patches Aim To Better Handle Multiple Swap Devices",
-    "link": "https://www.phoronix.com/news/Linux-Improve-Multi-Swap-Device",
-    "description": "For those having Linux systems with multiple swap devices, such as for swap tiering or layered swap handling, a set of patches posted today for the Linux kernel are looking to improve the situation...",
-    "guid": "https://www.phoronix.com/news/Linux-Improve-Multi-Swap-Device",
-    "date": "Jul 14, 2026 00:38",
-    "published_at": "2026-07-14T00:38:08Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Raspberry Pi 5 IOMMU Driver Being Worked On For The Mainline Linux Kernel",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366182",
-    "description": "While the Raspberry Pi 5 is already over two and a half years old, one of the missing elements of its support from the mainline Linux kernel has been the IOMMU driver. We are now seeing Raspberry Pi's downstream IOMMU driver being adapted for mainline with hopes of getting it into the upstream kernel...",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366182",
-    "date": "Jul 14, 2026 00:10",
-    "published_at": "2026-07-14T00:10:18Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Microsoft Promises To Fix Search With Major Windows 11 Overhaul",
-    "link": "https://tech.slashdot.org/story/26/07/13/2149251/microsoft-promises-to-fix-search-with-major-windows-11-overhaul?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "Microsoft is overhauling Windows 11 search to prioritize local apps, files, and settings over web results while removing ads, promotions, MSN/Bing clutter, and other distractions. \"You've have been asking for search that is faster, more relevant, and easier to use -- whether you're opening an app, finding a file, or changing a setting,\" Microsoft says in a new blog post. \"Because the Windows Search Box is where many people start, we focused first on making results more dependable, easier to scan, and clearer before you click.\" Windows Central reports: The company is highlighting several key improvements, including clearer results that does a better job at showing why a search result is appearing when a query has been typed, alongside prioritizing local results before reaching out to the web.\n \nSearch is also getting better at handling things like typos, which should help surface the right results even when the user misspells an app or file. The search home pane will no longer show MSN or Bing content, and promotional content and ads will no longer appear in search results.\n \nThese upgrades are now rolling out to Windows Insiders in the Experimental Channel, and are expected to roll out to all Windows 11 users later this year. Insiders may not see the changes right away as they are rolling out in waves. The full list of changes can be found here.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 13, 2026 23:00",
-    "published_at": "2026-07-13T23:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Apprise 1.12 Notification Tool Adds Nine Services, Now Supports More Than 150",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366187",
-    "description": "Apprise 1.12 adds nine notification integrations, built-in HTML-to-Markdown conversion, Discord templates, Teams mentions, and SMTP security improvements",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366187",
-    "date": "Jul 13, 2026 22:38",
-    "published_at": "2026-07-13T22:38:49Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "US Government Warns That Russia State Hackers Are Coming After Your Router",
-    "link": "https://it.slashdot.org/story/26/07/13/2139254/us-government-warns-that-russia-state-hackers-are-coming-after-your-router?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "CISA and allied governments are warning users to secure their routers as Russian state-backed hackers continue compromising the devices and turning them into proxy nodes to disguise attacks against critical infrastructure. The advisory urges users to disable outdated SNMP versions, use strong passwords, update firmware, and turn off unnecessary router services to reduce the risk of being swept into these botnets. Ars Technica reports: \"Russian Federal Security Service (FSB) Center 16 cyber actors continue to exploit poorly configured and vulnerable networking devices worldwide, opportunistically compromising multiple critical infrastructure sector networks,\" the Cybersecurity and Infrastructure Security Agency said Monday. The hacking groups are tracked under various names, including Berserk Bear, Energetic Bear, Crouching Yeti, Dragonfly, Ghost Blizzard, and Static Tundra. The advisory was co-issued by governments from around the world, including Australia, Denmark, New Zealand, and the UK.\n \nThe primary means of compromise the agency warned about was hackers scanning IP ranges with active Simple Network Management Protocol (SNMP) agents that accept common or default authentication credentials. These scans are run by the very sorts of router botnets the actors are trying to enroll the targeted device in. By sending malicious traffic from spoofed addresses, the hackers can use the SNMP agent on poorly configured routers to run malware. SNMP allows users to collect and organize information about managed networking devices or to modify that information to change device behavior.\n \nWith control of a device, the hackers then use it as an exit node when probing or attacking targets in the communications, defense, energy, financial services, and government sectors. By funneling the malicious traffic through a benign-appearing device on a trustworthy IP address, the attackers are able to lower the chances of getting blocked by firewalls and other security defenses. Monday's advisory made no mention of identical operations carried out in recent years by China. So-called residential proxies are also a go-to tool used by financially motivated criminal hackers to obscure their true IP address. In many cases, these sorts of proxies are made up of millions of streaming devices that are sold with preloaded malware.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 13, 2026 22:00",
-    "published_at": "2026-07-13T22:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "German Firm Files For Insolvency After Cybercriminals Shut Down Production For 6 Weeks",
-    "link": "https://slashdot.org/story/26/07/13/2111209/german-firm-files-for-insolvency-after-cybercriminals-shut-down-production-for-6-weeks?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "German textile firm ZEGO has filed for insolvency and is blaming a March cyberattack that shut down production for nearly six weeks. \"ZEGO's filing adds another name to the short but growing list of companies that say a digital break-in was commercially fatal to their business,\" reports The Register. From the report: In a notice to customers and suppliers, the organization said it had exhausted every available option before seeking insolvency protection. Managing director Johannes Zenglein described the filing as \"one of the most difficult steps in our company's 37-year history.\" \"The cyberattack of March 29, 2026, however, impacted our company to an extent that we could not fully compensate for despite our best efforts,\" Zenglein wrote. \"The consequences resulted in a production outage of nearly six weeks and significant financial strain. These effects ultimately impacted our financial situation so severely that filing for insolvency became necessary.\"\n \nZEGO did not disclose what kind of attack it suffered, whether ransomware was involved, who was behind it, or whether customer or employee data was compromised. What it has made clear is that the operational disruption alone was enough to push the business beyond the point of recovery. ZEGO said insolvency proceedings have now been initiated, but insisted the filing does not necessarily spell the end of the business. It said it plans to keep production running while administrators attempt to restructure the business, preserve jobs, and keep customers and suppliers on board.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 13, 2026 21:12",
-    "published_at": "2026-07-13T21:12:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "9to5Linux Weekly Roundup: July 12th, 2026",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366179",
-    "description": "The 300th installment of the 9to5Linux Weekly Roundup is here for the week ending July 12th, 2026, keeping you updated on the most important developments in the Linux world.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366179",
-    "date": "Jul 13, 2026 21:07",
-    "published_at": "2026-07-13T21:07:19Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Graviton5 Outperforming Intel Xeon Granite Rapids But Falls Short Of AMD EPYC Turin",
-    "link": "https://www.phoronix.com/review/graviton5-epyc-xeon",
-    "description": "Following the recent GA of the AWS M9g series as the first instances powered by the new Graviton5 CPUs, I recently ran benchmarks looking at Graviton4 vs. Graviton5 CPU performance. There was very nice generational gains for the new AWS Graviton processors with the shift from Arm Neoverse-V2 to Neoverse-V3 cores and from DDR5-5600 to DDR5-8800 memory, among other improvements. For those wondering how the Graviton5 ARM server processors compare to AMD EPYC and Intel Xeon, here are some additional comparison data points from the Amazon EC2 cloud.",
-    "guid": "https://www.phoronix.com/review/graviton5-epyc-xeon",
-    "date": "Jul 13, 2026 16:53",
-    "published_at": "2026-07-13T16:53:00Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
   }
 ]
