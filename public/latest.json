@@ -1,5 +1,139 @@
 [
   {
+    "title": "Arm Core Local Accelerator Driver Posted For Linux As Agnostic Interface For Accelerators",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366269",
+    "description": "A new open-source Linux driver announced today by Arm is the Arm Core Local Accelerator \"CLA\" driver as a CPU-local interface for programming attached accelerators. This is an agnostic interface for attached accelerators with the initial target focusing on an attached compute engine...",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366269",
+    "date": "Jul 19, 2026 11:57",
+    "published_at": "2026-07-19T11:57:11Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "Are There Cybersecurity Risks in Over-the-Air Tech Used in Autos?",
+    "link": "https://tech.slashdot.org/story/26/07/19/046258/are-there-cybersecurity-risks-in-over-the-air-tech-used-in-autos?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "CNBC reports:\n\n\nThe automotive industry's increasing use of over-the-air technology to update vehicle systems makes it more susceptible to cyberattacks, analysts say, urging more intervention in the sector... Its use represents \"a unique national security concern,\" Gabriel Lim, senior analyst at the S. Rajaratnam School of International Studies in Singapore, told CNBC. \"Aside from data privacy concerns, the potential of a foreign actor sabotaging the controls of a moving vehicle is a possibility that countries like Norway, Denmark, and Britain have expressed concerns about,\" Lim added. \n\nIn May, the American Enterprise Institute warned that safeguarding the automotive sector was crucial to limit foreign governments' espionage capabilities. \"To protect against foreign espionage threats, the US should consider additional security reviews, implement restrictions on certain foreign-made hardware and software in vehicles, and mandate increased data-collection disclosures,\" the report said. The concerns come as real-life tests reveal vulnerabilities. Late last year, Norwegian bus company Ruter conducted tests on two buses and found that one had potential risks linked to OTA technology. \"There is access to the control system for battery and power supply via mobile network through a Romanian SIM card. In theory, therefore, this bus can be stopped or rendered inoperable by the manufacturer,\" the company said. The investigation by Ruter then sparked the U.K. and Denmark to conduct their own investigations... \n\nWhile these investigations were conducted on buses made by Chinese firm Yutong, [Siraj Ahmed Shaikh, systems security professor at the UK's Swansea University] said the issue goes beyond one manufacturer or country, as the technology becomes more pervasive. \"Other sectors adopting OTA include other transport modes [such as] maritime and rail, aerospace (particularly drones), industrial machinery and robotics,\" he said.\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 19, 2026 11:34",
+    "published_at": "2026-07-19T11:34:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "FFmpeg Lands Latest AVX-512 Optimization: 1.372x Faster In Pixel Format Conversion",
+    "link": "https://www.phoronix.com/news/FFmpeg-AVX-512-1.372x",
+    "description": "The latest hand-tuned code in the FFmpeg multimedia library for allowing better performance on today's modern Intel/AMD AVX-512-capable processors is showing 1.372x faster performance for RGB24 to RGBA pixel format conversions...",
+    "guid": "https://www.phoronix.com/news/FFmpeg-AVX-512-1.372x",
+    "date": "Jul 19, 2026 11:00",
+    "published_at": "2026-07-19T11:00:00Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "Legion Y700 Gen4 Tablet Powered By Snapdragon 8 Elite Seeing Linux Patches",
+    "link": "https://www.phoronix.com/news/Lenovo-Y700-Gen4-Linux-Patches",
+    "description": "The Legion Y700 Gen4 is an Android tablet that debuted last year and powered by the Qualcomm Snapdragon 8 Elite chipset. This 8.8-inch tablet is now seeing patches for enabling Linux support outside the confines of Android and will hopefully end up in the mainline kernel...",
+    "guid": "https://www.phoronix.com/news/Lenovo-Y700-Gen4-Linux-Patches",
+    "date": "Jul 19, 2026 10:29",
+    "published_at": "2026-07-19T10:29:00Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "Kitty 0.48 Terminal Emulator Introduces Vertical Tabs",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366289",
+    "description": "Kitty 0.48 introduces vertical tabs on the left or right side, plus Wayland fixes, macOS enhancements, and performance improvements.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366289",
+    "date": "Jul 19, 2026 10:25",
+    "published_at": "2026-07-19T10:25:42Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "More ASUS Motherboards To Enjoy Working Sensor Monitoring With Linux 7.3",
+    "link": "https://www.phoronix.com/news/Linux-7.3-More-ASUS-Sensors",
+    "description": "Thanks to the work of the open-source community, more ASUS desktop motherboards for Intel Core and AMD Ryzen systems are seeing working sensor monitoring under Linux. With the upcoming Linux 7.3 cycle, several additional ASUS motherboards will now enjoy working sensor monitoring...",
+    "guid": "https://www.phoronix.com/news/Linux-7.3-More-ASUS-Sensors",
+    "date": "Jul 19, 2026 10:17",
+    "published_at": "2026-07-19T10:17:04Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "New Study Links Teen Boys' ADHD Symptoms To Addictive Social Media Use",
+    "link": "https://science.slashdot.org/story/26/07/18/0327200/new-study-links-teen-boys-adhd-symptoms-to-addictive-social-media-use?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "A new study by researchers at the University of California at San Francisco \"adds to growing research linking increased social media use to detrimental effects on attention, memory and cognition,\" reports the Washington Post:\n\nThe study followed more than 11,000 U.S. adolescents over a period of five years, with participants first asked about their own social media use at the average age of 12, and surveyed annually through the average age of 16. Researchers found that increases in addictive social media use were followed by rising ADHD one year later — particularly among boys who reported rising addictive social media use at ages 14 and 15. This association was not found consistently in reverse, meaning that ADHD symptoms did not appear to precede higher levels of addictive social media use... \"When an individual adolescent's addictive social media use score increased from one year to the next, that same adolescent tended to show an increase in ADHD symptoms in the following year....\" [said Jason Nagata, lead author of the study and an associate professor of pediatrics at the University of California at San Francisco]. He urged parents to consider: \"Can their kids stop if they want to? Is social media interfering with their schoolwork? Is it impairing their social relationships? Are there addiction-like symptoms, like withdrawal and relapse?\" \n\nApproximately 7 million American children between the ages of 3 and 17 have received an ADHD diagnosis, according to the Centers for Disease Control and Prevention, and boys are diagnosed with ADHD at about twice the rate of girls. The study did not find a clear link between addictive social media use and ADHD among girls, Nagata said. \"Some studies do suggest that teenage boys in particular may be more sensitive to immediate reward and sensation-seeking in adolescence,\" he said. And social media platforms are designed to provide exactly that: \"It encourages frequent task-switching, and there's this constant stream of stimulation that might make it harder for adolescents to maintain and sustain attention that is needed for schoolwork and daily life,\" he said. \"The design features of social media offer the constant reinforcement of impulsivity — it offers immediate gratification and novelty and it encourages multitasking, which can then override working memory and executive control.\" Experts have long noted that this kind of digital exposure is particularly significant during critical stages of mental, social-emotional and cognitive development... \n\n[I]t's especially important for parents themselves to demonstrate a healthier relationship with screens and social media. \"One of our previous findings was that parental screen use is a very strong predictor of kids' screen use,\" Nagata said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 19, 2026 07:34",
+    "published_at": "2026-07-19T07:34:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Mozilla AI Releases Llamafile 0.10.4 With New Transcribefile Built On Transcribe.cpp",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366266",
+    "description": "Mozilla AI developers have released a new version of Llamafile,  their solution for easy-to-use LLMs as a single file that work across hardware and operating systems. With Llamafile 0.10.4 is now Transcribefile, as a new piece built off their recently announced Transcribe.cpp project...",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366266",
+    "date": "Jul 19, 2026 07:22",
+    "published_at": "2026-07-19T07:22:43Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "FreeBSD Base System Is Now Free of GPL-Licensed Software",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366264",
+    "description": "FreeBSD removes its last remaining GPL-licensed component from the base system and retires the now-empty GNU source subtree.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366264",
+    "date": "Jul 19, 2026 05:51",
+    "published_at": "2026-07-19T05:51:14Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "'Grok Build' Coding Tool Open Sourced This Week, Promises to Respect Zero Data Retention",
+    "link": "https://news.slashdot.org/story/26/07/19/034258/grok-build-coding-tool-open-sourced-this-week-promises-to-respect-zero-data-retention?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "Elon Musk confirmed SpaceX has open sourced the Grok Build CLI this week, reports The Register, \"just days after researchers caught the AI tool scooping up users' entire repositories and uploading them to company-controlled cloud storage.\" \n\nThat discovery had \"gathered so much negative attention that Elon Musk felt compelled to issue a public statement alongside SpaceX, and its technical staff, promising to delete all data that Grok Build has ever stored and give users more choice over how their data is handled.\"\n\n\nSpaceXAI's data grab was first publicized Sunday [July 12] by Cereblab, who probed Grok Build traffic and found that repos were being packaged up as Git Bundles and beamed to Google Cloud storage... [Elon Musk] said SpaceX would open-source Grok Build to sow greater trust in the product, after the codebase was audited for security vulnerabilities... [\"Open-sourcing Grok Build allows anyone to support making a reliable and robust harness,\" SpaceX posted on X.com. \"Check out our code, including the Git repo for the Grok Build CLI.\"] \n\n\nIn a separate statement accompanying the open source announcement, SpaceX said it has always respected Zero Data Retention (ZDR), which was applied to enterprise customers by default, and acknowledged that data retention was enabled by default for everyone else, which has now been corrected. It said: \"In response to user questions about privacy: Since launch, Grok Build has fully respected zero data retention (ZDR). All users have always had the ability to disable data upload in the CLI. When data upload was disabled, this choice was respected. In the early beta, data retention was enabled by default for non-ZDR users. Based on your feedback, we changed this. We are now going further to protect privacy. With all retained data deleted, retention default off, and an open-source harness, we are offering complete user privacy. You can also run Grok Build fully open-sourced and local-first with your own inference. \n\"We disabled default retention for all Grok Build users starting on July 12th. Additionally, we are deleting all coding data that was previously retained, ensuring every user's preferences are respected. With these steps, Grok Build goes beyond other major coding products to protect user privacy.\" \n\nSpaceX also invited researchers to probe Grok Build for security issues and report them to its bug bounty program, which offers rewards ranging from $100-$20,000, depending on the severity.\n\n\n \n\nThe article notes Simon Willison, creator of Datasette and co-creator of Django, wrote this week that the Grok Build codebase comprises 844,530 lines of Rust code. \"There are still remnants of the code that used to upload everything to Google Cloud,\" Willison writes, \"but they seem to have been disabled now.\" \n\nElon Musk also posted Wednesday that \"Once we have completed our review for security vulnerabilities, we will make the entire codebase of X open source, with no exceptions. Moreover, we will invite third party reviewers to examine the system that is running to confirm that the open source code is what is running.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 19, 2026 03:34",
+    "published_at": "2026-07-19T03:34:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Vocalinux Is an Open-Source Voice Dictation App Built for Linux",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366290",
+    "description": "The open-source Vocalinux app lets Linux users dictate text into almost any application while processing their speech locally.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366290",
+    "date": "Jul 19, 2026 02:48",
+    "published_at": "2026-07-19T02:48:15Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "OpenAI Acknowledges GPT-5.6 May Accidentally Delete Files, Calls It 'Honest Mistake'",
+    "link": "https://developers.slashdot.org/story/26/07/19/0129228/openai-acknowledges-gpt-56-may-accidentally-delete-files-calls-it-honest-mistake?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "\"OpenAI has finally confirmed reports that its latest family of large language models can accidentally delete files,\" reports InfoWorld, \"while stressing that such incidents are rare and should be viewed as 'honest mistakes.'\"\n\n\n\nReports of the flagship LLMs deleting files emerged shortly after the company launched them earlier this month, with investor Matt Shumer taking to X to report that GPT-5.6-Sol had \"just accidentally deleted almost all\" of his Mac's files. Just days later, software engineer Bruno Lemos posted on X that the same model had deleted his entire production database. In response to these incidents, the company's engineering lead for Codex, Thibault Sottiaux, wrote on X that internal investigations have revealed that these deletion incidents are more likely to happen when \"full access mode is enabled, and Codex is run without sandboxing protections, including without auto review being enabled.\" In cases where full access mode is granted, the model, Sottiaux wrote, \"attempts to override the $HOME env var to define a temporary directory. The model makes an honest mistake and mistakenly deletes $HOME instead....\" \n\n\n\nThe company, however, according to Sottiaux, is taking steps to mitigate the risk. \"This is of course not how we want the system to behave, even when a user operates the model in full-access mode without the safeguards of our sandbox or without using auto review which checks for these kinds of high risk actions and rejects them,\" the engineering lead wrote on X. \"We are taking steps to mitigate this risk, including by updating the developer message, guiding more users towards safer permission modes, and adding additional harness safeguards,\" Sottiaux added, noting that a detailed post-mortem outlining the root cause of the issue and the additional mitigation measures being implemented is expected to follow in the coming days, despite emphasizing that such incidents happen \"extremely rarely.\"\n\n\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 19, 2026 01:34",
+    "published_at": "2026-07-19T01:34:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "GNU Hurd Makes Progress On AArch64, Writing Translators In Rust",
+    "link": "https://www.phoronix.com/news/GNU-Hurd-Q2-2026",
+    "description": "The GNU Hurd project recently issued their Q2'2026 status report to outline recently development efforts. The Hurd is still happening!..",
+    "guid": "https://www.phoronix.com/news/GNU-Hurd-Q2-2026",
+    "date": "Jul 19, 2026 00:53",
+    "published_at": "2026-07-19T00:53:09Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
     "title": "France Orders ISPs to Block Access to Polymarket",
     "link": "https://yro.slashdot.org/story/26/07/18/2224236/france-orders-isps-to-block-access-to-polymarket?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
     "description": "France's regulatory authority for licensed gambling/betting games \"announced this week that it ordered ISPs to block access to Polymarket,\" reports Engadget. Anyone caught advertising an unauthorized betting site \"could be fined up to 100,000 euros, or around $114,000.\" (The article notes this follows a previous regulatory action from November placing a geoblock on financial transactions from French residents on Polymarket's site.) \n\n\nIn May Spain blocked access to Polymarket and Kalshi while it launched a gambling license investigation.\n\n\n\n\n\nRead more of this story at Slashdot.",
@@ -139,17 +273,6 @@
     "source_url": "https://slashdot.org/"
   },
   {
-    "title": "DXVK 3.0.2 brings bug fixes for Dying Light: The Beast, Halo and more on Linux / SteamOS",
-    "link": "https://www.gamingonlinux.com/2026/07/dxvk-3-0-2-brings-bug-fixes-for-dying-light-the-beast-halo-and-more-on-linux-steamos/",
-    "description": "Direct 3D 8, 9, 10 and 11 to Vulkan layer DXVK has a new bug fix release out, sorting some issues in specific games to make gaming on Linux / SteamOS better.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/dxvk-3-0-2-brings-bug-fixes-for-dying-light-the-beast-halo-and-more-on-linux-steamos/",
-    "date": "Jul 18, 2026 15:00",
-    "published_at": "2026-07-18T15:00:25Z",
-    "image": "https://www.gamingonlinux.com/uploads/tagline_gallery/dxvk_gol2.webp",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
     "title": "The 'Death of the Stick Shift' is Almost Here for Americans",
     "link": "https://tech.slashdot.org/story/26/07/18/0239231/the-death-of-the-stick-shift-is-almost-here-for-americans?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
     "description": "Last year just 0.6% of new vehicles made for U.S. customers were stick shifts, reports the Washington Post, citing preliminary government data. \n\n\"That's a precipitous drop from the 34.6 percent of vehicles with manual transmissions produced in 1980.\"\n\n\n[T]he stick shift's popularity hit multiple new lows in recent years, with no signs of a turnaround, thanks to new technologies and a rapidly changing marketplace. Buyers and automakers increasingly have turned to the sophisticated automatic drivetrains that now smoothly swap gears in fractions of a second and with better fuel efficiency. The average new vehicle today comes with seven gears, thanks to computers, twice as many as in 1980 and more gears than any ordinary driver would want to shift through using a manual gearbox. At the same time, sporty cars — the kind that buyers might demand a stick shift to drive — have fallen out of favor, replaced by interest in hulking SUVs, which are almost always automatics. The stick shift's demise has been hastened, too, by the rise of electric vehicles and increasingly autonomous vehicles. Neither have any need for a manual transmission... \n\n\nEurope has seen a less dramatic decline in stick shifts, with manual transmissions dropping from 91 percent of car registrations in 2001 to 29 percent in 2024 among Europe's largest auto markets, according to industry analyst JATO Dynamics... Subaru made its name with manual cars. But the Japanese automaker stopped offering a manual Crosstrek with the 2023 model year, having already dropped that transmission from its Legacy, Outback and Forester models. Other automakers have followed the same path. Volkswagen announced that it plans this year to ditch its last U.S. stick-shift model, the Jetta GLI. \n\nEven Toyota, Honda, and BMW have all reduced the number of cars for the U.S. market with a manual transmission, the article points out — leaving stick shift-loving Americans with a total of about 24 new-vehicle models to choose from. The articles adds that only 60% of Americans know how to drive a manual transmission (according to a survey from auto parts retailer AmericanMuscle): 83% for baby boomers but 39% for Gen Z. \"Respondents were about evenly split on whether knowing how to drive a manual is an important life skill.\" \n\nBut Ford CEO Jim Farley said earlier this year he has no plans to make the Mustang automatic-only.\n\"Out of our cold, dead hands will we not have a manual Mustang.\" Farley said.\n\n\n\n\n\nRead more of this story at Slashdot.",
@@ -262,6 +385,16 @@
     "source_url": "https://lxer.com/"
   },
   {
+    "title": "FastFlowLM Developers Join AMD To Help Push Open-Source NPU Software",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366274",
+    "description": "On top of releasing ROCm 7.14 as the new production release of ROCm now built offTheRock, rolling out the Lemonade 11.0 local AI server, and GAIA 0.22, AMD has some more open-source news in the lead up to next week's AMD Advancing AI event...",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366274",
+    "date": "Jul 18, 2026 07:10",
+    "published_at": "2026-07-18T07:10:33Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
     "title": "Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home",
     "link": "https://science.slashdot.org/story/26/07/18/0427249/alien-world-chemistry-found-inside-meteorite-that-struck-new-jersey-home?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
     "description": "Researchers say a meteorite that crashed through the roof of a Hillsborough, New Jersey, home in 2024 contains unusually pristine evidence of salty fluids and organic chemistry from near the surface of a primitive asteroid. \"A forensic study of the fragments revealed that they contained preserved bits from near the surface of a primitive asteroid, where it experienced concentrated salty fluids -- a process not previously known from this type of protoplanet world,\" said lead author and meteor astronomer Peter Jenniskens of the SETI Institute and NASA's Ames Research Center in California's Silicon Valley. Phys.org reports: According to paper co-author Mike Zolensky, a meteoriticist at NASA's Johnson Space Center in Houston, analysis of the Hillsborough meteorite found fragments that were more extensively altered by water on the meteorite's parent asteroid than is typically seen in CM2 carbonaceous chondrites. The analysis classified the specimen as a CM1/2 carbonaceous chondrite, an intermediate classification between petrographic types CM1 and CM2. [...] Zolensky and colleague JangMi Han found small salt-rich CM1 fragments within the Hillsborough meteorite, suggesting they originated from a near-surface region of the parent asteroid where liquid water evaporated and concentrated salts. They are now working to identify the salt minerals for comparison with similar phases found among samples returned to Earth from asteroids Ryugu and Bennu.\n \nThe high concentration of salt in briny fluids can potentially create molecules crucial to life on Earth. Brines allow phosphate to remain in solution and can catalyze chemical reactions between organics and precipitate minerals. \"Isotope studies of carbon and nitrogen suggest that primitive carbonaceous chondrites, including CM types, delivered organic matter to the early Earth,\" said cosmochemist Queenie Chan of Royal Holloway University of London, England, and biogeochemist Nana Ogawa of the Biogeochemistry Research Center at the Japan Agency for Marine-Earth Science and Technology. \"The Hillsborough meteorite contained 1.8% by weight of carbon and 0.07% of nitrogen, and had carbon and nitrogen isotopes typical for CM-type meteorites.\"\n \nThe meteorite contained a wide variety of soluble organic compounds, and its compositional range confirms that the Hillsborough meteorite was more altered by water than most other CM-type meteorites. \"A high fraction of compounds were the product of organic chemistry with minerals,\" said organic mass spectrometry specialist Phil Schmitt-Kopplin of Technical University Munich. \"We do not know if these magnesium organic compounds were contributed by brine chemistry or were simply left over from earlier impact shock processes.\" In living organisms, organometallic compounds are found in blood and used in photosynthesis. Among the soluble organic compounds were many amino acids, similar to those found in more moderately altered CM2 chondrites.\n \nAstrobiologist Danny Glavin of NASA's Goddard Space Flight Center in Greenbelt, Maryland, and his team in Goddard's Astrobiology Analytical Lab concluded that the delivery of amino acids, carboxylic acids and other soluble organic molecules by CM-type bodies may have contributed to the prebiotic organic inventory that preceded the emergence of life on Earth. Their analysis suggests the complex distribution of amino acids observed in the Hillsborough meteorite formed within the parent body, likely assisted by brine fluid chemistry. \nThe findings have been published in the journal Science Advances.\n\n\n\n\n\nRead more of this story at Slashdot.",
@@ -273,158 +406,12 @@
     "source_url": "https://slashdot.org/"
   },
   {
-    "title": "Become More Productive With These GNOME Extensions",
-    "link": "https://feed.itsfoss.com/link/24361/17382257/gnome-extensions-for-productivity",
-    "description": "Here's my recommended list of GNOME extensions that might help you focus more on work and be (more) productive.",
-    "guid": "6a54b30aeebe540001b4bc1b",
-    "date": "Jul 18, 2026 03:37",
-    "published_at": "2026-07-18T03:37:28Z",
-    "image": "https://itsfoss.com/content/images/2026/07/gnome-extensions-for-productivity-banner.png",
-    "source": "itsfoss.com",
-    "source_url": "https://itsfoss.com/"
-  },
-  {
-    "title": "Australia To Put Environmental Brakes On AI Data Centers",
-    "link": "https://slashdot.org/story/26/07/17/2142206/australia-to-put-environmental-brakes-on-ai-data-centers?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "An anonymous reader quotes a report from the New York Times: Australia will require large data centers powering artificial intelligence to generate as much power as they consume, and ensure that creative professionals retain control over work that may be used to train A.I. systems, as the government sets up guardrails over the rapidly growing industry. The announcements on Wednesday in a speech by Prime Minister Anthony Albanese came as Australia draws significant interest from A.I. companies because of its size and the availability of renewable energy, and as resistance to data centers builds in many parts of the United States and Europe.\n \nMajor A.I. companies have opened offices or announced investments in Australia in recent months. The Australian government is trying to balance capitalizing on the A.I. boom with setting parameters on a fast-changing industry that has sparked backlash over environmental impacts, energy use and lack of contribution to local economies. \"Every country on earth is grappling with these challenges right now. Australia will be the first country in the world to bring these issues into a single, national framework,\" Mr. Albanese said Wednesday, laying out the standards his government will pursue.\n \nThe details of what exactly the requirements will look like and how they will be enforced remain to be seen, and the government will need to secure the backing of individual states for its plan. The government said it would introduce legislation on the standards early next year, and establish an \"Office of A.I.\" directly reporting to the prime minister to coordinate implementation. The \"Australian Standards for A.I.\" will include a \"legal obligation\" for companies to ensure they do not drain the power grid and be as water efficient as possible, the government said. Mr. Albanese also said creators of books, music, art or news in Australia should retain control of the price and value of their work when used to train artificial intelligence systems. \"Anything less is theft,\" he said. \"No country has got this right yet.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 18, 2026 03:30",
-    "published_at": "2026-07-18T03:30:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Valve and Collabora Announce Official Arch Linux ARM64 Port for Steam Frame",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366280",
-    "description": "Collabora announced today the first preview of Holo Core, their official Arch Linux ARM64 (AArch64) port for Valve’s Steam Frame gaming VR headset, which will be launched later this year to join the Steam Deck, Steam Machine, and the new Steam Controller.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366280",
-    "date": "Jul 18, 2026 02:36",
-    "published_at": "2026-07-18T02:36:05Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "DXVK 3.0.2 Released With Improved Hang Debugging, Handful Of Game Fixes",
-    "link": "https://www.phoronix.com/news/DXVK-3.0.2-Released",
-    "description": "In addition to the initial build of Holo Core as AArch64 Arch Linux for the Steam Frame, another software milestone today in Valve's Linux gaming space is the release of DXVK 3.0.2 for Direct3D 8 / 9 / 10 / 11 APIs implemented over the Vulkan API for running Windows games...",
-    "guid": "https://www.phoronix.com/news/DXVK-3.0.2-Released",
-    "date": "Jul 18, 2026 00:46",
-    "published_at": "2026-07-18T00:46:33Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Steve Wozniak's Foundation Partners With Realbotix To Build AI Teacherbot",
-    "link": "https://hardware.slashdot.org/story/26/07/17/1944211/steve-wozniaks-foundation-partners-with-realbotix-to-build-ai-teacherbot?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "\"Apple co-founder Steve Wozniak's Woz Ed foundation is partnering with Realbotix, best known for their RealDoll-branded artificial companions, to deploy AI-powered robotic tutors in classrooms,\" writes Slashdot reader Hentes. \"The doll will serve as a sort of artificial teaching assistant, helping students who get stuck or generating lessons. Students will be assigned an ID code, allowing the robot to provide personalized mentoring.\" NYS Focus reports: \"This deployment in a working school district represents a landmark moment for both AI and humanoid robotics,\" said Andrew Kiguel, CEO of Realbotix, which is currently building the robot. \"[Salamanca City Central School District in Western New York] marks the beginning of a new era where humanoid robots and intelligent AI assistants become standard tools in STEM education.\"\n \nThe female robot, named Sally, will have a \"lifelike appearance\" with silicone skin and long brown hair, Kiguel said in an interview with New York Focus. It will be stationary in a seated position but have a wide range of upper-body movements and facial expressions. [...]\n \nSalamanca plans to introduce the robot and avatar in its high school AI and robotics courses, which use curriculum developed by Apple co-founder Steve Wozniak to prepare students for high-demand tech jobs. The district plans to expand it to high school students in other classes if the pilot is successful. Realbotix's classroom robot has drawn scrutiny because the company is connected to RealDoll, the longtime maker of hyperrealistic sex dolls and sex robots. Realbotix acquired RealDoll's parent company in 2024 but says the education-focused operation has separate employees, payroll, facilities, and technology, with plans to formally separate the businesses at the ownership level.\n \nThe \"companion robots\" are different from sex robots and intended to address what it's described as a \"loneliness epidemic.\" Kiguel has previously said the company's goal is to produce robots and AI that are \"indistinguishable from humans.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 17, 2026 23:00",
-    "published_at": "2026-07-17T23:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "KDE Plasma 6.8 Adds Server-Side Shadows for Undecorated Apps",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366272",
-    "description": "The upcoming KDE Plasma release improves the visual consistency of applications that do not draw their own window shadows.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366272",
-    "date": "Jul 17, 2026 22:54",
-    "published_at": "2026-07-17T22:54:48Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Xi Vows to Make AI for All in Debut at China's Top Tech Summit",
-    "link": "https://slashdot.org/story/26/07/17/1929216/xi-vows-to-make-ai-for-all-in-debut-at-chinas-top-tech-summit?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "Xi Jinping used his first appearance at China's World AI Conference to promote a vision of low-cost, broadly accessible AI and call for international cooperation rather than technological rivalry. \"AI development should not be a solo performance by a single country, but a symphony of international cooperation,\" he said. Bloomberg reports: His presence at the gathering, attended by scores of tech and government leaders, conveys a potent signal of China's ambitions to dominate a technological sphere with the potential to revolutionize industry and economies -- an effort that's shot to the top of the nation's agenda. Chinese models are winning over companies worldwide, with their share of US firms' AI usage nearing a record 60% on the popular marketplace OpenRouter.\n \nBehind the rhetoric, Beijing is grappling with the balance between openness and national security as models grow more capable. Chinese officials recently discussed with companies including Alibaba -- developer of the popular Qwen models -- how to mitigate the security risks posed by their increasingly powerful models, people familiar with the matter said. The talks are early, with no enforcement planned, but restricting foreign access to top models was among the options raised, the people said. Reuters previously reported that Beijing was weighing curbs on overseas access. Earlier today, the Beijing-based AI company \"Moonshot\" released a massive new model that reset the AI race overnight, immediately vaulting into the top tier of global AI, beating Anthropic's Fable 5 and OpenAI's GPT-5.6 Sol in front-end coding tests.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 17, 2026 22:00",
-    "published_at": "2026-07-17T22:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "HackRF Pro SDR covers 100kHz to 6GHz with FPGA-based processing",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366263",
-    "description": "The HackRF Pro is an open-hardware software-defined radio platform from Great Scott Gadgets that supports transmission and reception from 100kHz to 6GHz. The half-duplex transceiver maintains backward compatibility with software and accessories developed for the earlier HackRF One. The HackRF Pro follows the same general architecture as its predecessor but introduces several RF, processing, timing, […]",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366263",
-    "date": "Jul 17, 2026 21:23",
-    "published_at": "2026-07-17T21:23:19Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Billing Software Error Sends Billion-Dollar AWS Estimates",
-    "link": "https://news.slashdot.org/story/26/07/17/1835215/billing-software-error-sends-billion-dollar-aws-estimates?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "AWS says a billing software bug caused some customers to see wildly inflated estimated charges, including reports of accounts showing bills in the billions or even trillions of dollars. The Register reports: An open issue on the AWS Health Dashboard (archived copy at the time of writing) popped up at 1:33 am Pacific time on Friday informing users that Cost Explorer was \"reflecting inaccurate estimated billing data.\" As of writing, the issue is still unresolved despite AWS trying several different things to get it fixed. The company apparently identified the root cause within an hour and a half of beginning its investigation, only describing it as \"an issue with unit pricing within the estimated billing computation subsystem.\"\n \nAWS followed up by pausing estimated bill updates, saying customers would continue to see the inflated figures already displayed, but that those estimates would not increase further. \"The displayed billing estimates do not reflect actual usage and charges,\" AWS explained, noting that customers don't need to take any action, like, we imagine, flooding the help portal with tickets telling them what they already know, for instance.\n \n\"Once the issue has been mitigated, we expect full resolution to take multiple hours as we work through recomputing the estimated billing data,\" AWS added. After we first published this article, Amazon updated the issue page to indicate that it had identified the root cause and mitigated the underlying issue. The company says that it's begun backfilling data in the Cost Management Console to correct billing numbers, and that all customers should see corrected amounts by Saturday, July 18 at noon pacific time.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 17, 2026 21:00",
-    "published_at": "2026-07-17T21:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "NanoKVM-Go Brings AI-Powered Hardware Control to Linux with a Compact USB-C KVM",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366260",
-    "description": "Sipeed has introduced NanoKVM-Go, a compact USB-C KVM-over-IP device that combines remote hardware management with AI integration. Designed for Linux, Windows, macOS, and other USB-C devices, NanoKVM-Go allows users to remotely view and control a system through a web browser while exposing its keyboard, mouse, and display functions to AI agents via the Model Context Protocol (MCP).",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366260",
-    "date": "Jul 17, 2026 19:51",
-    "published_at": "2026-07-17T19:51:49Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Wayland 1.26 Is Now Available for Download with New Features and Improvements",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366268",
-    "description": "Wayland, an open-source replacement for the X11 window system protocol and architecture, has been updated to version 1.26 with several new features and bug fixes.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366268",
-    "date": "Jul 17, 2026 18:20",
-    "published_at": "2026-07-17T18:20:20Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Noctua NL-LC1-36 All-In-One Liquid Cooler",
-    "link": "https://www.phoronix.com/review/noctua-nc-lc1-36",
-    "description": "With reviewing hardware for more than 22 years, when it comes to cooling products there are few brands that can still get me intrigued like Noctua. With their recent launch of the NL-LC1 all-in-one liquid coolers, I decided to try out the Noctua NL-LC1-36 360mm AIO cooler that is working out well for cooling high-end desktop CPUs like the recently launched Ryzen 9 9950X3D2.",
-    "guid": "https://www.phoronix.com/review/noctua-nc-lc1-36",
-    "date": "Jul 17, 2026 17:45",
-    "published_at": "2026-07-17T17:45:53Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Collabora announce a preview of Holo Core, an AArch64 port of Arch Linux for Steam Frame",
-    "link": "https://www.gamingonlinux.com/2026/07/collabora-announce-a-preview-of-holo-core-an-aarch64-port-of-arch-linux-for-steam-frame/",
-    "description": "Open source firm Collabora who work with Valve (Steam), just announced a preview of Holo Core - the aarch64 port of Arch Linux for Steam Frame.Read the full article on GamingOnLinux.",
-    "guid": "https://www.gamingonlinux.com/2026/07/collabora-announce-a-preview-of-holo-core-an-aarch64-port-of-arch-linux-for-steam-frame/",
-    "date": "Jul 17, 2026 17:31",
-    "published_at": "2026-07-17T17:31:17Z",
-    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1119573750id29409gol.webp",
-    "source": "gamingonlinux.com",
-    "source_url": "https://www.gamingonlinux.com/"
-  },
-  {
-    "title": "FastFlowLM Developers Join AMD To Help Push Open-Source NPU Software",
-    "link": "https://www.phoronix.com/news/FastFlowLM-Joins-AMD",
-    "description": "On top of releasing ROCm 7.14 as the new production release of ROCm now built offTheRock, rolling out the Lemonade 11.0 local AI server, and GAIA 0.22, AMD has some more open-source news in the lead up to next week's AMD Advancing AI event...",
-    "guid": "https://www.phoronix.com/news/FastFlowLM-Joins-AMD",
-    "date": "Jul 17, 2026 17:20",
-    "published_at": "2026-07-17T17:20:38Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Linux WMI Driver Gets Ready To Support ACPI-Based ARM64 Laptops",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366271",
-    "description": "Linux developer Armin Wolf sent out a set of patches today for enabling AArch64 support for the ACPI Windows Management Instrumentation (WMI) driver to work on AArch64 in no longer being bound to x86/x86_64. This is a step toward the long goal of being able to support modern Windows on ARM laptops via ACPI on Linux...",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366271",
-    "date": "Jul 17, 2026 16:48",
-    "published_at": "2026-07-17T16:48:50Z",
+    "title": "DXVK 3.0.2 Brings Fixes for Dying Light: The Beast, Halo CE, Overwatch, and More",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366278",
+    "description": "DXVK 3.0.2 has been released today as the second minor update in the latest DXVK 3.0 series of this open-source Vulkan-based implementation of D3D8, D3D9, D3D10, and D3D11 for Linux / Wine that brings improvements for various games and other changes.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366278",
+    "date": "Jul 18, 2026 05:39",
+    "published_at": "2026-07-18T05:39:04Z",
     "source": "lxer.com",
     "source_url": "https://lxer.com/"
   }
