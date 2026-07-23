@@ -1,5 +1,164 @@
 [
   {
+    "title": "Ryzen AI Software 1.8 Released With New Model Support, More Optimizations",
+    "link": "https://www.phoronix.com/news/Ryzen-AI-Software-1.8",
+    "description": "Ahead of Lisa Su's keynote this morning at the AMD Advancing AI event, tagged on GitHub just now was the Ryzen AI Software 1.8 release for helping to deploy AI models on Ryzen AI PCs...",
+    "guid": "https://www.phoronix.com/news/Ryzen-AI-Software-1.8",
+    "date": "Jul 23, 2026 11:58",
+    "published_at": "2026-07-23T11:58:00Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "LLVM 23.1-rc1 Released With AMD Zen 6 \u0026 AVX-512 BMM Support, Other Compiler Enhancements",
+    "link": "https://www.phoronix.com/news/LLVM-23.1-rc1",
+    "description": "Following the recent code branching for the LLVM 23 series, LLVM 23.1-rc1 was released today in working toward the next stable release of this open-source compiler stack...",
+    "guid": "https://www.phoronix.com/news/LLVM-23.1-rc1",
+    "date": "Jul 23, 2026 11:50",
+    "published_at": "2026-07-23T11:50:00Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "dav1d 1.5.4 Brings AV1 Decoding To OS/2",
+    "link": "https://www.phoronix.com/news/dav1d-1.5.4",
+    "description": "While the VideoLAN developers are busy these days working on dav2d for AV2 video decoding, they haven't let up work on dav1d and recently released dav1d 1.5.4 for continuing to enhance this leading open-source, CPU-based AV1 decoder...",
+    "guid": "https://www.phoronix.com/news/dav1d-1.5.4",
+    "date": "Jul 23, 2026 11:39",
+    "published_at": "2026-07-23T11:39:03Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
+    "title": "Verisign Is Finally Bringing\u003cnobr\u003e \u003cwbr\u003e\u003c/nobr\u003e.web Domains To the Internet",
+    "link": "https://tech.slashdot.org/story/26/07/23/0542238/verisign-is-finally-bringing-web-domains-to-the-internet?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "BrianFagioli writes: Verisign is finally bringing web domains to the internet after a decade of fighting. Verisign says the .web top-level domain has finally been delegated into the DNS root, clearing the way for public registrations later in 2026. Until now, consumers could not buy normal working .web domains, despite the extension attracting a record $135 million winning bid in 2016. The launch could make .web one of the more recognizable alternatives to .com, but Verisign already operates both .com and .net, raising questions about whether this creates real competition or simply gives the dominant registry operator another valuable extension. The decade-long fight began after a company called Nu Dot Co won the rights to operate .web in a 2016 ICANN auction with a record $135 million bid secretly funded by Verisign. Rival bidder Afilias, which was later acquired by Donuts, challenged the sale, arguing ICANN should have investigated the relationship before allowing the auction. This triggered years of complaints, reviews, and legal disputes that have ultimately now been resolved under undisclosed terms.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 23, 2026 11:00",
+    "published_at": "2026-07-23T11:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Plex's Open Source Alternative Jellyfin is Having a Leadership Crisis",
+    "link": "https://feed.itsfoss.com/link/24361/17385323/jellyfin-leadership-crisis",
+    "description": "The departures come just months after the project flagged burnout as a growing risk.",
+    "guid": "6a61b6a90dfcce0001cd344f",
+    "date": "Jul 23, 2026 10:46",
+    "published_at": "2026-07-23T10:46:06Z",
+    "image": "https://itsfoss.com/content/images/2026/07/jellyfin-developers-exiting-banner.png",
+    "source": "itsfoss.com",
+    "source_url": "https://itsfoss.com/"
+  },
+  {
+    "title": "Sfera Labs ships Strato Pi Plus with quad RS-485 and CAN FD",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366363",
+    "description": "Sfera Labs has begun shipping the Strato Pi Plus, a DIN-rail industrial edge server based on the Raspberry Pi 4B or Raspberry Pi 5. The system adds a 10–50 V DC power supply, up to four isolated RS-485 interfaces, CAN FD connectivity, and an independent RP2354 microcontroller. According to the Strato Pi Plus documentation, the […]",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366363",
+    "date": "Jul 23, 2026 09:32",
+    "published_at": "2026-07-23T09:32:54Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "Get some great point and click adventures, and digital board games in two new Humble Bundles",
+    "link": "https://www.gamingonlinux.com/2026/07/get-some-great-point-and-click-adventures-and-digital-board-games-in-two-new-humble-bundles/",
+    "description": "If you need some more games as we come close to the weekend, and perhaps for the Summer holidays - two fresh Humble Bundles are live with plenty of choices.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/get-some-great-point-and-click-adventures-and-digital-board-games-in-two-new-humble-bundles/",
+    "date": "Jul 23, 2026 08:50",
+    "published_at": "2026-07-23T08:50:47Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1501660431id29438gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Yet Another Zombie Survivors 1.0 release announced for August",
+    "link": "https://www.gamingonlinux.com/2026/07/yet-another-zombie-survivors-1-0-release-announced-for-august/",
+    "description": "On August 20th, the excellent Yet Another Zombie Survivors 1.0 finally launches - we have a new trailer and new details of what to expect from it.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/yet-another-zombie-survivors-1-0-release-announced-for-august/",
+    "date": "Jul 23, 2026 08:26",
+    "published_at": "2026-07-23T08:26:01Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/253638459id29437gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "KONAMI detail more platform specifications for METAL GEAR SOLID: MASTER COLLECTION Vol.2",
+    "link": "https://www.gamingonlinux.com/2026/07/konami-detail-more-platform-specifications-for-metal-gear-solid-master-collection-vol-2/",
+    "description": "METAL GEAR SOLID: MASTER COLLECTION Vol.2 from KONAMI arrives on August 27th, and they've now given a bit more detail on what you'll need for it.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/konami-detail-more-platform-specifications-for-metal-gear-solid-master-collection-vol-2/",
+    "date": "Jul 23, 2026 07:57",
+    "published_at": "2026-07-23T07:57:48Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1864589405id29436gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Valve give Steam Wishlist and Steam Gifts a major needed upgrade",
+    "link": "https://www.gamingonlinux.com/2026/07/valve-give-steam-wishlist-and-steam-gifts-a-major-needed-upgrade/",
+    "description": "Valve just upgraded the Steam Wishlist and Steam Gifts system - to bring new features and they sound like truly major upgrades.Read the full article on GamingOnLinux.",
+    "guid": "https://www.gamingonlinux.com/2026/07/valve-give-steam-wishlist-and-steam-gifts-a-major-needed-upgrade/",
+    "date": "Jul 23, 2026 07:38",
+    "published_at": "2026-07-23T07:38:46Z",
+    "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/248969871id29434gol.webp",
+    "source": "gamingonlinux.com",
+    "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Private Mission Launches To Extend Life of Out-of-Gas Communication Satellites",
+    "link": "https://tech.slashdot.org/story/26/07/23/0534215/private-mission-launches-to-extend-life-of-out-of-gas-communication-satellites?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "Northrop Grumman has launched a private satellite-servicing mission to attach life-extending \"jetpacks\" to aging communications satellites in geosynchronous orbit. \"It's the second satellite-saving mission to launch this month, all part of a growing, money-saving effort to keep spacecraft running as long as possible,\" reports Phys.org. From the report: Launched by SpaceX, Northrop Grumman's mission robotic vehicle -- dubbed MRV -- and its jetpacks will spend the next year angling into the proper orbit 22,300 miles (36,000 kilometers) above Earth. Hundreds of satellites orbit at this so-called geosynchronous orbit, where they match the speed of Earth's rotation and keep to the same part of the sky for continuous coverage. Once in place by mid-2027, the minivan-sized spacecraft will use its 10-foot (9-meter) arms to attach a jetpack to an aging communication satellite. Then it will zip off to two more satellites in need.\n \nFor its debut flight, the spacecraft was accompanied by three electric-propelled jetpacks that peeled away separately following liftoff. Like the MRV, the jetpacks will use their own xenon gas thrusters to get to the desired orbit. Once in place, the jetpacks will wait for the robot to grab them, one at a time, and plug them into their designated satellites. Each jetpack -- the size of a washing machine -- will provide the necessary oomph for an out-of-gas satellite to keep operating for several more years instead of retiring. If it works, it will be a boon for satellite operators SES of Luxembourg and Optus of Australia, saving them millions of dollars in replacement costs.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 23, 2026 07:00",
+    "published_at": "2026-07-23T07:00:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "Firefox 153 Released with HDR Video, Smarter PDF Tools, Better Privacy, and New Linux Improvements",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366374",
+    "description": "Mozilla has officially released Firefox 153, bringing another round of improvements to its open-source web browser. The latest version introduces new multimedia capabilities, enhanced PDF editing tools, stronger privacy protections, better support for modern web technologies, and several features aimed at improving the browsing experience across Linux, Windows, and macOS. Firefox 153 became available on the stable release channel on July 21, 2026.",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366374",
+    "date": "Jul 23, 2026 06:29",
+    "published_at": "2026-07-23T06:29:55Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
+    "title": "Getting Windows-Like \"My Computer\" Feel on Linux File Manager",
+    "link": "https://feed.itsfoss.com/link/24361/17385186/nautilus-my-computer",
+    "description": "Get a beautiful, unified view of what drives and locations are on your computer in Nautilus file manager with this plugin. ",
+    "guid": "6a60aa7e0dfcce0001cd31e0",
+    "date": "Jul 23, 2026 03:39",
+    "published_at": "2026-07-23T03:39:47Z",
+    "image": "https://itsfoss.com/content/images/2026/07/Not-Windows.webp",
+    "source": "itsfoss.com",
+    "source_url": "https://itsfoss.com/"
+  },
+  {
+    "title": "Pan Am Plane Crash That Inspired Modern Safety Briefings Found After 74 Years",
+    "link": "https://news.slashdot.org/story/26/07/23/033235/pan-am-plane-crash-that-inspired-modern-safety-briefings-found-after-74-years?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
+    "description": "Longtime Slashdot reader BeaverCleaver shares a report from the BBC: The wreckage of a Pan American Airways plane has been found 74 years after it plunged into the Atlantic Ocean in a crash that prompted mandatory airline safety briefings. The Clipper Endeavor was found 2,000ft (610m) below sea level off the coast of Puerto Rico with a sonar-equipped drone. It went down on April 11, 1952, following multiple-engine failure shortly after take-off.\n \nEveryone onboard survived the impact -- but passengers struggled to locate life vests and rafts as the plane rapidly sank. Of the 69 passengers and crew onboard, just 17 survived. The disaster led to sweeping reforms in aviation safety, including compulsory pre-flight safety briefings on every commercial flight. [...] Today, before every commercial flight, cabin crew are required to outline where a plane's exits are, as well as the location of life vests and how to inflate them.\n\n\n\n\n\nRead more of this story at Slashdot.",
+    "guid": "",
+    "date": "Jul 23, 2026 03:30",
+    "published_at": "2026-07-23T03:30:00Z",
+    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
+    "source": "slashdot.org",
+    "source_url": "https://slashdot.org/"
+  },
+  {
+    "title": "[$] LWN.net Weekly Edition for July 23, 2026",
+    "link": "https://lwn.net/Articles/1083123/",
+    "description": "Inside this week's LWN.net Weekly Edition:\n        \n        \n Front: LLMs in the kernel; GNOME save and restore; Fedora changes; BPF and tracepoints; BPF and LSMs; famfs; sched_ext.\n             Briefs: GNOME security; PyPI policy; Arch on aarch64; Firefox 153; Quotes; ...\n             Announcements: Newsletters, conferences, security updates, patches, and more.\n            ",
+    "guid": "https://lwn.net/Articles/1083123/",
+    "date": "Jul 23, 2026 00:29",
+    "published_at": "2026-07-23T00:29:40Z",
+    "source": "lwn.net",
+    "source_url": "https://lwn.net"
+  },
+  {
     "title": "COSMIC 1.4 Desktop Environment Introduces New Default Sound Theme",
     "link": "https://lxer.com/module/newswire/ext_link.php?rid=366367",
     "description": "Linux hardware vendor System76 released COSMIC 1.4 today as the latest stable version of this open-source, free, and Rust-based graphical desktop environment for Linux-based operating systems.",
@@ -167,6 +326,16 @@
     "source_url": "https://lwn.net"
   },
   {
+    "title": "AMD EPYC Turin With PCIe 5.0 Storage Shows Off Nice Gains On Linux 7.2",
+    "link": "https://www.phoronix.com/review/linux-72-epyc-9455p",
+    "description": "Earlier this week was an exciting look at Intel Xe3 graphics performance gains on Linux 7.2 with Intel Core Ultra Series 3 \"Panther Lake\" hardware. On the other side of the table, with AMD hardware on this forthcoming kernel an area to be excited about are some I/O improvements at least for 5th Gen EPYC with speedy PCIe Gen5 NVMe SSD storage.",
+    "guid": "https://www.phoronix.com/review/linux-72-epyc-9455p",
+    "date": "Jul 22, 2026 16:00",
+    "published_at": "2026-07-22T16:00:00Z",
+    "source": "phoronix.com",
+    "source_url": "https://www.phoronix.com/"
+  },
+  {
     "title": "LG To Ban Residential Proxies From Smart TV Apps",
     "link": "https://entertainment.slashdot.org/story/26/07/22/0426218/lg-to-ban-residential-proxies-from-smart-tv-apps?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
     "description": "An anonymous reader quotes a report from KrebsOnSecurity: The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV. On July 2, [KrebsOnSecurity] featured research by the security firm Spur that examined the prevalence of residential proxy software development kits (SDKs) in smart TV apps. Spur found more than 42 percent of apps available for download on LG smart TVs include SDKs that turn one's television in a proxy node indefinitely, and that more than a quarter of the apps made for Samsung's Tizen operating system had similar residential proxy components.\n \nResponding to questions about Spur's research, LG Senior Vice President John Taylor told KrebsOnSecurity the company was working with app developers to remove the residential proxy option from their apps on the webOS platform. Developers that fail to comply, he said, will find their apps suspended. \"A residential proxy network is not an intended use for LG smart TVs, and LG Electronics is working with developers to remove the residential proxy option from their apps on the webOS platform,\" Taylor said. \"If this option is not removed, these apps will be suspended.\" Taylor said LG is committed to keeping residential proxy networks out of its smart TV apps going forward, and that the company's review of those apps is \"well underway now.\"\n \n\"As part of our ongoing efforts to enhance platform quality and the user experience, LG will continue to strengthen our evaluation process for developer-submitted apps, including those that incorporate residential proxy SDKs,\" Taylor wrote in an emailed statement. [...] \"A one-time consent prompt buried in a TV app is not a substitute for meaningful transparency, ongoing control, and platform oversight,\" Spur's Trevor Sutter wrote. \"The risk is amplified when consent comes from individuals within the household who use the device but shouldn't give consent, such as minors.\" LG is also facing criticism for monitors that automatically install software promoting paid McAfee subscriptions through Windows Update without user approval.\n\n\n\n\n\nRead more of this story at Slashdot.",
@@ -176,16 +345,6 @@
     "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
     "source": "slashdot.org",
     "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "AMD EPYC Turin With PCIe 5.0 Storage Shows Off Nice Gains On Linux 7.2",
-    "link": "https://www.phoronix.com/review/linux-72-epyc-9455p",
-    "description": "Earlier this week was an exciting look at Intel Xe3 graphics performance gains on Linux 7.2 with Intel Core Ultra Series 3 \"Panther Lake\" hardware. On the other side of the table, with AMD hardware on this forthcoming kernel an area to be excited about are some I/O improvements at least for 5th Gen EPYC with speedy PCIe Gen5 NVMe SSD storage.",
-    "guid": "https://www.phoronix.com/review/linux-72-epyc-9455p",
-    "date": "Jul 22, 2026 16:00",
-    "published_at": "2026-07-22T16:00:00Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
   },
   {
     "title": "[$] Attaching programs to multiple tracepoints",
@@ -333,6 +492,16 @@
     "source_url": "https://www.gamingonlinux.com/"
   },
   {
+    "title": "Cryptsetup 2.8.7 Released To Deal With Fallout Of Linux's Rushed AF_ALG Deprecation",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366352",
+    "description": "Linux's cryptsetup for configuring and managing encrypted storage devices is ready with a new version as the developers work to deal with the recent deprecation of the Linux AF_ALG interface...",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366352",
+    "date": "Jul 22, 2026 09:28",
+    "published_at": "2026-07-22T09:28:20Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
+  },
+  {
     "title": "Proton-CachyOS adds support for vkd3d-low-latency, upgrades d7vk and more",
     "link": "https://www.gamingonlinux.com/2026/07/proton-cachyos-adds-support-for-vkd3d-low-latency-upgrades-d7vk-and-more/",
     "description": "The Proton-CachyOS compatibility tool for running Windows games on SteamOS / Linux has a new release out adding support for vkd3d-low-latency.Read the full article on GamingOnLinux.",
@@ -364,6 +533,16 @@
     "image": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1166662303id29430gol.webp",
     "source": "gamingonlinux.com",
     "source_url": "https://www.gamingonlinux.com/"
+  },
+  {
+    "title": "Three New Ubuntu Snap Vulnerabilities Made Public - One Dates Back To Ubuntu 16.04 LTS",
+    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366348",
+    "description": "Canonical today disclosed three new Snap security vulnerabilities affecting snapd. Two are rated high impact vulnerabilities while the third is considered medium but covers all Ubuntu releases of the past decade going back to Ubuntu 16.04 LTS...",
+    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366348",
+    "date": "Jul 22, 2026 07:56",
+    "published_at": "2026-07-22T07:56:51Z",
+    "source": "lxer.com",
+    "source_url": "https://lxer.com/"
   },
   {
     "title": "dbrand reveal their Steam Machine skins including a few Valve inspired looks",
@@ -426,161 +605,6 @@
     "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366351",
     "date": "Jul 22, 2026 04:53",
     "published_at": "2026-07-22T04:53:52Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "France Becomes First European Country To Ban Social Media Access For Under-15s",
-    "link": "https://tech.slashdot.org/story/26/07/21/216206/france-becomes-first-european-country-to-ban-social-media-access-for-under-15s?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "An anonymous reader quotes a report from The Guardian: France's parliament has approved a bill banning social media access for children under 15, making it the first European country to bar children from apps such as TikTok. The president, Emmanuel Macron, has championed the ban as a key reform of his final term in office and pledged to enforce it by September. \"France is leading the way in Europe when it comes to protecting our children and teenagers,\" Macron said in a video posted on social media, hailing \"a major step forward.\"\n \nHe thanked members of parliament for backing the legislation on Tuesday. \"The Constitutional Council must now rule on it, and then it will be time to take action to make this measure a reality and protect our children online,\" he added on X. After approval by the Senate earlier on Tuesday, members of the National Assembly passed the bill by 279 votes to 81. A growing number of countries are taking steps to restrict social media access amid multiplying warnings over its harmful effects on children.\n \nThe ban was to be introduced in two stages, with under-15s blocked from creating new accounts from September 1. The ban would apply to existing accounts from January 2027, according to the legislation. The digital minister, Anne Le Henanff, said before the vote that the timeline was realistic, \"because age-verification tools already exist\" and others are still in the works, and the onus was on the platforms to impose the rule. \"For four months, all of us in France will have to prove our age,\" she told journalists. \"If someone is under 15, the account will be closed.\" The minister also gave assurances that users' personal data would be protected.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 22, 2026 03:30",
-    "published_at": "2026-07-22T03:30:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "InputPlumber 0.78 Released With Expanded Hardware Support",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366333",
-    "description": "InputPlumber is out with its newest feature release. As a reminder, InputPlumber is the open-source input router and remapper daemon for combining various input devices from gamepads to mice and keyboards as well as the ability to emulate them...",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366333",
-    "date": "Jul 22, 2026 03:22",
-    "published_at": "2026-07-22T03:22:22Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "I Tried MangoWM, and I'm Not Going Back to Niri",
-    "link": "https://feed.itsfoss.com/link/24361/17384570/mangowm-explore",
-    "description": "MangoWM is worth trying if you want more layout flexibility than a single-model compositor gives you.",
-    "guid": "6a293e90a14085000110e85b",
-    "date": "Jul 22, 2026 02:27",
-    "published_at": "2026-07-22T02:27:23Z",
-    "image": "https://itsfoss.com/content/images/2026/07/mangowm.webp",
-    "source": "itsfoss.com",
-    "source_url": "https://itsfoss.com/"
-  },
-  {
-    "title": "Firefox’s Best Privacy Extension Is Becoming a Native Feature",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366347",
-    "description": "Firefox 153 introduces a native Containers preview for separating accounts, cookies, site data, and different areas of users’ online activity.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366347",
-    "date": "Jul 22, 2026 01:50",
-    "published_at": "2026-07-22T01:50:53Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Geniatech XPI-3576-CM5 brings 6-TOPS RK3576 performance with Raspberry Pi CM5 compatibility",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366305",
-    "description": "Geniatech’s XPI-3576-CM5 is a 55 × 40mm compute module built around Rockchip’s RK3576 processor and designed for use with Raspberry Pi Compute Module 5 carrier boards. It combines an octa-core CPU, a 6-TOPS NPU, LPDDR5 memory, optional Wi-Fi 6 connectivity, and commercial- or industrial-temperature configurations. The RK3576 integrates four Arm Cortex-A72 cores running at up […]",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366305",
-    "date": "Jul 22, 2026 00:19",
-    "published_at": "2026-07-22T00:19:24Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Airbus Migrating 70 Critical Apps From AWS to France's Scaleway",
-    "link": "https://slashdot.org/story/26/07/21/2050242/airbus-migrating-70-critical-apps-from-aws-to-frances-scaleway?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "Airbus is moving 70 critical applications from AWS to French cloud provider Scaleway as part of a broader digital sovereignty push to keep sensitive data \"under European control.\" Eventually, the migration will cover 900 applications, including ERP, CRM, manufacturing execution, and product lifecycle management systems. Airbus says it will, however, continue using U.S. providers for less sensitive workloads. \"We do not intend to move away from all non European solutions; we balance our choices based on the criticality of the data,\" the company said. The Register reports: Catherine Jestin, head of digital at Airbus, told us on Thursday: \"The selection of Scaleway is a combination of a very strong technical answer and a very strong commercial offer making it competitive compared to hyperscalers' public cloud offerings. In addition, Scaleway is committed to involving Airbus in the definition of its future product roadmap.\" \"The objective is to host Airbus's most critical applications (those required for the Minimum Viable Company). This represents 900 applications and we will start with 70 of them today hosted on AWS.\"\n \nApplications being sent to Scaleway include ERP, manufacturing execution systems, CRM, and product lifecycle management. Finding a cloud provider to host its most sensitive applications for defense and industrial workloads was not a certainty when the process began, Airbus told us last year, because European cloud providers do not have the scale of their US rivals.\n \nJestin said Airbus will continue to work with AWS. Skywise, a platform that aggregates and analyzes aviation data, and Case Management Assistant for customers' technical queries will continue to be hosted by AWS. In a statement, she said: \"By integrating a trusted, high performance, cloud environment that keeps our critical data assets shielded from foreign extraterritorial laws, we are ensuring that our digital infrastructure keeps pace with our aerospace innovation, while maintaining control and resilience of our industrial operations.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 21, 2026 23:00",
-    "published_at": "2026-07-21T23:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Cryptsetup 2.8.7 Released To Deal With Fallout Of Linux's Rushed AF_ALG Deprecation",
-    "link": "https://www.phoronix.com/news/Cryptsetup-2.8.7-Released",
-    "description": "Linux's cryptsetup for configuring and managing encrypted storage devices is ready with a new version as the developers work to deal with the recent deprecation of the Linux AF_ALG interface...",
-    "guid": "https://www.phoronix.com/news/Cryptsetup-2.8.7-Released",
-    "date": "Jul 21, 2026 22:00",
-    "published_at": "2026-07-21T22:00:00Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Tesla Robotaxis Go To Florida",
-    "link": "https://tech.slashdot.org/story/26/07/21/2037254/tesla-robotaxis-go-to-florida?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "Tesla says it is launching its Robotaxi service in Orlando and Tampa, though it has not shared fleet sizes or whether customers can immediately hail rides. The Verge notes the announcement lands on Tesla earnings day and comes as the company's robotaxi rollout remains far smaller than Elon Musk previously projected, with tracker data showing only a small number of unsupervised vehicles operating in existing cities. From the report: [B]ack in May, Tesla had five unsupervised robotaxis in Dallas, six in Houston, and 29 in Austin. As of today, there are only 17 unsupervised vehicles in Austin, four in Dallas, and zero in Houston, according to the Robotaxi Tracker. By comparison, Waymo is estimated to have over 3,500 fully driverless vehicles in operation across over 10 cities.\n \nLike Waymo, Tesla typically introduces robotaxis to a new city with a safety driver behind the wheel. Unlike Waymo, sometimes Tesla moves that person over to the passenger seat with access to a kill switch should anything go wrong. The company has been inconsistent in how it rolls out its robotaxis to new markets. The numbers go up and down, with zero explanation from the company as to why.\n \n[...] By adding new cities, Tesla is clearly trying to sell investors on the idea that its robotaxi project is growing. But the fluctuating fleet size, inconsistency in supervised vs unsupervised vehicles, and long wait times tell a very different story.\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 21, 2026 22:00",
-    "published_at": "2026-07-21T22:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Canonical Launches the Enterprise Store for Ubuntu Pro Users",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366343",
-    "description": "Ubuntu maker Canonical announced today the general availability of Enterprise Store as a new way to manage software behind firewalls and in air-gapped environments.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366343",
-    "date": "Jul 21, 2026 21:16",
-    "published_at": "2026-07-21T21:16:25Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Firefox 153 Released",
-    "link": "https://news.slashdot.org/story/26/07/21/2022247/firefox-153-released?utm_source=rss1.0mainlinkanon\u0026utm_medium=feed",
-    "description": "Longtime Slashdot reader williamyf writes: FireFox 153 was released today. The most important user-facing changes are improvements to PDF handling (you can now merge PDFs and add images to them), and HDR video playback (on Windows, provided HDR is active systemwide). Other under-the-hood changes include browser-wide containers and QWAC support. The full list is in the change notes.\n\n But the most important feature is that this version is an ESR and, therefore, defines the ESR feature set for the next year. Why is being an ESR so important, you ask?\n\n 1.) ESR, rather than \"normal\" (a.k.a. Rapid Release), Firefox is the out-of-the-box browser for many important distros, including Debian, RHEL, Kali, Tails, SUSE Linux Enterprise, Slackware, and others.\n\n 2.) Many organizations, large and small, standardize on Firefox ESR as their default browser, regardless of the default browser included with their OS.\n\n 3.) Firefox ESR is the basis for many downstream projects, such as Waterfox and KaiOS. All these projects will inherit, for a year, whatever ESR brings to the table today.\n\n 4.) Many ISVs and SaaS providers, if they certify their wares for Firefox at all, certify for the ESR version only.\n\n Please note that ESR 153 will not be offered as an automatic update until two months from now (ESR 140 will still be supported). If you want it now, you will need to download and install it manually.\n\n Also of note, ESR 115 will be supported until March 2027. If you use an unsupported version of macOS or Windows (like Windows 7 or 8.x), this is the version to get. However, even Mozilla cautions against running a supported browser on an unsupported OS: \"Note that Microsoft ended official support for Windows 7, 8, and 8.1 in January 2023. Unsupported operating systems receive no security updates and have known vulnerabilities. Without official support from Microsoft, maintaining Firefox for outdated operating systems becomes costly for Mozilla and risky for users.\"\n\n\n\n\n\nRead more of this story at Slashdot.",
-    "guid": "",
-    "date": "Jul 21, 2026 21:00",
-    "published_at": "2026-07-21T21:00:00Z",
-    "image": "https://a.fsdn.com/sd/twitter_icon_large.png",
-    "source": "slashdot.org",
-    "source_url": "https://slashdot.org/"
-  },
-  {
-    "title": "Linux 7.2 Improves Intel Panther Lake Xe3 Arc B390 Graphics Performance",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366322",
-    "description": "My testing of the in-development Linux 7.2 kernel continues in the lab. One of the latest promising findings from this kernel that will be released as stable in August is faster Intel Xe3 graphics performance on Core Ultra Series 3 \"Panther Lake\" hardware.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366322",
-    "date": "Jul 21, 2026 19:44",
-    "published_at": "2026-07-21T19:44:55Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "The Last MPEG-4 Visual Patent Has Expired, Freeing DivX and Xvid Worldwide",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366339",
-    "description": "The final MPEG-4 Part 2 patent has expired, removing licensing concerns from legacy DivX and Xvid video, but not from H.264 or modern MP4 files.",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366339",
-    "date": "Jul 21, 2026 18:13",
-    "published_at": "2026-07-21T18:13:26Z",
-    "source": "lxer.com",
-    "source_url": "https://lxer.com/"
-  },
-  {
-    "title": "Three New Ubuntu Snap Vulnerabilities Made Public - One Dates Back To Ubuntu 16.04 LTS",
-    "link": "https://www.phoronix.com/news/Ubuntu-Snap-Three-More-Vulns",
-    "description": "Canonical today disclosed three new Snap security vulnerabilities affecting snapd. Two are rated high impact vulnerabilities while the third is considered medium but covers all Ubuntu releases of the past decade going back to Ubuntu 16.04 LTS...",
-    "guid": "https://www.phoronix.com/news/Ubuntu-Snap-Three-More-Vulns",
-    "date": "Jul 21, 2026 18:02",
-    "published_at": "2026-07-21T18:02:22Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Qualcomm Posts Linux Patches For X2 Elite Extreme Powered ASUS Zenbook A16",
-    "link": "https://www.phoronix.com/news/Qualcomm-Zenbook-A16-X2EE",
-    "description": "Following recent Linux kernel patches enabling the Snapdragon X2 Elite powered Lenovo Yoga Slim 7x Gen11 and HP EliteBook X G2q X2 Elite laptops to boot outside of Windows 11 on ARM, Qualcomm engineers have now posted a new patch series for getting the X2 Elite Extreme powered ASUS Zenbook A16 working on Linux...",
-    "guid": "https://www.phoronix.com/news/Qualcomm-Zenbook-A16-X2EE",
-    "date": "Jul 21, 2026 17:49",
-    "published_at": "2026-07-21T17:49:44Z",
-    "source": "phoronix.com",
-    "source_url": "https://www.phoronix.com/"
-  },
-  {
-    "title": "Stratis Storage Anaconda Integration Approved For Fedora 45",
-    "link": "https://lxer.com/module/newswire/ext_link.php?rid=366340",
-    "description": "The Fedora Engineering and Steering Committee (FESCo) has approved the latest batch of features for the upcoming Fedora 45 release...",
-    "guid": "https://lxer.com/module/newswire/ext_link.php?rid=366340",
-    "date": "Jul 21, 2026 16:41",
-    "published_at": "2026-07-21T16:41:57Z",
     "source": "lxer.com",
     "source_url": "https://lxer.com/"
   }
